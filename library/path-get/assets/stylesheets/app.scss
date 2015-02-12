@@ -16,7 +16,11 @@ body {
 	margin-bottom: 0px;
 	@include font-smoothing(antialiased);
 	overflow:  visible;
-	position: relative;
+	position: relative;-webkit-animation-delay: 0.1s;
+    -webkit-animation-name: fontfix;
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
 	a{
 		border-bottom: 1px solid rgba(0,0,0,.1);
 		color: $green-light;
@@ -28,166 +32,55 @@ body {
 		}
 	}
 }
+@-webkit-keyframes fontfix {
+    from { opacity: 1; }
+    to   { opacity: 1; }
+}
 
 /*************************************
-	Log In Partial
+	Full Panel Base Styles
 *************************************/
-header{
-	#header_contain{
-			@extend .container;
-			@extend .text-center;
-			#logo{
-				width: calculateRem(144px);
-				height:auto;
-				margin: 0 auto;
-				position: absolute;
-				top:-83px;
-				bottom:0;
-				right:0;
-				left:0;
-				z-index:9999;
-				transition: all ease 1s;
-			}
-			.top-change{
-				top:0px !important;
-			}
-	}
-}
 
-#page-content{
-	margin-top: 0px;
-	#log-in{
-		@extend .container;
-		margin-top:85px;
-		margin-top:calculateRem(130px);
-		.div-inner{
-			@extend .clearfix;
-			@extend .col-xs-12;
-			@extend .col-sm-6;
-			margin: 0 auto;
-			padding:0px;
-			background: #fff;
-			float:none;
-			@media (min-width: $screen-xs-min) { 
-				max-width: 380px;
-			}
-			h1{
-				background: $green-darker;
-				@include border-opacity(all, solid, 1px, $green-base, $green-base, 0.1);
-				@include border-opacity(bottom, solid, 0px, #000, #eee, 0.1);
-				margin: 0px;
-				padding: calculateRem(15px) calculateRem(45px);
-				color: #fff;				
-				@include fontSize(35px);
-				@media (max-width: $screen-sm-max){
-					@include fontSize(30px);
-				}
-				small{
-					color:#fff;
-					font-size: 50%;
-				}
-			}
-			#form_wrap{
-				@include border-opacity(all, solid, 1px, #000, #eee, 0.1);
-				@include border-opacity(bottom, solid, 3px, #000, $gray-darker, 0.1 );
-				padding: calculateRem(45px);
-				@extend .col-sm-12;
-				h3{
-					margin-top: 0px;
-					font-weight: 700;
-				}
-				input{
-					background: rgba(0,0,0,.01);
-					height: calculateRem(64px);
-					@include border-radius(0px);
-					transition: border-color ease .5s;
-					&:focus{
-						border-color:$green-light;
-						box-shadow: 0 1px 1px rgba($green-light, 0.075) inset, 0 0 8px rgba($green-light, 0.6);
-						outline: 0 none;					}
-				}
-				button{
-					border:none;
-					display: inline-block;
-					background: #d0d0d0;
-					font-size: 1em;
-					text-align: center;
-					border-bottom: none;
-					padding: 7px 20px;
-					@include border-radius(4px);
-					@include border-opacity(bottom, solid, 3px, #000, $gray-darker, 0.1 );
-					&:focus{
-						box-shadow: 0 1px 1px rgba($green-light, 0.075) inset, 0 0 8px rgba($green-light, 0.6);
-						outline: 0 none;
-					}
-				}
-			}
-		}
-	}
-}
-
-#credits{
-	margin-top: calculateRem(50px);
-	@extend .clearfix;
-	#link_wrap{
-			@extend .col-lg-10;
-			@extend .col-lg-offset-1;
-	        @extend .container;
-		#links {
-	        @extend .container;
-	        @extend .clearfix;
-			@extend .col-xs-8;
-			@extend .col-sm-4;
-			@extend .col-md-4;
-			@extend .col-lg-4;
-			@extend .col-xs-offset-2;
-			@extend .col-sm-offset-4;
-			@extend .col-md-offset-4;
-			@extend .col-lg-offset-4;
-			@extend .text-center;
-			bottom: calculateRem(-100px);
-	        transition: all ease 1s;
-			opacity: .1;
-			.divider{
-				height: 1px;
-				width: 97%;
-				clear: both;
-				background: rgba(0, 0, 0, 0.05);
-				box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
-	
-			}
-			ul{
-	        	@extend .clearfix;
-				@extend .col-xs-12;
-				@extend .col-md-10;
-				@extend .col-md-offset-1;
-				@extend .col-lg-8;
-				@extend .col-lg-offset-2;
-				list-style-type: none;
-				padding-top: calculateRem(20px);
-				li{
-					@include marginSize(15px, 0px, 0px, 0px);
-					
-				}
-				.copy{
-					@include marginSize(22px, 0px, 0px, 0px);
-					@include fontSize(18px);
-				}
-			}
-			
-	    }
-	    .margin-return{
-		        opacity: 1 !important;
-		        bottom: calculateRem(1px) !important;
-	    }
-	}
-}
-
-#container{
-	min-height: 100% !important;
-	background: #f7f7f7;
+.full-panel{
+	height: 100%;
+	min-height: 100vh;
 	position: relative;
+	background: #fff;
+	z-index:1;
+	@include paddingSize(60px, 0px, 60px, 0px);
+	@include clearfix();
+	&.white{
+		border-bottom: 1px solid rgba(#000,.06);
+		border-top: 1px solid rgba(#000,.06);
+	}
+	&.grey{
+		background:#f7f7f7;
+	}
 }
+
+.arrow-anchor{
+	height: auto;
+	margin: 0 auto;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 9999;
+	transition: all ease 1s;
+	width: 100%;
+	text-align: center;
+	cursor: pointer;
+	.fa-arrow-down{
+		@include fontSize(49px);
+		background: $yellow-base;
+		padding: 10px 12px 6px 12px;
+		border-radius: 100px;
+		color: #fff;
+		border-bottom: 3px solid rgba(#000,.1);
+		margin-bottom: 10px;
+	}
+}
+
 
 /********************************************
 	Flex Nav Styles // jQuery.functions.js
@@ -196,21 +89,26 @@ header{
 	overflow:hidden;
 }
 
+#container{
+	min-height: 100% !important;
+	position: relative;
+	#flex-overlay{
+		position: absolute;
+		background: rgba(0,0,0,.6);
+		width: 100%;
+		height: 100%;
+		z-index: 9998;
+		display: none;
+	}
+}
+
 .flex-expand{
 	margin-left: 0% !important; 
 	transition: all ease .5s;
 }
 
 .container-expand{
-	margin-right: -60%;
 	transition: margin ease .5s;
-	@media (max-width: $screen-xs-max) { 
-		margin-right: -138%;
-	}
-	
-	@media (max-width: $screen-sm-max) { 
-		margin-right: -138%;
-	}
 }
 
 .flex-btn {
@@ -219,19 +117,19 @@ header{
 	position: absolute !important;
 	top:0px;
 	left:0%;
-	z-index: 99;
+	z-index: 9999;
 	transition: margin ease .5s;
 }
 
 .flex-active{
-	margin-left:26%;
+	margin-left:41%;
 	
 	@media (max-width: $screen-sm-max) { 
-		margin-left: 35%;
+		margin-left: 86%;
 	}
 	
 	@media (max-width: $screen-xs-max) { 
-		margin-left: 37%;
+		margin-left: 89%;
 	}
 }
 
@@ -429,6 +327,7 @@ header{
 		&:before, &:after{
 			top: 0;
 			-webkit-backface-visibility: visible;	
+			background: #ccc;
 		}
 		&:before{
 			@include rotateDegree(45deg);
@@ -442,62 +341,198 @@ header{
 
 
 /*************************************
-	Full Panel Base Styles
+	Header Search Parial
 *************************************/
-
-.full-panel{
-	min-height: 100%;
-	position: relative;
-	background: #fff;
-	z-index:1;
-	@include paddingSize(60px, 0px, 60px, 0px);
-	@include clearfix();
-	&.white{
-		border-bottom: 1px solid rgba(#000,.06);
-		border-top: 1px solid rgba(#000,.06);
+.search-panel{
+	background: url('../images/bg.jpg');
+	padding: 0px;
+	margin: 0px;
+	header{
+		position: relative;
+		z-index:1;
+		background: #f7f7f7;
+		height:60px;
+		border-bottom: 3px solid rgba(#000, .1);
+		#page-header{
+			@extend .container;
+		}
+		#logo{
+			height:100px;
+			width:auto;
+		}
 	}
-	&.grey{
-		background:#f7f7f7;
-	}
-}
-
-.arrow-anchor{
-	height: auto;
-	margin: 0 auto;
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	z-index: 9999;
-	transition: all ease 1s;
-	width: 100%;
-	text-align: center;
-	cursor: pointer;
-	.fa-arrow-down{
-		@include fontSize(49px);
-		background: $yellow-base;
-		padding: 10px 12px 6px 12px;
-		border-radius: 100px;
-		color: #fff;
-		border-bottom: 3px solid rgba(#000,.1);
-		margin-bottom: 10px;
+	#panel-content{
+		background: url('../images/university.jpg') no-repeat center center;
+		background-size: cover;
+		width:100%;
+		height: 100%;
+		position: absolute;
+		opacity: .8;
+		top:0;
+		left:0;
 	}
 }
 
-#back-top{
-	width: 45px;
-height: 45px;
-right: 20px;
-position: fixed;
-bottom: 20px;
-background: #ff6d0c;
-opacity: 0.9;
-display: block;
-border-radius: 50%;
-line-height: 40px;
-z-index: 9999;
-border-bottom: 3px solid #d85600;
+
+
+/*************************************
+	Log In Partial
+*************************************/
+#container.login-panel{
+	background: url('../images/bg.jpg');
+	padding-top: 0px;
 }
+.login-panel{
+	header{
+		#header_contain{
+				@extend .container;
+				@extend .text-center;
+				#logo{
+					width: calculateRem(144px);
+					height:auto;
+					margin: 0 auto;
+					position: absolute;
+					top:-83px;
+					bottom:0;
+					right:0;
+					left:0;
+					z-index:9997;
+					transition: all ease 1s;
+				}
+				.top-change{
+					top:0px !important;
+				}
+		}
+	}
+	#panel-content{
+		margin-top: 0px;
+		#log-in{
+			@extend .container;
+			margin-top:85px;
+			margin-top:calculateRem(130px);
+			.div-inner{
+				@extend .clearfix;
+				@extend .col-xs-12;
+				@extend .col-sm-6;
+				margin: 0 auto;
+				padding:0px;
+				background: #fff;
+				float:none;
+				@media (min-width: $screen-xs-min) { 
+					max-width: 380px;
+				}
+				h1{
+					background: $green-darker;
+					@include border-opacity(all, solid, 1px, $green-base, $green-base, 0.1);
+					@include border-opacity(bottom, solid, 0px, #000, #eee, 0.1);
+					margin: 0px;
+					padding: calculateRem(15px) calculateRem(45px);
+					color: #fff;				
+					@include fontSize(35px);
+					@media (max-width: $screen-sm-max){
+						@include fontSize(30px);
+					}
+					small{
+						color:#fff;
+						font-size: 50%;
+					}
+				}
+				#form_wrap{
+					@include border-opacity(all, solid, 1px, #000, #eee, 0.1);
+					@include border-opacity(bottom, solid, 3px, #000, $gray-darker, 0.1 );
+					padding: calculateRem(45px);
+					@extend .col-sm-12;
+					h3{
+						margin-top: 0px;
+						font-weight: 700;
+					}
+					input{
+						background: rgba(0,0,0,.01);
+						height: calculateRem(64px);
+						@include border-radius(0px);
+						transition: border-color ease .5s;
+						&:focus{
+							border-color:$green-light;
+							box-shadow: 0 1px 1px rgba($green-light, 0.075) inset, 0 0 8px rgba($green-light, 0.6);
+							outline: 0 none;					}
+					}
+					button{
+						border:none;
+						display: inline-block;
+						background: #d0d0d0;
+						font-size: 1em;
+						text-align: center;
+						border-bottom: none;
+						padding: 7px 20px;
+						@include border-radius(4px);
+						@include border-opacity(bottom, solid, 3px, #000, $gray-darker, 0.1 );
+						&:focus{
+							box-shadow: 0 1px 1px rgba($green-light, 0.075) inset, 0 0 8px rgba($green-light, 0.6);
+							outline: 0 none;
+						}
+					}
+				}
+			}
+		}
+	}
+	#credits{
+		margin-top: calculateRem(50px);
+		@extend .clearfix;
+		#link_wrap{
+				@extend .col-lg-10;
+				@extend .col-lg-offset-1;
+		        @extend .container;
+			#links {
+		        @extend .container;
+		        @extend .clearfix;
+				@extend .col-xs-8;
+				@extend .col-sm-4;
+				@extend .col-md-4;
+				@extend .col-lg-4;
+				@extend .col-xs-offset-2;
+				@extend .col-sm-offset-4;
+				@extend .col-md-offset-4;
+				@extend .col-lg-offset-4;
+				@extend .text-center;
+				bottom: calculateRem(-100px);
+		        transition: all ease 1s;
+				opacity: .1;
+				.divider{
+					height: 1px;
+					width: 97%;
+					clear: both;
+					background: rgba(0, 0, 0, 0.05);
+					box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+		
+				}
+				ul{
+		        	@extend .clearfix;
+					@extend .col-xs-12;
+					@extend .col-md-10;
+					@extend .col-md-offset-1;
+					@extend .col-lg-8;
+					@extend .col-lg-offset-2;
+					list-style-type: none;
+					padding-top: calculateRem(20px);
+					li{
+						@include marginSize(15px, 0px, 0px, 0px);
+						
+					}
+					.copy{
+						@include marginSize(22px, 0px, 0px, 0px);
+						@include fontSize(18px);
+					}
+				}
+				
+		    }
+		    .margin-return{
+			        opacity: 1 !important;
+			        bottom: calculateRem(1px) !important;
+		    }
+		}
+	}
+}
+
 
 
 

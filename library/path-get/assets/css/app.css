@@ -1245,7 +1245,7 @@ mark,
 .text-right {
   text-align: right; }
 
-.text-center, header #header_contain, #credits #link_wrap #links, .flex-nav .viewport #social-menu {
+.text-center, .flex-nav .viewport #social-menu, .login-panel header #header_contain, .login-panel #credits #link_wrap #links {
   text-align: center; }
 
 .text-justify {
@@ -1495,24 +1495,24 @@ pre {
   max-height: 340px;
   overflow-y: scroll; }
 
-.container, header #header_contain, #page-content #log-in, #credits #link_wrap, #credits #link_wrap #links {
+.container, .search-panel header #page-header, .login-panel header #header_contain, .login-panel #panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px; }
-  .container:before, header #header_contain:before, #page-content #log-in:before, #credits #link_wrap:before, #credits #link_wrap #links:before, .container:after, header #header_contain:after, #page-content #log-in:after, #credits #link_wrap:after, #credits #link_wrap #links:after {
+  .container:before, .search-panel header #page-header:before, .login-panel header #header_contain:before, .login-panel #panel-content #log-in:before, .login-panel #credits #link_wrap:before, .login-panel #credits #link_wrap #links:before, .container:after, .search-panel header #page-header:after, .login-panel header #header_contain:after, .login-panel #panel-content #log-in:after, .login-panel #credits #link_wrap:after, .login-panel #credits #link_wrap #links:after {
     content: " ";
     display: table; }
-  .container:after, header #header_contain:after, #page-content #log-in:after, #credits #link_wrap:after, #credits #link_wrap #links:after {
+  .container:after, .search-panel header #page-header:after, .login-panel header #header_contain:after, .login-panel #panel-content #log-in:after, .login-panel #credits #link_wrap:after, .login-panel #credits #link_wrap #links:after {
     clear: both; }
   @media (min-width: 768px) {
-    .container, header #header_contain, #page-content #log-in, #credits #link_wrap, #credits #link_wrap #links {
+    .container, .search-panel header #page-header, .login-panel header #header_contain, .login-panel #panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links {
       width: 750px; } }
   @media (min-width: 992px) {
-    .container, header #header_contain, #page-content #log-in, #credits #link_wrap, #credits #link_wrap #links {
+    .container, .search-panel header #page-header, .login-panel header #header_contain, .login-panel #panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links {
       width: 970px; } }
   @media (min-width: 1200px) {
-    .container, header #header_contain, #page-content #log-in, #credits #link_wrap, #credits #link_wrap #links {
+    .container, .search-panel header #page-header, .login-panel header #header_contain, .login-panel #panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links {
       width: 1170px; } }
 
 .container-fluid {
@@ -1535,13 +1535,13 @@ pre {
   .row:after {
     clear: both; }
 
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, #credits #link_wrap #links, .col-md-4, #credits #link_wrap #links, .col-lg-4, #credits #link_wrap #links, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, #page-content #log-in .div-inner, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, #credits #link_wrap #links, .col-sm-8, .col-md-8, .col-lg-8, #credits #link_wrap #links ul, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, #credits #link_wrap #links ul, .col-lg-10, #credits #link_wrap, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, #page-content #log-in .div-inner, #credits #link_wrap #links ul, .col-sm-12, #page-content #log-in .div-inner #form_wrap, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .login-panel #credits #link_wrap #links, .col-md-4, .login-panel #credits #link_wrap #links, .col-lg-4, .login-panel #credits #link_wrap #links, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .login-panel #panel-content #log-in .div-inner, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .login-panel #credits #link_wrap #links, .col-sm-8, .col-md-8, .col-lg-8, .login-panel #credits #link_wrap #links ul, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .login-panel #credits #link_wrap #links ul, .col-lg-10, .login-panel #credits #link_wrap, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .login-panel #panel-content #log-in .div-inner, .login-panel #credits #link_wrap #links ul, .col-sm-12, .login-panel #panel-content #log-in .div-inner #form_wrap, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px; }
 
-.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, #credits #link_wrap #links, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, #page-content #log-in .div-inner, #credits #link_wrap #links ul {
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .login-panel #credits #link_wrap #links, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .login-panel #panel-content #log-in .div-inner, .login-panel #credits #link_wrap #links ul {
   float: left; }
 
 .col-xs-1 {
@@ -1565,7 +1565,7 @@ pre {
 .col-xs-7 {
   width: 58.3333333333%; }
 
-.col-xs-8, #credits #link_wrap #links {
+.col-xs-8, .login-panel #credits #link_wrap #links {
   width: 66.6666666667%; }
 
 .col-xs-9 {
@@ -1577,7 +1577,7 @@ pre {
 .col-xs-11 {
   width: 91.6666666667%; }
 
-.col-xs-12, #page-content #log-in .div-inner, #credits #link_wrap #links ul {
+.col-xs-12, .login-panel #panel-content #log-in .div-inner, .login-panel #credits #link_wrap #links ul {
   width: 100%; }
 
 .col-xs-pull-0 {
@@ -1664,7 +1664,7 @@ pre {
 .col-xs-offset-1 {
   margin-left: 8.3333333333%; }
 
-.col-xs-offset-2, #credits #link_wrap #links {
+.col-xs-offset-2, .login-panel #credits #link_wrap #links {
   margin-left: 16.6666666667%; }
 
 .col-xs-offset-3 {
@@ -1698,7 +1698,7 @@ pre {
   margin-left: 100%; }
 
 @media (min-width: 768px) {
-  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, #credits #link_wrap #links, .col-sm-5, .col-sm-6, #page-content #log-in .div-inner, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, #page-content #log-in .div-inner #form_wrap {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .login-panel #credits #link_wrap #links, .col-sm-5, .col-sm-6, .login-panel #panel-content #log-in .div-inner, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .login-panel #panel-content #log-in .div-inner #form_wrap {
     float: left; }
 
   .col-sm-1 {
@@ -1710,13 +1710,13 @@ pre {
   .col-sm-3 {
     width: 25%; }
 
-  .col-sm-4, #credits #link_wrap #links {
+  .col-sm-4, .login-panel #credits #link_wrap #links {
     width: 33.3333333333%; }
 
   .col-sm-5 {
     width: 41.6666666667%; }
 
-  .col-sm-6, #page-content #log-in .div-inner {
+  .col-sm-6, .login-panel #panel-content #log-in .div-inner {
     width: 50%; }
 
   .col-sm-7 {
@@ -1734,7 +1734,7 @@ pre {
   .col-sm-11 {
     width: 91.6666666667%; }
 
-  .col-sm-12, #page-content #log-in .div-inner #form_wrap {
+  .col-sm-12, .login-panel #panel-content #log-in .div-inner #form_wrap {
     width: 100%; }
 
   .col-sm-pull-0 {
@@ -1827,7 +1827,7 @@ pre {
   .col-sm-offset-3 {
     margin-left: 25%; }
 
-  .col-sm-offset-4, #credits #link_wrap #links {
+  .col-sm-offset-4, .login-panel #credits #link_wrap #links {
     margin-left: 33.3333333333%; }
 
   .col-sm-offset-5 {
@@ -1854,7 +1854,7 @@ pre {
   .col-sm-offset-12 {
     margin-left: 100%; } }
 @media (min-width: 992px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, #credits #link_wrap #links, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, #credits #link_wrap #links ul, .col-md-11, .col-md-12 {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .login-panel #credits #link_wrap #links, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .login-panel #credits #link_wrap #links ul, .col-md-11, .col-md-12 {
     float: left; }
 
   .col-md-1 {
@@ -1866,7 +1866,7 @@ pre {
   .col-md-3 {
     width: 25%; }
 
-  .col-md-4, #credits #link_wrap #links {
+  .col-md-4, .login-panel #credits #link_wrap #links {
     width: 33.3333333333%; }
 
   .col-md-5 {
@@ -1884,7 +1884,7 @@ pre {
   .col-md-9 {
     width: 75%; }
 
-  .col-md-10, #credits #link_wrap #links ul {
+  .col-md-10, .login-panel #credits #link_wrap #links ul {
     width: 83.3333333333%; }
 
   .col-md-11 {
@@ -1974,7 +1974,7 @@ pre {
   .col-md-offset-0 {
     margin-left: 0%; }
 
-  .col-md-offset-1, #credits #link_wrap #links ul {
+  .col-md-offset-1, .login-panel #credits #link_wrap #links ul {
     margin-left: 8.3333333333%; }
 
   .col-md-offset-2 {
@@ -1983,7 +1983,7 @@ pre {
   .col-md-offset-3 {
     margin-left: 25%; }
 
-  .col-md-offset-4, #credits #link_wrap #links {
+  .col-md-offset-4, .login-panel #credits #link_wrap #links {
     margin-left: 33.3333333333%; }
 
   .col-md-offset-5 {
@@ -2010,7 +2010,7 @@ pre {
   .col-md-offset-12 {
     margin-left: 100%; } }
 @media (min-width: 1200px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, #credits #link_wrap #links, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, #credits #link_wrap #links ul, .col-lg-9, .col-lg-10, #credits #link_wrap, .col-lg-11, .col-lg-12 {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .login-panel #credits #link_wrap #links, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .login-panel #credits #link_wrap #links ul, .col-lg-9, .col-lg-10, .login-panel #credits #link_wrap, .col-lg-11, .col-lg-12 {
     float: left; }
 
   .col-lg-1 {
@@ -2022,7 +2022,7 @@ pre {
   .col-lg-3 {
     width: 25%; }
 
-  .col-lg-4, #credits #link_wrap #links {
+  .col-lg-4, .login-panel #credits #link_wrap #links {
     width: 33.3333333333%; }
 
   .col-lg-5 {
@@ -2034,13 +2034,13 @@ pre {
   .col-lg-7 {
     width: 58.3333333333%; }
 
-  .col-lg-8, #credits #link_wrap #links ul {
+  .col-lg-8, .login-panel #credits #link_wrap #links ul {
     width: 66.6666666667%; }
 
   .col-lg-9 {
     width: 75%; }
 
-  .col-lg-10, #credits #link_wrap {
+  .col-lg-10, .login-panel #credits #link_wrap {
     width: 83.3333333333%; }
 
   .col-lg-11 {
@@ -2130,16 +2130,16 @@ pre {
   .col-lg-offset-0 {
     margin-left: 0%; }
 
-  .col-lg-offset-1, #credits #link_wrap {
+  .col-lg-offset-1, .login-panel #credits #link_wrap {
     margin-left: 8.3333333333%; }
 
-  .col-lg-offset-2, #credits #link_wrap #links ul {
+  .col-lg-offset-2, .login-panel #credits #link_wrap #links ul {
     margin-left: 16.6666666667%; }
 
   .col-lg-offset-3 {
     margin-left: 25%; }
 
-  .col-lg-offset-4, #credits #link_wrap #links {
+  .col-lg-offset-4, .login-panel #credits #link_wrap #links {
     margin-left: 33.3333333333%; }
 
   .col-lg-offset-5 {
@@ -3634,23 +3634,25 @@ tbody.collapse.in {
     .navbar-fixed-bottom .navbar-collapse {
       max-height: 200px; } }
 
-.container > .navbar-header, header #header_contain > .navbar-header, #page-content #log-in > .navbar-header, #credits #link_wrap > .navbar-header, #credits #link_wrap #links > .navbar-header,
+.container > .navbar-header, .search-panel header #page-header > .navbar-header, .login-panel header #header_contain > .navbar-header, .login-panel #panel-content #log-in > .navbar-header, .login-panel #credits #link_wrap > .navbar-header, .login-panel #credits #link_wrap #links > .navbar-header,
 .container > .navbar-collapse,
-header #header_contain > .navbar-collapse,
-#page-content #log-in > .navbar-collapse,
-#credits #link_wrap > .navbar-collapse,
-#credits #link_wrap #links > .navbar-collapse,
+.search-panel header #page-header > .navbar-collapse,
+.login-panel header #header_contain > .navbar-collapse,
+.login-panel #panel-content #log-in > .navbar-collapse,
+.login-panel #credits #link_wrap > .navbar-collapse,
+.login-panel #credits #link_wrap #links > .navbar-collapse,
 .container-fluid > .navbar-header,
 .container-fluid > .navbar-collapse {
   margin-right: -15px;
   margin-left: -15px; }
   @media (min-width: 768px) {
-    .container > .navbar-header, header #header_contain > .navbar-header, #page-content #log-in > .navbar-header, #credits #link_wrap > .navbar-header, #credits #link_wrap #links > .navbar-header,
+    .container > .navbar-header, .search-panel header #page-header > .navbar-header, .login-panel header #header_contain > .navbar-header, .login-panel #panel-content #log-in > .navbar-header, .login-panel #credits #link_wrap > .navbar-header, .login-panel #credits #link_wrap #links > .navbar-header,
     .container > .navbar-collapse,
-    header #header_contain > .navbar-collapse,
-    #page-content #log-in > .navbar-collapse,
-    #credits #link_wrap > .navbar-collapse,
-    #credits #link_wrap #links > .navbar-collapse,
+    .search-panel header #page-header > .navbar-collapse,
+    .login-panel header #header_contain > .navbar-collapse,
+    .login-panel #panel-content #log-in > .navbar-collapse,
+    .login-panel #credits #link_wrap > .navbar-collapse,
+    .login-panel #credits #link_wrap #links > .navbar-collapse,
     .container-fluid > .navbar-header,
     .container-fluid > .navbar-collapse {
       margin-right: 0;
@@ -3694,7 +3696,7 @@ header #header_contain > .navbar-collapse,
   .navbar-brand > img {
     display: block; }
   @media (min-width: 768px) {
-    .navbar > .container .navbar-brand, header .navbar > #header_contain .navbar-brand, #page-content .navbar > #log-in .navbar-brand, #credits .navbar > #link_wrap .navbar-brand, #credits #link_wrap .navbar > #links .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    .navbar > .container .navbar-brand, .search-panel header .navbar > #page-header .navbar-brand, .login-panel header .navbar > #header_contain .navbar-brand, .login-panel #panel-content .navbar > #log-in .navbar-brand, .login-panel #credits .navbar > #link_wrap .navbar-brand, .login-panel #credits #link_wrap .navbar > #links .navbar-brand, .navbar > .container-fluid .navbar-brand {
       margin-left: -15px; } }
 
 .navbar-toggle {
@@ -4206,14 +4208,14 @@ a.badge:hover, a.badge:focus {
     font-weight: 200; }
   .jumbotron > hr {
     border-top-color: #d5d5d5; }
-  .container .jumbotron, header #header_contain .jumbotron, #page-content #log-in .jumbotron, #credits #link_wrap .jumbotron, #credits #link_wrap #links .jumbotron, .container-fluid .jumbotron {
+  .container .jumbotron, .search-panel header #page-header .jumbotron, .login-panel header #header_contain .jumbotron, .login-panel #panel-content #log-in .jumbotron, .login-panel #credits #link_wrap .jumbotron, .login-panel #credits #link_wrap #links .jumbotron, .container-fluid .jumbotron {
     border-radius: 6px; }
-  .jumbotron .container, .jumbotron header #header_contain, header .jumbotron #header_contain, .jumbotron #page-content #log-in, #page-content .jumbotron #log-in, .jumbotron #credits #link_wrap, #credits .jumbotron #link_wrap, .jumbotron #credits #link_wrap #links, #credits #link_wrap .jumbotron #links {
+  .jumbotron .container, .jumbotron .search-panel header #page-header, .search-panel header .jumbotron #page-header, .jumbotron .login-panel header #header_contain, .login-panel header .jumbotron #header_contain, .jumbotron .login-panel #panel-content #log-in, .login-panel #panel-content .jumbotron #log-in, .jumbotron .login-panel #credits #link_wrap, .login-panel #credits .jumbotron #link_wrap, .jumbotron .login-panel #credits #link_wrap #links, .login-panel #credits #link_wrap .jumbotron #links {
     max-width: 100%; }
   @media screen and (min-width: 768px) {
     .jumbotron {
       padding: 48px 0; }
-      .container .jumbotron, header #header_contain .jumbotron, #page-content #log-in .jumbotron, #credits #link_wrap .jumbotron, #credits #link_wrap #links .jumbotron, .container-fluid .jumbotron {
+      .container .jumbotron, .search-panel header #page-header .jumbotron, .login-panel header #header_contain .jumbotron, .login-panel #panel-content #log-in .jumbotron, .login-panel #credits #link_wrap .jumbotron, .login-panel #credits #link_wrap #links .jumbotron, .container-fluid .jumbotron {
         padding-left: 60px;
         padding-right: 60px; }
       .jumbotron h1,
@@ -5418,10 +5420,10 @@ button.close {
 
   .carousel-indicators {
     bottom: 20px; } }
-.clearfix:before, #page-content #log-in .div-inner:before, #credits:before, #credits #link_wrap #links:before, #credits #link_wrap #links ul:before, .flex-nav .viewport #social-menu:before, .clearfix:after, #page-content #log-in .div-inner:after, #credits:after, #credits #link_wrap #links:after, #credits #link_wrap #links ul:after, .flex-nav .viewport #social-menu:after {
+.clearfix:before, .flex-nav .viewport #social-menu:before, .login-panel #panel-content #log-in .div-inner:before, .login-panel #credits:before, .login-panel #credits #link_wrap #links:before, .login-panel #credits #link_wrap #links ul:before, .clearfix:after, .flex-nav .viewport #social-menu:after, .login-panel #panel-content #log-in .div-inner:after, .login-panel #credits:after, .login-panel #credits #link_wrap #links:after, .login-panel #credits #link_wrap #links ul:after {
   content: " ";
   display: table; }
-.clearfix:after, #page-content #log-in .div-inner:after, #credits:after, #credits #link_wrap #links:after, #credits #link_wrap #links ul:after, .flex-nav .viewport #social-menu:after {
+.clearfix:after, .flex-nav .viewport #social-menu:after, .login-panel #panel-content #log-in .div-inner:after, .login-panel #credits:after, .login-panel #credits #link_wrap #links:after, .login-panel #credits #link_wrap #links ul:after {
   clear: both; }
 
 .center-block {
@@ -7443,7 +7445,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow: visible;
-  position: relative; }
+  position: relative;
+  -webkit-animation-delay: 0.1s;
+  -webkit-animation-name: fontfix;
+  -webkit-animation-duration: 0.1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear; }
   body a {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     color: #069E87;
@@ -7453,122 +7460,54 @@ body {
       text-decoration: none;
       color: #069E87; }
 
+@-webkit-keyframes fontfix {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 1; } }
 /*************************************
-	Log In Partial
+	Full Panel Base Styles
 *************************************/
-header #header_contain #logo {
-  width: 9rem;
+.full-panel {
+  height: 100%;
+  min-height: 100vh;
+  position: relative;
+  background: #fff;
+  z-index: 1;
+  padding: 60px 0px 60px 0px;
+  padding: 3.75rem 0rem 3.75rem 0rem; }
+  .full-panel:before, .full-panel:after {
+    content: " ";
+    display: table; }
+  .full-panel:after {
+    clear: both; }
+  .full-panel.white {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    border-top: 1px solid rgba(0, 0, 0, 0.06); }
+  .full-panel.grey {
+    background: #f7f7f7; }
+
+.arrow-anchor {
   height: auto;
   margin: 0 auto;
   position: absolute;
-  top: -83px;
   bottom: 0;
   right: 0;
   left: 0;
   z-index: 9999;
-  transition: all ease 1s; }
-header #header_contain .top-change {
-  top: 0px !important; }
-
-#page-content {
-  margin-top: 0px; }
-  #page-content #log-in {
-    margin-top: 85px;
-    margin-top: 8.125rem; }
-    #page-content #log-in .div-inner {
-      margin: 0 auto;
-      padding: 0px;
-      background: #fff;
-      float: none; }
-      @media (min-width: 480px) {
-        #page-content #log-in .div-inner {
-          max-width: 380px; } }
-      #page-content #log-in .div-inner h1 {
-        background: #0c5449;
-        border: 1px solid #226357;
-        border: 1px solid rgba(34, 99, 87, 0.1);
-        border-bottom: 0px solid #eee;
-        border-bottom: 0px solid rgba(0, 0, 0, 0.1);
-        margin: 0px;
-        padding: 0.9375rem 2.8125rem;
-        color: #fff;
-        font-size: 35px;
-        font-size: 2.1875rem; }
-        @media (max-width: 991px) {
-          #page-content #log-in .div-inner h1 {
-            font-size: 30px;
-            font-size: 1.875rem; } }
-        #page-content #log-in .div-inner h1 small {
-          color: #fff;
-          font-size: 50%; }
-      #page-content #log-in .div-inner #form_wrap {
-        border: 1px solid #eee;
-        border: 1px solid rgba(0, 0, 0, 0.1);
-        border-bottom: 3px solid #222222;
-        border-bottom: 3px solid rgba(0, 0, 0, 0.1);
-        padding: 2.8125rem; }
-        #page-content #log-in .div-inner #form_wrap h3 {
-          margin-top: 0px;
-          font-weight: 700; }
-        #page-content #log-in .div-inner #form_wrap input {
-          background: rgba(0, 0, 0, 0.01);
-          height: 4rem;
-          -webkit-border-radius: 0px;
-          -moz-border-radius: 0px;
-          border-radius: 0px;
-          transition: border-color ease .5s; }
-          #page-content #log-in .div-inner #form_wrap input:focus {
-            border-color: #069E87;
-            box-shadow: 0 1px 1px rgba(6, 158, 135, 0.075) inset, 0 0 8px rgba(6, 158, 135, 0.6);
-            outline: 0 none; }
-        #page-content #log-in .div-inner #form_wrap button {
-          border: none;
-          display: inline-block;
-          background: #d0d0d0;
-          font-size: 1em;
-          text-align: center;
-          border-bottom: none;
-          padding: 7px 20px;
-          -webkit-border-radius: 4px;
-          -moz-border-radius: 4px;
-          border-radius: 4px;
-          border-bottom: 3px solid #222222;
-          border-bottom: 3px solid rgba(0, 0, 0, 0.1); }
-          #page-content #log-in .div-inner #form_wrap button:focus {
-            box-shadow: 0 1px 1px rgba(6, 158, 135, 0.075) inset, 0 0 8px rgba(6, 158, 135, 0.6);
-            outline: 0 none; }
-
-#credits {
-  margin-top: 3.125rem; }
-  #credits #link_wrap #links {
-    bottom: -6.25rem;
-    transition: all ease 1s;
-    opacity: .1; }
-    #credits #link_wrap #links .divider {
-      height: 1px;
-      width: 97%;
-      clear: both;
-      background: rgba(0, 0, 0, 0.05);
-      box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1); }
-    #credits #link_wrap #links ul {
-      list-style-type: none;
-      padding-top: 1.25rem; }
-      #credits #link_wrap #links ul li {
-        margin: 15px 0px 0px 0px;
-        margin: 0.9375rem 0rem 0rem 0rem; }
-      #credits #link_wrap #links ul .copy {
-        margin: 22px 0px 0px 0px;
-        margin: 1.375rem 0rem 0rem 0rem;
-        font-size: 18px;
-        font-size: 1.125rem; }
-  #credits #link_wrap .margin-return {
-    opacity: 1 !important;
-    bottom: 0.0625rem !important; }
-
-#container {
-  min-height: 100% !important;
-  background: #f7f7f7;
-  position: relative; }
+  transition: all ease 1s;
+  width: 100%;
+  text-align: center;
+  cursor: pointer; }
+  .arrow-anchor .fa-arrow-down {
+    font-size: 49px;
+    font-size: 3.0625rem;
+    background: #f2ce65;
+    padding: 10px 12px 6px 12px;
+    border-radius: 100px;
+    color: #fff;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px; }
 
 /********************************************
 	Flex Nav Styles // jQuery.functions.js
@@ -7576,19 +7515,23 @@ header #header_contain .top-change {
 .no-scroll {
   overflow: hidden; }
 
+#container {
+  min-height: 100% !important;
+  position: relative; }
+  #container #flex-overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    z-index: 9998;
+    display: none; }
+
 .flex-expand {
   margin-left: 0% !important;
   transition: all ease .5s; }
 
 .container-expand {
-  margin-right: -60%;
   transition: margin ease .5s; }
-  @media (max-width: 767px) {
-    .container-expand {
-      margin-right: -138%; } }
-  @media (max-width: 991px) {
-    .container-expand {
-      margin-right: -138%; } }
 
 .flex-btn {
   background: transparent !important;
@@ -7596,17 +7539,17 @@ header #header_contain .top-change {
   position: absolute !important;
   top: 0px;
   left: 0%;
-  z-index: 99;
+  z-index: 9999;
   transition: margin ease .5s; }
 
 .flex-active {
-  margin-left: 26%; }
+  margin-left: 41%; }
   @media (max-width: 991px) {
     .flex-active {
-      margin-left: 35%; } }
+      margin-left: 86%; } }
   @media (max-width: 767px) {
     .flex-active {
-      margin-left: 37%; } }
+      margin-left: 89%; } }
 
 .flex-nav {
   position: fixed;
@@ -7781,7 +7724,8 @@ header #header_contain .top-change {
     background-color: transparent; }
     #nav-toggle.active span:before, #nav-toggle.active span:after {
       top: 0;
-      -webkit-backface-visibility: visible; }
+      -webkit-backface-visibility: visible;
+      background: #ccc; }
     #nav-toggle.active span:before {
       -webkit-transform: rotate(45deg);
       -moz-transform: rotate(45deg);
@@ -7794,58 +7738,141 @@ header #header_contain .top-change {
       transform: rotate(-45deg); }
 
 /*************************************
-	Full Panel Base Styles
+	Header Search Parial
 *************************************/
-.full-panel {
-  min-height: 100%;
-  position: relative;
-  background: #fff;
-  z-index: 1;
-  padding: 60px 0px 60px 0px;
-  padding: 3.75rem 0rem 3.75rem 0rem; }
-  .full-panel:before, .full-panel:after {
-    content: " ";
-    display: table; }
-  .full-panel:after {
-    clear: both; }
-  .full-panel.white {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
-    border-top: 1px solid rgba(0, 0, 0, 0.06); }
-  .full-panel.grey {
-    background: #f7f7f7; }
+.search-panel {
+  background: url("../images/bg.jpg");
+  padding: 0px;
+  margin: 0px; }
+  .search-panel header {
+    position: relative;
+    z-index: 1;
+    background: #f7f7f7;
+    height: 60px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.1); }
+    .search-panel header #logo {
+      height: 100px;
+      width: auto; }
+  .search-panel #panel-content {
+    background: url("../images/university.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: .8;
+    top: 0;
+    left: 0; }
 
-.arrow-anchor {
+/*************************************
+	Log In Partial
+*************************************/
+#container.login-panel {
+  background: url("../images/bg.jpg");
+  padding-top: 0px; }
+
+.login-panel header #header_contain #logo {
+  width: 9rem;
   height: auto;
   margin: 0 auto;
   position: absolute;
+  top: -83px;
   bottom: 0;
   right: 0;
   left: 0;
-  z-index: 9999;
-  transition: all ease 1s;
-  width: 100%;
-  text-align: center;
-  cursor: pointer; }
-  .arrow-anchor .fa-arrow-down {
-    font-size: 49px;
-    font-size: 3.0625rem;
-    background: #f2ce65;
-    padding: 10px 12px 6px 12px;
-    border-radius: 100px;
-    color: #fff;
-    border-bottom: 3px solid rgba(0, 0, 0, 0.1);
-    margin-bottom: 10px; }
-
-#back-top {
-  width: 45px;
-  height: 45px;
-  right: 20px;
-  position: fixed;
-  bottom: 20px;
-  background: #ff6d0c;
-  opacity: 0.9;
-  display: block;
-  border-radius: 50%;
-  line-height: 40px;
-  z-index: 9999;
-  border-bottom: 3px solid #d85600; }
+  z-index: 9997;
+  transition: all ease 1s; }
+.login-panel header #header_contain .top-change {
+  top: 0px !important; }
+.login-panel #panel-content {
+  margin-top: 0px; }
+  .login-panel #panel-content #log-in {
+    margin-top: 85px;
+    margin-top: 8.125rem; }
+    .login-panel #panel-content #log-in .div-inner {
+      margin: 0 auto;
+      padding: 0px;
+      background: #fff;
+      float: none; }
+      @media (min-width: 480px) {
+        .login-panel #panel-content #log-in .div-inner {
+          max-width: 380px; } }
+      .login-panel #panel-content #log-in .div-inner h1 {
+        background: #0c5449;
+        border: 1px solid #226357;
+        border: 1px solid rgba(34, 99, 87, 0.1);
+        border-bottom: 0px solid #eee;
+        border-bottom: 0px solid rgba(0, 0, 0, 0.1);
+        margin: 0px;
+        padding: 0.9375rem 2.8125rem;
+        color: #fff;
+        font-size: 35px;
+        font-size: 2.1875rem; }
+        @media (max-width: 991px) {
+          .login-panel #panel-content #log-in .div-inner h1 {
+            font-size: 30px;
+            font-size: 1.875rem; } }
+        .login-panel #panel-content #log-in .div-inner h1 small {
+          color: #fff;
+          font-size: 50%; }
+      .login-panel #panel-content #log-in .div-inner #form_wrap {
+        border: 1px solid #eee;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-bottom: 3px solid #222222;
+        border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+        padding: 2.8125rem; }
+        .login-panel #panel-content #log-in .div-inner #form_wrap h3 {
+          margin-top: 0px;
+          font-weight: 700; }
+        .login-panel #panel-content #log-in .div-inner #form_wrap input {
+          background: rgba(0, 0, 0, 0.01);
+          height: 4rem;
+          -webkit-border-radius: 0px;
+          -moz-border-radius: 0px;
+          border-radius: 0px;
+          transition: border-color ease .5s; }
+          .login-panel #panel-content #log-in .div-inner #form_wrap input:focus {
+            border-color: #069E87;
+            box-shadow: 0 1px 1px rgba(6, 158, 135, 0.075) inset, 0 0 8px rgba(6, 158, 135, 0.6);
+            outline: 0 none; }
+        .login-panel #panel-content #log-in .div-inner #form_wrap button {
+          border: none;
+          display: inline-block;
+          background: #d0d0d0;
+          font-size: 1em;
+          text-align: center;
+          border-bottom: none;
+          padding: 7px 20px;
+          -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+          border-radius: 4px;
+          border-bottom: 3px solid #222222;
+          border-bottom: 3px solid rgba(0, 0, 0, 0.1); }
+          .login-panel #panel-content #log-in .div-inner #form_wrap button:focus {
+            box-shadow: 0 1px 1px rgba(6, 158, 135, 0.075) inset, 0 0 8px rgba(6, 158, 135, 0.6);
+            outline: 0 none; }
+.login-panel #credits {
+  margin-top: 3.125rem; }
+  .login-panel #credits #link_wrap #links {
+    bottom: -6.25rem;
+    transition: all ease 1s;
+    opacity: .1; }
+    .login-panel #credits #link_wrap #links .divider {
+      height: 1px;
+      width: 97%;
+      clear: both;
+      background: rgba(0, 0, 0, 0.05);
+      box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1); }
+    .login-panel #credits #link_wrap #links ul {
+      list-style-type: none;
+      padding-top: 1.25rem; }
+      .login-panel #credits #link_wrap #links ul li {
+        margin: 15px 0px 0px 0px;
+        margin: 0.9375rem 0rem 0rem 0rem; }
+      .login-panel #credits #link_wrap #links ul .copy {
+        margin: 22px 0px 0px 0px;
+        margin: 1.375rem 0rem 0rem 0rem;
+        font-size: 18px;
+        font-size: 1.125rem; }
+  .login-panel #credits #link_wrap .margin-return {
+    opacity: 1 !important;
+    bottom: 0.0625rem !important; }

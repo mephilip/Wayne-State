@@ -19,11 +19,13 @@ jQuery(document).ready(function($) {
 			$('.flex-nav').removeClass('flex-expand');
 			$('#container').removeClass('container-expand');
 			$('body').removeClass('no-scroll');
+			$('#flex-overlay').hide();
 		} else {
 			$(this).addClass('flex-active');
 			$('.flex-nav').addClass('flex-expand');
 			$('#container').addClass('container-expand');
 			$('body').addClass('no-scroll');
+			$('#flex-overlay').fadeIn();
 		}
 		$( ".flex-nav" ).scrollTop( 0 );
 	});

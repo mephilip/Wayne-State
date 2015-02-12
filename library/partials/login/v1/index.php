@@ -3,7 +3,8 @@
 	include($file_get->FileReturn($server,'header.php'));
 	include($file_get->FileReturn($server,'flex-nav.php'));
 ?>
-<div id="container" class="full-panel">
+<div id="container" class="full-panel login-panel header-panel">
+	<div id="flex-overlay"></div>
 	<div id="nav-toggle" class="flex-btn"><span></span></div>
 	<header>
 		<div id="header_contain">
@@ -11,7 +12,7 @@
 		</div>			
 	</header>
 	
-	<section id="page-content">
+	<section id="panel-content">
 		<div id="log-in">
 			<div class="div-inner">
 				<h1>University Libraries <small>EZproxy Login</small></h1>
