@@ -1,0 +1,10 @@
+// Custom Functions 
+
+/*
+*  Used to calculate border opacity with fallback color
+*  Usage: element{ font-size: calculateRem($size); }
+*/
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
+}

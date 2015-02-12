@@ -1,0 +1,80 @@
+// Custom Mixins 
+
+/*
+*  Used to calculate border opacity with fallback color
+*  Usage: element{ @include border-opacity(border-bottom, 3px, #000, #444, 0.3 ); }
+*/
+@mixin border-opacity($level, $type, $pixel, $color, $fall-back, $opacity: 0.3) {
+    @if $level == 'all' {
+	    border: $pixel $type $fall-back;
+		border: $pixel $type rgba($color, $opacity);
+    } @else if $level == 'bottom'{
+	    border-bottom: $pixel $type $fall-back;
+		border-bottom: $pixel $type rgba($color, $opacity);
+    } @else if $level == 'top'{
+	    border-top: $pixel $type $fall-back;
+		border-top: $pixel $type rgba($color, $opacity);
+    } @else if $level == 'right'{
+	    border-right: $pixel $type $fall-back;
+		border-right: $pixel $type rgba($color, $opacity);
+    } @else if $level == 'left'{
+	    border-left: $pixel $type $fall-back;
+		border-left: $pixel $type rgba($color, $opacity);
+    }
+    
+    
+}
+
+@mixin border-radius($radius: 5px) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin font-smoothing($value: antialiased) {
+  @if $value == antialiased {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  @else {
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+  }
+}
+
+
+@mixin fontSize($size) {
+  font-size: $size; //Fallback in px
+  font-size: calculateRem($size);
+}
+
+@mixin paddingSize($top: 0px, $right: 0px, $bottom: 0px, $left: 0px) {
+  padding: $top $right $bottom $left; //Fallback in px
+  padding: calculateRem($top) calculateRem($right) calculateRem($bottom) calculateRem($left);
+}
+
+@mixin marginSize($top: 0px, $right: 0px, $bottom: 0px, $left: 0px) {
+  margin: $top $right $bottom $left; //Fallback in px
+  margin: calculateRem($top) calculateRem($right) calculateRem($bottom) calculateRem($left);
+}
+
+@mixin rotateDegree($deg) {
+	-webkit-transform: rotate($deg);
+	-moz-transform: rotate($deg);
+	-ms-transform: rotate($deg);
+	transform: rotate($deg);	
+}
+
+@mixin clearfix(){
+	.clearfix:before,
+	.clearfix:after {
+	    content: "";
+	    display: table;
+	} 
+	.clearfix:after {
+	    clear: both;
+	}
+	.clearfix {
+	    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+	}
+}
