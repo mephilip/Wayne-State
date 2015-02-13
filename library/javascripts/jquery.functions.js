@@ -68,6 +68,9 @@ jQuery(document).ready(function($) {
 	
 	$( "#ajax-search" ).click(function() {
 		$( '#search-form' ).addClass( "active" );
+		$('html, body').animate({
+       	 	scrollTop: $('#container').offset().top
+		}, 200);
 		return false;
 	});
 	
@@ -75,8 +78,11 @@ jQuery(document).ready(function($) {
 		event.preventDefault();
 		delay(function(){
 			$( '#search-form' ).addClass( "active" );
+			$('html, body').animate({
+       	 	scrollTop: $('#container').offset().top
+			}, 200);
 			return false;
-    }, 500 );
+    	}, 500 );
 	});
 	$( "#search-close" ).click(function() {
 		$( '#search-form' ).removeClass( "active" );
