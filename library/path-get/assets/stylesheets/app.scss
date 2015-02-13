@@ -31,6 +31,13 @@ body {
 			color: #069E87;
 		}
 	}
+	input{
+		&:focus{
+			border-color:$green-light !important;
+			box-shadow: 0 1px 1px rgba($green-light, 0.075) inset, 0 0 8px rgba($green-light, 0.6) !important;
+			outline: 0 none !important;
+		}
+	}
 }
 @-webkit-keyframes fontfix {
     from { opacity: 1; }
@@ -44,7 +51,6 @@ body {
 .full-panel{
 	height: 100%;
 	min-height: 100vh;
-	position: relative;
 	background: #fff;
 	z-index:1;
 	@include paddingSize(60px, 0px, 60px, 0px);
@@ -445,10 +451,193 @@ body {
 		width:100%;
 		height: 100%;
 		position: absolute;
-		opacity: .8;
+		opacity: 1;
 		top:0;
 		left:0;
+		#search-form{
+			transition: ease all .2s;
+			position: relative;
+			top: 41%;
+			left: 0;
+			right: 0;
+			margin: 0 auto;
+			@extend .container;
+			.panel-center{
+				@extend .clearfix;
+				@extend .col-lg-8;
+				@extend .col-lg-offset-2;
+				@extend .text-center;
+				h1{
+					background: #f7f7f7;
+					margin: 0px;
+					color:$green-darker;
+					padding:10px 15px;
+					@include fontSize(35px);
+					text-align: left;
+					width:103%;
+					box-shadow: 6px 3px 2px rgba(0, 0, 0, 0.3);
+					&:after{
+						content: "";
+						position: absolute;
+						background: #f7f7f7;
+						top: 0;
+						right: -17px;
+						bottom: 0;
+						width: 40px;
+						-webkit-transform: skew(-11deg);
+						-moz-transform: skew(-11deg);
+						-ms-transform: skew(-11deg);
+						transform: skew(-7deg);
+						box-shadow: 6px 3px 2px rgba(0, 0, 0, 0.3);
+						border-radius: 10px 10px 0px 0px;
+					}
+				}
+				.panel-form{
+					padding: 30px 50px 10px 30px;
+					background: rgba(255,255,255,.8);
+					box-shadow: 6px 3px 2px rgba(0, 0, 0, 0.3);
+					width: 101%;
+					.search-select{
+						background: $green-darker;
+						border-bottom: 3px solid rgba(0,0,0,.2);
+						color: #fff;
+						min-width: 102px;
+					}
+					.search-go{
+						background: $green-darker;
+						color: #fff;
+						padding:0px;
+						border: none;
+						button{
+							border: none;
+							background: none;
+							width: 100%;
+							padding:0px 15px;
+							height: 46px;
+							z-index:0;
+							border-bottom: 3px solid rgba(0,0,0,.2);
+						}
+					}
+					input{
+							z-index: 0 !important;
+					}
+					.dropdown-menu{
+						padding: 0px;
+						background: #f7f7f7;
+						min-width: 180px;
+						.divider{
+							margin:0px;
+							background: $green-light;
+						}
+						li{
+							margin-left: 0px;
+							width:100%;
+							&:last-child{
+								border-bottom: 0px;
+							}
+							&:hover{
+								background: rgba(#000, .1);
+							}
+							a{
+								@extend .clearfix;
+								width:100%;
+								display:block;
+								padding:12px 15px;
+								&:hover{
+									color:$green-light;
+									border-bottom:1px solid #ccc;
+								}
+							}
+							.all-search{
+								.fa{
+									margin-left:8px;
+								}
+							}
+							.drop-text{
+								float:left;
+							}
+							.fa{
+								float: right;
+								margin-top: 3px;
+							}
+						}
+					}
+					#form-help{
+						list-style-type: none;
+						text-align: right;
+						margin:10px 2px 0px 0px;
+						li{
+							display: inline;
+							margin: 0px;
+							padding: 0px;
+							margin-left: 10px;
+							a{
+								color:$green-darker;
+							}
+						}
+					}
+				}
+			}
+		}
 	}
+}
+
+#search-form.active{
+	transition: ease all .2s;
+	position: absolute !important;
+	top: 0px !important;
+	width: 100% !important;
+	height: 100%;
+	background: white;
+	padding-top: 120px;
+	.panel-center{
+		h1{
+			display: none !important;
+		}
+		.panel-form{
+			box-shadow: none !important;
+		}
+	}
+	#search-close { 
+		cursor: pointer; 
+		padding: 10px 35px 16px 0px; 
+		position: absolute;
+		right: 27px;
+		top: 90px;
+	span, span:before,  span:after {
+	  cursor: pointer;
+	  border-radius: 1px;
+	  height: 4px;
+	  width: 35px;
+	  background: $green-darker;
+	  position: absolute;
+	  display: block;
+	  content: '';
+	  transition: all 500ms ease-in-out;
+	}
+	span:before {
+		top: -11px; 
+	}
+	span:after {
+		bottom: -11px;
+	}
+	&.active span {
+		background-color: transparent;
+		&:before, &:after{
+			top: 0;
+			-webkit-backface-visibility: visible;	
+			background: #ccc;
+		}
+		&:before{
+			@include rotateDegree(45deg);
+		}
+		&:after{
+			@include rotateDegree(-45deg);
+		}
+	}
+
+}
+
 }
 
 /*************************************

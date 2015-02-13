@@ -1245,7 +1245,7 @@ mark,
 .text-right {
   text-align: right; }
 
-.text-center, .flex-nav .viewport #social-menu, .login-panel header #header_contain, .login-panel #credits #link_wrap #links {
+.text-center, .flex-nav .viewport #social-menu, .search-panel #panel-content #search-form .panel-center, .login-panel header #header_contain, .login-panel #credits #link_wrap #links {
   text-align: center; }
 
 .text-justify {
@@ -1502,24 +1502,24 @@ pre {
   max-height: 340px;
   overflow-y: scroll; }
 
-.container, .search-panel header #page-header, .login-panel header #header_contain, .login-panel #panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links {
+.container, .search-panel header #page-header, .search-panel #panel-content #search-form, .login-panel header #header_contain, .login-panel #panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px; }
-  .container:before, .search-panel header #page-header:before, .login-panel header #header_contain:before, .login-panel #panel-content #log-in:before, .login-panel #credits #link_wrap:before, .login-panel #credits #link_wrap #links:before, .container:after, .search-panel header #page-header:after, .login-panel header #header_contain:after, .login-panel #panel-content #log-in:after, .login-panel #credits #link_wrap:after, .login-panel #credits #link_wrap #links:after {
+  .container:before, .search-panel header #page-header:before, .search-panel #panel-content #search-form:before, .login-panel header #header_contain:before, .login-panel #panel-content #log-in:before, .login-panel #credits #link_wrap:before, .login-panel #credits #link_wrap #links:before, .container:after, .search-panel header #page-header:after, .search-panel #panel-content #search-form:after, .login-panel header #header_contain:after, .login-panel #panel-content #log-in:after, .login-panel #credits #link_wrap:after, .login-panel #credits #link_wrap #links:after {
     content: " ";
     display: table; }
-  .container:after, .search-panel header #page-header:after, .login-panel header #header_contain:after, .login-panel #panel-content #log-in:after, .login-panel #credits #link_wrap:after, .login-panel #credits #link_wrap #links:after {
+  .container:after, .search-panel header #page-header:after, .search-panel #panel-content #search-form:after, .login-panel header #header_contain:after, .login-panel #panel-content #log-in:after, .login-panel #credits #link_wrap:after, .login-panel #credits #link_wrap #links:after {
     clear: both; }
   @media (min-width: 768px) {
-    .container, .search-panel header #page-header, .login-panel header #header_contain, .login-panel #panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links {
+    .container, .search-panel header #page-header, .search-panel #panel-content #search-form, .login-panel header #header_contain, .login-panel #panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links {
       width: 750px; } }
   @media (min-width: 992px) {
-    .container, .search-panel header #page-header, .login-panel header #header_contain, .login-panel #panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links {
+    .container, .search-panel header #page-header, .search-panel #panel-content #search-form, .login-panel header #header_contain, .login-panel #panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links {
       width: 970px; } }
   @media (min-width: 1200px) {
-    .container, .search-panel header #page-header, .login-panel header #header_contain, .login-panel #panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links {
+    .container, .search-panel header #page-header, .search-panel #panel-content #search-form, .login-panel header #header_contain, .login-panel #panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links {
       width: 1170px; } }
 
 .container-fluid {
@@ -1542,7 +1542,7 @@ pre {
   .row:after, .search-panel header #page-header #contents:after {
     clear: both; }
 
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .search-panel header #page-header #contents #logo, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .login-panel #credits #link_wrap #links, .col-md-4, .login-panel #credits #link_wrap #links, .col-lg-4, .login-panel #credits #link_wrap #links, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .login-panel #panel-content #log-in .div-inner, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .login-panel #credits #link_wrap #links, .col-sm-8, .col-md-8, .col-lg-8, .login-panel #credits #link_wrap #links ul, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .search-panel header #page-header #contents #page-nav, .col-sm-10, .col-md-10, .login-panel #credits #link_wrap #links ul, .col-lg-10, .login-panel #credits #link_wrap, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .login-panel #panel-content #log-in .div-inner, .login-panel #credits #link_wrap #links ul, .col-sm-12, .login-panel #panel-content #log-in .div-inner #form_wrap, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .search-panel header #page-header #contents #logo, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .login-panel #credits #link_wrap #links, .col-md-4, .login-panel #credits #link_wrap #links, .col-lg-4, .login-panel #credits #link_wrap #links, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .login-panel #panel-content #log-in .div-inner, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .login-panel #credits #link_wrap #links, .col-sm-8, .col-md-8, .col-lg-8, .search-panel #panel-content #search-form .panel-center, .login-panel #credits #link_wrap #links ul, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .search-panel header #page-header #contents #page-nav, .col-sm-10, .col-md-10, .login-panel #credits #link_wrap #links ul, .col-lg-10, .login-panel #credits #link_wrap, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .login-panel #panel-content #log-in .div-inner, .login-panel #credits #link_wrap #links ul, .col-sm-12, .login-panel #panel-content #log-in .div-inner #form_wrap, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -2017,7 +2017,7 @@ pre {
   .col-md-offset-12 {
     margin-left: 100%; } }
 @media (min-width: 1200px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .login-panel #credits #link_wrap #links, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .login-panel #credits #link_wrap #links ul, .col-lg-9, .col-lg-10, .login-panel #credits #link_wrap, .col-lg-11, .col-lg-12 {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .login-panel #credits #link_wrap #links, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .search-panel #panel-content #search-form .panel-center, .login-panel #credits #link_wrap #links ul, .col-lg-9, .col-lg-10, .login-panel #credits #link_wrap, .col-lg-11, .col-lg-12 {
     float: left; }
 
   .col-lg-1 {
@@ -2041,7 +2041,7 @@ pre {
   .col-lg-7 {
     width: 58.3333333333%; }
 
-  .col-lg-8, .login-panel #credits #link_wrap #links ul {
+  .col-lg-8, .search-panel #panel-content #search-form .panel-center, .login-panel #credits #link_wrap #links ul {
     width: 66.6666666667%; }
 
   .col-lg-9 {
@@ -2140,7 +2140,7 @@ pre {
   .col-lg-offset-1, .login-panel #credits #link_wrap {
     margin-left: 8.3333333333%; }
 
-  .col-lg-offset-2, .login-panel #credits #link_wrap #links ul {
+  .col-lg-offset-2, .search-panel #panel-content #search-form .panel-center, .login-panel #credits #link_wrap #links ul {
     margin-left: 16.6666666667%; }
 
   .col-lg-offset-3 {
@@ -3641,9 +3641,10 @@ tbody.collapse.in {
     .navbar-fixed-bottom .navbar-collapse {
       max-height: 200px; } }
 
-.container > .navbar-header, .search-panel header #page-header > .navbar-header, .login-panel header #header_contain > .navbar-header, .login-panel #panel-content #log-in > .navbar-header, .login-panel #credits #link_wrap > .navbar-header, .login-panel #credits #link_wrap #links > .navbar-header,
+.container > .navbar-header, .search-panel header #page-header > .navbar-header, .search-panel #panel-content #search-form > .navbar-header, .login-panel header #header_contain > .navbar-header, .login-panel #panel-content #log-in > .navbar-header, .login-panel #credits #link_wrap > .navbar-header, .login-panel #credits #link_wrap #links > .navbar-header,
 .container > .navbar-collapse,
 .search-panel header #page-header > .navbar-collapse,
+.search-panel #panel-content #search-form > .navbar-collapse,
 .login-panel header #header_contain > .navbar-collapse,
 .login-panel #panel-content #log-in > .navbar-collapse,
 .login-panel #credits #link_wrap > .navbar-collapse,
@@ -3653,9 +3654,10 @@ tbody.collapse.in {
   margin-right: -15px;
   margin-left: -15px; }
   @media (min-width: 768px) {
-    .container > .navbar-header, .search-panel header #page-header > .navbar-header, .login-panel header #header_contain > .navbar-header, .login-panel #panel-content #log-in > .navbar-header, .login-panel #credits #link_wrap > .navbar-header, .login-panel #credits #link_wrap #links > .navbar-header,
+    .container > .navbar-header, .search-panel header #page-header > .navbar-header, .search-panel #panel-content #search-form > .navbar-header, .login-panel header #header_contain > .navbar-header, .login-panel #panel-content #log-in > .navbar-header, .login-panel #credits #link_wrap > .navbar-header, .login-panel #credits #link_wrap #links > .navbar-header,
     .container > .navbar-collapse,
     .search-panel header #page-header > .navbar-collapse,
+    .search-panel #panel-content #search-form > .navbar-collapse,
     .login-panel header #header_contain > .navbar-collapse,
     .login-panel #panel-content #log-in > .navbar-collapse,
     .login-panel #credits #link_wrap > .navbar-collapse,
@@ -3703,7 +3705,7 @@ tbody.collapse.in {
   .navbar-brand > img {
     display: block; }
   @media (min-width: 768px) {
-    .navbar > .container .navbar-brand, .search-panel header .navbar > #page-header .navbar-brand, .login-panel header .navbar > #header_contain .navbar-brand, .login-panel #panel-content .navbar > #log-in .navbar-brand, .login-panel #credits .navbar > #link_wrap .navbar-brand, .login-panel #credits #link_wrap .navbar > #links .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    .navbar > .container .navbar-brand, .search-panel header .navbar > #page-header .navbar-brand, .search-panel #panel-content .navbar > #search-form .navbar-brand, .login-panel header .navbar > #header_contain .navbar-brand, .login-panel #panel-content .navbar > #log-in .navbar-brand, .login-panel #credits .navbar > #link_wrap .navbar-brand, .login-panel #credits #link_wrap .navbar > #links .navbar-brand, .navbar > .container-fluid .navbar-brand {
       margin-left: -15px; } }
 
 .navbar-toggle {
@@ -4215,14 +4217,14 @@ a.badge:hover, a.badge:focus {
     font-weight: 200; }
   .jumbotron > hr {
     border-top-color: #d5d5d5; }
-  .container .jumbotron, .search-panel header #page-header .jumbotron, .login-panel header #header_contain .jumbotron, .login-panel #panel-content #log-in .jumbotron, .login-panel #credits #link_wrap .jumbotron, .login-panel #credits #link_wrap #links .jumbotron, .container-fluid .jumbotron {
+  .container .jumbotron, .search-panel header #page-header .jumbotron, .search-panel #panel-content #search-form .jumbotron, .login-panel header #header_contain .jumbotron, .login-panel #panel-content #log-in .jumbotron, .login-panel #credits #link_wrap .jumbotron, .login-panel #credits #link_wrap #links .jumbotron, .container-fluid .jumbotron {
     border-radius: 6px; }
-  .jumbotron .container, .jumbotron .search-panel header #page-header, .search-panel header .jumbotron #page-header, .jumbotron .login-panel header #header_contain, .login-panel header .jumbotron #header_contain, .jumbotron .login-panel #panel-content #log-in, .login-panel #panel-content .jumbotron #log-in, .jumbotron .login-panel #credits #link_wrap, .login-panel #credits .jumbotron #link_wrap, .jumbotron .login-panel #credits #link_wrap #links, .login-panel #credits #link_wrap .jumbotron #links {
+  .jumbotron .container, .jumbotron .search-panel header #page-header, .search-panel header .jumbotron #page-header, .jumbotron .search-panel #panel-content #search-form, .search-panel #panel-content .jumbotron #search-form, .jumbotron .login-panel header #header_contain, .login-panel header .jumbotron #header_contain, .jumbotron .login-panel #panel-content #log-in, .login-panel #panel-content .jumbotron #log-in, .jumbotron .login-panel #credits #link_wrap, .login-panel #credits .jumbotron #link_wrap, .jumbotron .login-panel #credits #link_wrap #links, .login-panel #credits #link_wrap .jumbotron #links {
     max-width: 100%; }
   @media screen and (min-width: 768px) {
     .jumbotron {
       padding: 48px 0; }
-      .container .jumbotron, .search-panel header #page-header .jumbotron, .login-panel header #header_contain .jumbotron, .login-panel #panel-content #log-in .jumbotron, .login-panel #credits #link_wrap .jumbotron, .login-panel #credits #link_wrap #links .jumbotron, .container-fluid .jumbotron {
+      .container .jumbotron, .search-panel header #page-header .jumbotron, .search-panel #panel-content #search-form .jumbotron, .login-panel header #header_contain .jumbotron, .login-panel #panel-content #log-in .jumbotron, .login-panel #credits #link_wrap .jumbotron, .login-panel #credits #link_wrap #links .jumbotron, .container-fluid .jumbotron {
         padding-left: 60px;
         padding-right: 60px; }
       .jumbotron h1,
@@ -5429,10 +5431,10 @@ button.close {
 
   .carousel-indicators {
     bottom: 20px; } }
-.clearfix:before, .flex-nav .viewport #social-menu:before, .login-panel #panel-content #log-in .div-inner:before, .login-panel #credits:before, .login-panel #credits #link_wrap #links:before, .login-panel #credits #link_wrap #links ul:before, .clearfix:after, .flex-nav .viewport #social-menu:after, .login-panel #panel-content #log-in .div-inner:after, .login-panel #credits:after, .login-panel #credits #link_wrap #links:after, .login-panel #credits #link_wrap #links ul:after {
+.clearfix:before, .flex-nav .viewport #social-menu:before, .search-panel #panel-content #search-form .panel-center:before, .search-panel #panel-content #search-form .panel-center .panel-form .dropdown-menu li a:before, .login-panel #panel-content #log-in .div-inner:before, .login-panel #credits:before, .login-panel #credits #link_wrap #links:before, .login-panel #credits #link_wrap #links ul:before, .clearfix:after, .flex-nav .viewport #social-menu:after, .search-panel #panel-content #search-form .panel-center:after, .search-panel #panel-content #search-form .panel-center .panel-form .dropdown-menu li a:after, .login-panel #panel-content #log-in .div-inner:after, .login-panel #credits:after, .login-panel #credits #link_wrap #links:after, .login-panel #credits #link_wrap #links ul:after {
   content: " ";
   display: table; }
-.clearfix:after, .flex-nav .viewport #social-menu:after, .login-panel #panel-content #log-in .div-inner:after, .login-panel #credits:after, .login-panel #credits #link_wrap #links:after, .login-panel #credits #link_wrap #links ul:after {
+.clearfix:after, .flex-nav .viewport #social-menu:after, .search-panel #panel-content #search-form .panel-center:after, .search-panel #panel-content #search-form .panel-center .panel-form .dropdown-menu li a:after, .login-panel #panel-content #log-in .div-inner:after, .login-panel #credits:after, .login-panel #credits #link_wrap #links:after, .login-panel #credits #link_wrap #links ul:after {
   clear: both; }
 
 .center-block {
@@ -7468,6 +7470,10 @@ body {
       border-bottom: 1px solid #069E87;
       text-decoration: none;
       color: #069E87; }
+  body input:focus {
+    border-color: #069E87 !important;
+    box-shadow: 0 1px 1px rgba(6, 158, 135, 0.075) inset, 0 0 8px rgba(6, 158, 135, 0.6) !important;
+    outline: 0 none !important; }
 
 @-webkit-keyframes fontfix {
   from {
@@ -7480,7 +7486,6 @@ body {
 .full-panel {
   height: 100%;
   min-height: 100vh;
-  position: relative;
   background: #fff;
   z-index: 1;
   padding: 60px 0px 60px 0px;
@@ -7820,9 +7825,153 @@ body {
     width: 100%;
     height: 100%;
     position: absolute;
-    opacity: .8;
+    opacity: 1;
     top: 0;
     left: 0; }
+    .search-panel #panel-content #search-form {
+      transition: ease all .2s;
+      position: relative;
+      top: 41%;
+      left: 0;
+      right: 0;
+      margin: 0 auto; }
+      .search-panel #panel-content #search-form .panel-center h1 {
+        background: #f7f7f7;
+        margin: 0px;
+        color: #0c5449;
+        padding: 10px 15px;
+        font-size: 35px;
+        font-size: 2.1875rem;
+        text-align: left;
+        width: 103%;
+        box-shadow: 6px 3px 2px rgba(0, 0, 0, 0.3); }
+        .search-panel #panel-content #search-form .panel-center h1:after {
+          content: "";
+          position: absolute;
+          background: #f7f7f7;
+          top: 0;
+          right: -17px;
+          bottom: 0;
+          width: 40px;
+          -webkit-transform: skew(-11deg);
+          -moz-transform: skew(-11deg);
+          -ms-transform: skew(-11deg);
+          transform: skew(-7deg);
+          box-shadow: 6px 3px 2px rgba(0, 0, 0, 0.3);
+          border-radius: 10px 10px 0px 0px; }
+      .search-panel #panel-content #search-form .panel-center .panel-form {
+        padding: 30px 50px 10px 30px;
+        background: rgba(255, 255, 255, 0.8);
+        box-shadow: 6px 3px 2px rgba(0, 0, 0, 0.3);
+        width: 101%; }
+        .search-panel #panel-content #search-form .panel-center .panel-form .search-select {
+          background: #0c5449;
+          border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+          color: #fff;
+          min-width: 102px; }
+        .search-panel #panel-content #search-form .panel-center .panel-form .search-go {
+          background: #0c5449;
+          color: #fff;
+          padding: 0px;
+          border: none; }
+          .search-panel #panel-content #search-form .panel-center .panel-form .search-go button {
+            border: none;
+            background: none;
+            width: 100%;
+            padding: 0px 15px;
+            height: 46px;
+            z-index: 0;
+            border-bottom: 3px solid rgba(0, 0, 0, 0.2); }
+        .search-panel #panel-content #search-form .panel-center .panel-form input {
+          z-index: 0 !important; }
+        .search-panel #panel-content #search-form .panel-center .panel-form .dropdown-menu {
+          padding: 0px;
+          background: #f7f7f7;
+          min-width: 180px; }
+          .search-panel #panel-content #search-form .panel-center .panel-form .dropdown-menu .divider {
+            margin: 0px;
+            background: #069E87; }
+          .search-panel #panel-content #search-form .panel-center .panel-form .dropdown-menu li {
+            margin-left: 0px;
+            width: 100%; }
+            .search-panel #panel-content #search-form .panel-center .panel-form .dropdown-menu li:last-child {
+              border-bottom: 0px; }
+            .search-panel #panel-content #search-form .panel-center .panel-form .dropdown-menu li:hover {
+              background: rgba(0, 0, 0, 0.1); }
+            .search-panel #panel-content #search-form .panel-center .panel-form .dropdown-menu li a {
+              width: 100%;
+              display: block;
+              padding: 12px 15px; }
+              .search-panel #panel-content #search-form .panel-center .panel-form .dropdown-menu li a:hover {
+                color: #069E87;
+                border-bottom: 1px solid #ccc; }
+            .search-panel #panel-content #search-form .panel-center .panel-form .dropdown-menu li .all-search .fa {
+              margin-left: 8px; }
+            .search-panel #panel-content #search-form .panel-center .panel-form .dropdown-menu li .drop-text {
+              float: left; }
+            .search-panel #panel-content #search-form .panel-center .panel-form .dropdown-menu li .fa {
+              float: right;
+              margin-top: 3px; }
+        .search-panel #panel-content #search-form .panel-center .panel-form #form-help {
+          list-style-type: none;
+          text-align: right;
+          margin: 10px 2px 0px 0px; }
+          .search-panel #panel-content #search-form .panel-center .panel-form #form-help li {
+            display: inline;
+            margin: 0px;
+            padding: 0px;
+            margin-left: 10px; }
+            .search-panel #panel-content #search-form .panel-center .panel-form #form-help li a {
+              color: #0c5449; }
+
+#search-form.active {
+  transition: ease all .2s;
+  position: absolute !important;
+  top: 0px !important;
+  width: 100% !important;
+  height: 100%;
+  background: white;
+  padding-top: 120px; }
+  #search-form.active .panel-center h1 {
+    display: none !important; }
+  #search-form.active .panel-center .panel-form {
+    box-shadow: none !important; }
+  #search-form.active #search-close {
+    cursor: pointer;
+    padding: 10px 35px 16px 0px;
+    position: absolute;
+    right: 27px;
+    top: 90px; }
+    #search-form.active #search-close span, #search-form.active #search-close span:before, #search-form.active #search-close span:after {
+      cursor: pointer;
+      border-radius: 1px;
+      height: 4px;
+      width: 35px;
+      background: #0c5449;
+      position: absolute;
+      display: block;
+      content: '';
+      transition: all 500ms ease-in-out; }
+    #search-form.active #search-close span:before {
+      top: -11px; }
+    #search-form.active #search-close span:after {
+      bottom: -11px; }
+    #search-form.active #search-close.active span {
+      background-color: transparent; }
+      #search-form.active #search-close.active span:before, #search-form.active #search-close.active span:after {
+        top: 0;
+        -webkit-backface-visibility: visible;
+        background: #ccc; }
+      #search-form.active #search-close.active span:before {
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg); }
+      #search-form.active #search-close.active span:after {
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg); }
 
 /*************************************
 	Log In Partial

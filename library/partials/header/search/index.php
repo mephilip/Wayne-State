@@ -17,7 +17,7 @@
 						  <li role="presentation" class="nav-item">
 						  		<a href="#">Resources</a>
 						  		<ul class="sub-nav">
-						  			<li><a href="">Resource</a></li>
+						  			<li><a href="">Databases</a></li>
 						  			<li><a href="">Resource</a></li>
 						  			<li><a href="">Resource</a></li>
 								</ul>
@@ -41,6 +41,42 @@
 	</header>
 	<section id="panel-content">
 	
+		<div id="search-form">
+			<div id="search-close" class="active"><span></span></div>
+			<div class="panel-center">
+				<h1>Research Starts Here</h1>
+				<div class="panel-form">
+					<form id="quick-search-form">
+					<div class="input-group input-group-lg">
+							<div class="input-group-btn">
+					        <button type="button" class="btn btn-default dropdown-toggle search-select" data-toggle="dropdown" aria-expanded="false">All <span class="caret"></span></button>
+					        <ul class="dropdown-menu" role="menu">
+					          <li><a href="#"><span class="drop-text">Books</span> <i class="fa fa-book"></i></a></li>
+					          <li><a href="#"><span class="drop-text">Journals</span> <i class="fa fa-newspaper-o"></i></a></li>
+					          <li><a href="#"><span class="drop-text">Databases</span> <i class="fa fa-database"></i></a></li>
+					          <li><a href="#"><span class="drop-text">Articles</span> <i class="fa fa-files-o"></i></a></li>
+					          <li><a href="#"><span class="drop-text">Research Guides</span> <i class="fa fa-file-text"></i></a></li>
+					          <li class="divider"></li>
+					          <li><a class="all-search" href="#"><span class="drop-text">All</span><i class="fa fa-file-text"></i> <i class="fa fa-files-o"></i> <i class="fa fa-database"></i> <i class="fa fa-newspaper-o"></i> <i class="fa fa-book"></i></a></li>
+					        </ul>
+					      </div><!-- /btn-group -->
+							<input id="search-input" type="text" class="form-control" placeholder="Articles, books, journals, and more" aria-describedby="sizing-addon1">
+							<div class="input-group-addon search-go">
+								<button id="ajax-search">
+									<i class="fa fa-search"></i>
+								</button>
+							</div>
+						</div>
+					</form>
+					<ul id="form-help">
+						<li><a href="">Login</a></li>
+						<li><a href="">Help?</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div id="search-results"></div>
+		</div>
 	
 	</section>
 

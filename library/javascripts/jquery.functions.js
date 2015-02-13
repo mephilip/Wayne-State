@@ -65,4 +65,25 @@ jQuery(document).ready(function($) {
 		$(".sub-nav", this).slideUp("fast"); 
 		$(this).removeClass('nav-active');
 	});
+	
+	$( "#ajax-search" ).click(function() {
+		$( '#search-form' ).addClass( "active" );
+		return false;
+	});
+	
+	$( "#search-input" ).keyup(function( event ) {
+		event.preventDefault();
+		delay(function(){
+			$( '#search-form' ).addClass( "active" );
+			return false;
+    }, 500 );
+	});
+	$( "#search-close" ).click(function() {
+		$( '#search-form' ).removeClass( "active" );
+		$('#search-input').val('');
+		return false;
+	});
+	
+	
+	
 });
