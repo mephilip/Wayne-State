@@ -1419,7 +1419,8 @@ blockquote {
       content: '\2014 \00A0'; }
 
 .blockquote-reverse,
-blockquote.pull-right {
+blockquote.pull-right,
+.search-panel header #page-header #contents blockquote#page-nav {
   padding-right: 15px;
   padding-left: 0;
   border-right: 5px solid #eeeeee;
@@ -1429,15 +1430,21 @@ blockquote.pull-right {
   .blockquote-reverse small:before,
   .blockquote-reverse .small:before,
   blockquote.pull-right footer:before,
+  .search-panel header #page-header #contents blockquote#page-nav footer:before,
   blockquote.pull-right small:before,
-  blockquote.pull-right .small:before {
+  .search-panel header #page-header #contents blockquote#page-nav small:before,
+  blockquote.pull-right .small:before,
+  .search-panel header #page-header #contents blockquote#page-nav .small:before {
     content: ''; }
   .blockquote-reverse footer:after,
   .blockquote-reverse small:after,
   .blockquote-reverse .small:after,
   blockquote.pull-right footer:after,
+  .search-panel header #page-header #contents blockquote#page-nav footer:after,
   blockquote.pull-right small:after,
-  blockquote.pull-right .small:after {
+  .search-panel header #page-header #contents blockquote#page-nav small:after,
+  blockquote.pull-right .small:after,
+  .search-panel header #page-header #contents blockquote#page-nav .small:after {
     content: '\00A0 \2014'; }
 
 address {
@@ -1526,28 +1533,28 @@ pre {
   .container-fluid:after {
     clear: both; }
 
-.row {
+.row, .search-panel header #page-header #contents {
   margin-left: -15px;
   margin-right: -15px; }
-  .row:before, .row:after {
+  .row:before, .search-panel header #page-header #contents:before, .row:after, .search-panel header #page-header #contents:after {
     content: " ";
     display: table; }
-  .row:after {
+  .row:after, .search-panel header #page-header #contents:after {
     clear: both; }
 
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .login-panel #credits #link_wrap #links, .col-md-4, .login-panel #credits #link_wrap #links, .col-lg-4, .login-panel #credits #link_wrap #links, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .login-panel #panel-content #log-in .div-inner, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .login-panel #credits #link_wrap #links, .col-sm-8, .col-md-8, .col-lg-8, .login-panel #credits #link_wrap #links ul, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .login-panel #credits #link_wrap #links ul, .col-lg-10, .login-panel #credits #link_wrap, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .login-panel #panel-content #log-in .div-inner, .login-panel #credits #link_wrap #links ul, .col-sm-12, .login-panel #panel-content #log-in .div-inner #form_wrap, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .search-panel header #page-header #contents #logo, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .login-panel #credits #link_wrap #links, .col-md-4, .login-panel #credits #link_wrap #links, .col-lg-4, .login-panel #credits #link_wrap #links, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .login-panel #panel-content #log-in .div-inner, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .login-panel #credits #link_wrap #links, .col-sm-8, .col-md-8, .col-lg-8, .login-panel #credits #link_wrap #links ul, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .search-panel header #page-header #contents #page-nav, .col-sm-10, .col-md-10, .login-panel #credits #link_wrap #links ul, .col-lg-10, .login-panel #credits #link_wrap, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .login-panel #panel-content #log-in .div-inner, .login-panel #credits #link_wrap #links ul, .col-sm-12, .login-panel #panel-content #log-in .div-inner #form_wrap, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px; }
 
-.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .login-panel #credits #link_wrap #links, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .login-panel #panel-content #log-in .div-inner, .login-panel #credits #link_wrap #links ul {
+.col-xs-1, .col-xs-2, .search-panel header #page-header #contents #logo, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .login-panel #credits #link_wrap #links, .col-xs-9, .col-xs-10, .search-panel header #page-header #contents #page-nav, .col-xs-11, .col-xs-12, .login-panel #panel-content #log-in .div-inner, .login-panel #credits #link_wrap #links ul {
   float: left; }
 
 .col-xs-1 {
   width: 8.3333333333%; }
 
-.col-xs-2 {
+.col-xs-2, .search-panel header #page-header #contents #logo {
   width: 16.6666666667%; }
 
 .col-xs-3 {
@@ -1571,7 +1578,7 @@ pre {
 .col-xs-9 {
   width: 75%; }
 
-.col-xs-10 {
+.col-xs-10, .search-panel header #page-header #contents #page-nav {
   width: 83.3333333333%; }
 
 .col-xs-11 {
@@ -3100,7 +3107,7 @@ tbody.collapse.in {
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   background-clip: padding-box; }
-  .dropdown-menu.pull-right {
+  .dropdown-menu.pull-right, .search-panel header #page-header #contents .dropdown-menu#page-nav, .search-panel header #page-header #contents #page-nav ul.dropdown-menu {
     right: 0;
     left: auto; }
   .dropdown-menu .divider {
@@ -3166,7 +3173,7 @@ tbody.collapse.in {
   top: 0;
   z-index: 990; }
 
-.pull-right > .dropdown-menu {
+.pull-right > .dropdown-menu, .search-panel header #page-header #contents #page-nav > .dropdown-menu, .search-panel header #page-header #contents #page-nav ul > .dropdown-menu {
   right: 0;
   left: auto; }
 
@@ -4403,7 +4410,9 @@ a.thumbnail.active {
   display: block; }
 
 .media-right,
-.media > .pull-right {
+.media > .pull-right,
+.search-panel header #page-header #contents .media > #page-nav,
+.search-panel header #page-header #contents #page-nav .media > ul {
   padding-left: 10px; }
 
 .media-left,
@@ -5431,7 +5440,7 @@ button.close {
   margin-left: auto;
   margin-right: auto; }
 
-.pull-right {
+.pull-right, .search-panel header #page-header #contents #page-nav, .search-panel header #page-header #contents #page-nav ul {
   float: right !important; }
 
 .pull-left {
@@ -5701,7 +5710,7 @@ button.close {
   border: solid 0.08em #eee;
   border-radius: .1em; }
 
-.pull-right {
+.pull-right, .search-panel header #page-header #contents #page-nav, .search-panel header #page-header #contents #page-nav ul {
   float: right; }
 
 .pull-left {
@@ -5709,7 +5718,7 @@ button.close {
 
 .fa.pull-left {
   margin-right: .3em; }
-.fa.pull-right {
+.fa.pull-right, .search-panel header #page-header #contents .fa#page-nav, .search-panel header #page-header #contents #page-nav ul.fa {
   margin-left: .3em; }
 
 .fa-spin {
@@ -7520,7 +7529,7 @@ body {
   position: relative; }
   #container #flex-overlay {
     position: absolute;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.7);
     width: 100%;
     height: 100%;
     z-index: 9998;
@@ -7740,19 +7749,71 @@ body {
 /*************************************
 	Header Search Parial
 *************************************/
+#container.search-panel {
+  z-index: 2; }
+  #container.search-panel .flex-btn {
+    position: fixed !important; }
+
 .search-panel {
   background: url("../images/bg.jpg");
   padding: 0px;
   margin: 0px; }
   .search-panel header {
-    position: relative;
+    position: fixed;
     z-index: 1;
     background: #f7f7f7;
-    height: 60px;
-    border-bottom: 3px solid rgba(0, 0, 0, 0.1); }
-    .search-panel header #logo {
+    height: 61px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+    width: 100%; }
+    .search-panel header #page-header #contents #logo {
       height: 100px;
-      width: auto; }
+      width: auto;
+      position: absolute; }
+    .search-panel header #page-header #contents #page-nav ul .nav-item {
+      transition: ease-in all .45s; }
+      .search-panel header #page-header #contents #page-nav ul .nav-item:hover {
+        background: #0c5449;
+        box-shadow: 4px 3px 2px rgba(0, 0, 0, 0.15); }
+    .search-panel header #page-header #contents #page-nav ul .nav-active a {
+      color: #069E87; }
+    .search-panel header #page-header #contents #page-nav ul li {
+      display: inline-block;
+      margin-left: 25px; }
+      .search-panel header #page-header #contents #page-nav ul li a {
+        color: #0c5449;
+        font-size: 30px;
+        font-size: 1.875rem;
+        border-bottom: 2px solid transparent;
+        padding: 16px; }
+        .search-panel header #page-header #contents #page-nav ul li a:hover {
+          background: none;
+          color: #069E87; }
+    .search-panel header #page-header #contents #page-nav ul .sub-nav, .search-panel header #page-header #contents #page-nav ul ul {
+      width: auto;
+      padding: 0px;
+      background: #0c5449;
+      position: absolute;
+      left: 0px;
+      z-index: 2;
+      display: none;
+      margin-top: -5px;
+      border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+      min-width: 150px;
+      box-shadow: 4px 3px 2px rgba(0, 0, 0, 0.15); }
+      .search-panel header #page-header #contents #page-nav ul .sub-nav li, .search-panel header #page-header #contents #page-nav ul ul li {
+        margin-left: 0px;
+        width: 100%;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+        .search-panel header #page-header #contents #page-nav ul .sub-nav li:last-child, .search-panel header #page-header #contents #page-nav ul ul li:last-child {
+          border-bottom: 0px; }
+        .search-panel header #page-header #contents #page-nav ul .sub-nav li:hover, .search-panel header #page-header #contents #page-nav ul ul li:hover {
+          background: rgba(0, 0, 0, 0.1); }
+        .search-panel header #page-header #contents #page-nav ul .sub-nav li a, .search-panel header #page-header #contents #page-nav ul ul li a {
+          width: 100%;
+          display: block;
+          color: #ccc; }
+          .search-panel header #page-header #contents #page-nav ul .sub-nav li a:hover, .search-panel header #page-header #contents #page-nav ul ul li a:hover {
+            color: #fff; }
   .search-panel #panel-content {
     background: url("../images/university.jpg") no-repeat center center;
     background-size: cover;

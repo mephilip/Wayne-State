@@ -94,7 +94,7 @@ body {
 	position: relative;
 	#flex-overlay{
 		position: absolute;
-		background: rgba(0,0,0,.6);
+		background: rgba(0,0,0,.7);
 		width: 100%;
 		height: 100%;
 		z-index: 9998;
@@ -343,22 +343,100 @@ body {
 /*************************************
 	Header Search Parial
 *************************************/
+#container.search-panel{
+	z-index:2;
+	.flex-btn{
+		position: fixed !important;
+	}
+}
+
 .search-panel{
 	background: url('../images/bg.jpg');
 	padding: 0px;
 	margin: 0px;
 	header{
-		position: relative;
+		position: fixed;
 		z-index:1;
 		background: #f7f7f7;
-		height:60px;
+		height:61px;
 		border-bottom: 3px solid rgba(#000, .1);
+		width:100%;
 		#page-header{
 			@extend .container;
-		}
-		#logo{
-			height:100px;
-			width:auto;
+			#contents{
+				@extend .row;
+				#logo{
+					@extend .col-xs-2;
+					height:100px;
+					width:auto;
+					position: absolute;
+				}
+				#page-nav{
+					@extend .col-xs-10;
+					@extend .pull-right;
+					ul{
+						@extend .pull-right;
+						.nav-item{
+							transition: ease-in all .45s;
+							&:hover{
+								background: $green-darker;
+								box-shadow: 4px 3px 2px rgba(0,0,0,.15);
+							}
+						}
+						.nav-active{
+							a{
+								color:$green-light;
+							}
+						}
+						li{
+							display: inline-block;
+							margin-left: 25px;
+							a{
+								color: $green-darker;
+								@include fontSize(30px);
+								border-bottom: 2px solid transparent;
+								padding: 16px;
+								&:hover{
+									background: none;
+									color: $green-light;
+								}
+							}
+						}
+						.sub-nav, ul{
+							width: auto;
+							padding: 0px;
+							background: $green-darker;
+							position: absolute;
+							left: 0px;
+							z-index: 2;
+							display: none;
+							margin-top: -5px;
+							border-bottom: 3px solid rgba(0,0,0,.1);
+							min-width: 150px;
+							box-shadow: 4px 3px 2px rgba(0,0,0,.15);
+							li{
+								margin-left: 0px;
+								width:100%;
+								border-bottom: 1px solid rgba(0,0,0,.1);
+								&:last-child{
+									border-bottom: 0px;
+								}
+								&:hover{
+									background: rgba(#000, .1);
+								}
+								a{
+									width:100%;
+									display:block;
+									color:#ccc;
+									&:hover{
+										color:#fff;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 	#panel-content{
@@ -372,8 +450,6 @@ body {
 		left:0;
 	}
 }
-
-
 
 /*************************************
 	Log In Partial
