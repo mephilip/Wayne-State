@@ -67,20 +67,32 @@ jQuery(document).ready(function($) {
 	});
 	
 	$( "#ajax-search" ).click(function() {
+		var search_query = $('#search-input').val();
 		$( '#search-form' ).addClass( "active" );
 		$('html, body').animate({
        	 	scrollTop: $('#container').offset().top
 		}, 200);
+		if(search_query !== ''){
+			$('#search-term').html('Showing results for ... <strong>' + search_query + '</strong>');
+		} else {
+			$('#search-term').html('');
+		}
 		return false;
 	});
 	
 	$( "#search-input" ).keyup(function( event ) {
 		event.preventDefault();
+		var search_query = $('#search-input').val();
 		delay(function(){
 			$( '#search-form' ).addClass( "active" );
 			$('html, body').animate({
        	 	scrollTop: $('#container').offset().top
 			}, 200);
+			if(search_query !== ''){
+				$('#search-term').html('Showing results for ... <strong>' + search_query + '</strong>');
+			} else {
+				$('#search-term').html('');
+			}
 			return false;
     	}, 500 );
 	});

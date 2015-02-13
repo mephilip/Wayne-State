@@ -49,7 +49,6 @@ body {
 *************************************/
 
 .full-panel{
-	height: 100%;
 	min-height: 100vh;
 	background: #fff;
 	z-index:1;
@@ -96,7 +95,7 @@ body {
 }
 
 #container{
-	min-height: 100% !important;
+	min-height: 100vh !important;
 	position: relative;
 	#flex-overlay{
 		position: absolute;
@@ -577,6 +576,9 @@ body {
 						}
 					}
 				}
+				#search-results{
+					display:none;
+				}
 			}
 		}
 	}
@@ -587,15 +589,21 @@ body {
 	position: absolute !important;
 	top: 0px !important;
 	width: 100% !important;
-	height: 100%;
+	min-height: 100vh;
 	background: white;
 	padding-top: 120px;
+	border-bottom: 1px solid rgba(#000, .1);
 	.panel-center{
 		h1{
 			display: none !important;
 		}
 		.panel-form{
 			box-shadow: none !important;
+		}
+		#search-results{
+			display:block !important;
+			text-align: left;
+			padding: 10px 30px;
 		}
 	}
 	#search-close { 

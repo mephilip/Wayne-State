@@ -73,9 +73,14 @@
 						<li><a href="">Help?</a></li>
 					</ul>
 				</div>
+				
+				<div id="search-results">
+					<div id="search-term-wrap"><span id="search-term"></span></div>
+					<div id="search-divide"></div>				
+				</div>
 			</div>
 			
-			<div id="search-results"></div>
+			
 		</div>
 	
 	</section>
