@@ -3,6 +3,7 @@
 	include($file_get->FileReturn($server,'header.php'));
 	include($file_get->FileReturn($server,'flex-nav.php'));
 ?>
+
 <div id="container" class="full-panel search-panel header-panel">
 	<div id="flex-overlay"></div>
 	<div id="nav-toggle" class="flex-btn"><span></span></div>
@@ -89,12 +90,47 @@
 <div id="" class="full-panel">
 	
 	<section id="panel-content">
-	
-		<h1>"Imagine all the content ... " ~ John Lennon</h1>
-	
+		<h1>"Imagine all the content ... " ~ John Lennon</h1> 
+		<script>
+  $(function() {
+    var availableTags = [
+      "ActionScript",
+      "AppleScript",
+      "Asp",
+      "BASIC",
+      "C",
+      "C++",
+      "Clojure",
+      "COBOL",
+      "ColdFusion",
+      "Erlang",
+      "Fortran",
+      "Groovy",
+      "Haskell",
+      "Java",
+      "JavaScript",
+      "Lisp",
+      "Perl",
+      "PHP",
+      "Python",
+      "Ruby",
+      "Scala",
+      "Scheme"
+    ];
+    $( "#tags" ).autocomplete({
+      source: availableTags
+    });
+  });
+  </script>
+</head>
+<body>
+ 
+<div class="ui-widget">
+  <label for="tags">Tags: </label>
+  <input id="tags">
+</div>
 	</section>
 
 </div>
 
-
-<?php include($file_get->FileReturn($server,'footer.php')); ?>
+<?php include($file_get->FileReturn($server,'footer.php')); ?>dwf

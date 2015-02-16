@@ -7444,7 +7444,6 @@ button.close {
 
 html, body {
   min-height: 100% !important;
-  height: 100% !important;
   -webkit-backface-visibility: hidden;
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
@@ -7822,18 +7821,18 @@ body {
     background: url("../images/university.jpg") no-repeat center center;
     background-size: cover;
     width: 100%;
-    height: 100%;
-    position: absolute;
+    min-height: 100vh;
     opacity: 1;
     top: 0;
     left: 0; }
     .search-panel #panel-content #search-form {
-      transition: ease all .2s;
-      position: relative;
+      position: absolute;
       top: 41%;
       left: 0;
       right: 0;
-      margin: 0 auto; }
+      margin: 0 auto;
+      transition-property: width, height, background;
+      transition-duration: .05s,.3s,.2s; }
       .search-panel #panel-content #search-form .panel-center h1 {
         background: #f7f7f7;
         margin: 0px;
@@ -7926,14 +7925,14 @@ body {
         display: none; }
 
 #search-form.active {
-  transition: ease all .2s;
-  position: absolute !important;
   top: 0px !important;
   width: 100% !important;
   min-height: 100vh;
   background: white;
   padding-top: 120px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  position: relative !important;
+  transition-duration: .01s,.3s,.2s !important; }
   #search-form.active .panel-center h1 {
     display: none !important; }
   #search-form.active .panel-center .panel-form {
