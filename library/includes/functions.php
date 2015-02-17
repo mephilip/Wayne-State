@@ -48,3 +48,26 @@ function get_json($url) {
 	 }
 	 json_encode($keyword);
 	 $keywords = "'" . implode("','",$keyword) . "'";
+
+
+function get_youtube($url){
+
+ $youtube = "http://www.youtube.com/oembed?url=". $url ."&format=json";
+parse_str( parse_url( $url, PHP_URL_QUERY ), $my_array_of_vars );  
+ $curl = curl_init($youtube);
+ curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+ $result = curl_exec($curl);
+ curl_close($curl);
+ $json = json_decode($result);
+ $link_thing = $my_array_of_vars['v'];
+ echo "<div class='video_contain'>";
+ echo "<a href='#' data-target='#video_modal' class='youtube_link' onclick=\"load_video_by_id('$link_thing')\">";
+ echo "<div class='video_thumbnail'>";
+ echo "<img src='" . $json->thumbnail_url . "'/>";
+ echo "</div>";
+ echo "<div class='video_meta'>";
+ echo "<span class='video_title'>$json->title</span>"; 
+ echo "</div>";
+ echo "</a>";
+ echo "</div>";
+ }

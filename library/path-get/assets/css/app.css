@@ -1502,24 +1502,24 @@ pre {
   max-height: 340px;
   overflow-y: scroll; }
 
-.container, .search-panel header #page-header, .search-panel #panel-content #search-form, .login-panel header #header_contain, .login-panel #panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links {
+.container, .search-panel header #page-header, .search-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap, .search-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap, .search-panel #panel-content #search-form, .login-panel header #header_contain, .login-panel #panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px; }
-  .container:before, .search-panel header #page-header:before, .search-panel #panel-content #search-form:before, .login-panel header #header_contain:before, .login-panel #panel-content #log-in:before, .login-panel #credits #link_wrap:before, .login-panel #credits #link_wrap #links:before, .container:after, .search-panel header #page-header:after, .search-panel #panel-content #search-form:after, .login-panel header #header_contain:after, .login-panel #panel-content #log-in:after, .login-panel #credits #link_wrap:after, .login-panel #credits #link_wrap #links:after {
+  .container:before, .search-panel header #page-header:before, .search-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap:before, .search-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap:before, .search-panel #panel-content #search-form:before, .login-panel header #header_contain:before, .login-panel #panel-content #log-in:before, .login-panel #credits #link_wrap:before, .login-panel #credits #link_wrap #links:before, .container:after, .search-panel header #page-header:after, .search-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap:after, .search-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap:after, .search-panel #panel-content #search-form:after, .login-panel header #header_contain:after, .login-panel #panel-content #log-in:after, .login-panel #credits #link_wrap:after, .login-panel #credits #link_wrap #links:after {
     content: " ";
     display: table; }
-  .container:after, .search-panel header #page-header:after, .search-panel #panel-content #search-form:after, .login-panel header #header_contain:after, .login-panel #panel-content #log-in:after, .login-panel #credits #link_wrap:after, .login-panel #credits #link_wrap #links:after {
+  .container:after, .search-panel header #page-header:after, .search-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap:after, .search-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap:after, .search-panel #panel-content #search-form:after, .login-panel header #header_contain:after, .login-panel #panel-content #log-in:after, .login-panel #credits #link_wrap:after, .login-panel #credits #link_wrap #links:after {
     clear: both; }
   @media (min-width: 768px) {
-    .container, .search-panel header #page-header, .search-panel #panel-content #search-form, .login-panel header #header_contain, .login-panel #panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links {
+    .container, .search-panel header #page-header, .search-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap, .search-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap, .search-panel #panel-content #search-form, .login-panel header #header_contain, .login-panel #panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links {
       width: 750px; } }
   @media (min-width: 992px) {
-    .container, .search-panel header #page-header, .search-panel #panel-content #search-form, .login-panel header #header_contain, .login-panel #panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links {
+    .container, .search-panel header #page-header, .search-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap, .search-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap, .search-panel #panel-content #search-form, .login-panel header #header_contain, .login-panel #panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links {
       width: 970px; } }
   @media (min-width: 1200px) {
-    .container, .search-panel header #page-header, .search-panel #panel-content #search-form, .login-panel header #header_contain, .login-panel #panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links {
+    .container, .search-panel header #page-header, .search-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap, .search-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap, .search-panel #panel-content #search-form, .login-panel header #header_contain, .login-panel #panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links {
       width: 1170px; } }
 
 .container-fluid {
@@ -1542,7 +1542,7 @@ pre {
   .row:after, .search-panel header #page-header #contents:after {
     clear: both; }
 
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .search-panel header #page-header #contents #logo, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .login-panel #credits #link_wrap #links, .col-md-4, .login-panel #credits #link_wrap #links, .col-lg-4, .login-panel #credits #link_wrap #links, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .login-panel #panel-content #log-in .div-inner, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .login-panel #credits #link_wrap #links, .col-sm-8, .col-md-8, .col-lg-8, .search-panel #panel-content #search-form .panel-center, .login-panel #credits #link_wrap #links ul, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .search-panel header #page-header #contents #page-nav, .col-sm-10, .col-md-10, .login-panel #credits #link_wrap #links ul, .col-lg-10, .login-panel #credits #link_wrap, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .login-panel #panel-content #log-in .div-inner, .login-panel #credits #link_wrap #links ul, .col-sm-12, .login-panel #panel-content #log-in .div-inner #form_wrap, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .search-panel header #page-header #contents #logo, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .login-panel #credits #link_wrap #links, .col-md-4, .search-panel header #page-header #contents #page-nav ul .sub-resources .sub-nav-break, .search-panel header #page-header #contents #page-nav ul .sub-resources .video_contain .video_thumbnail, .login-panel #credits #link_wrap #links, .col-lg-4, .login-panel #credits #link_wrap #links, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .login-panel #panel-content #log-in .div-inner, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .login-panel #credits #link_wrap #links, .col-sm-8, .col-md-8, .search-panel header #page-header #contents #page-nav ul .sub-resources .video_contain .video_meta, .col-lg-8, .search-panel #panel-content #search-form .panel-center, .login-panel #credits #link_wrap #links ul, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .search-panel header #page-header #contents #page-nav, .col-sm-10, .col-md-10, .login-panel #credits #link_wrap #links ul, .col-lg-10, .login-panel #credits #link_wrap, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .login-panel #panel-content #log-in .div-inner, .login-panel #credits #link_wrap #links ul, .col-sm-12, .login-panel #panel-content #log-in .div-inner #form_wrap, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -1861,7 +1861,7 @@ pre {
   .col-sm-offset-12 {
     margin-left: 100%; } }
 @media (min-width: 992px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .login-panel #credits #link_wrap #links, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .login-panel #credits #link_wrap #links ul, .col-md-11, .col-md-12 {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .search-panel header #page-header #contents #page-nav ul .sub-resources .sub-nav-break, .search-panel header #page-header #contents #page-nav ul .sub-resources .video_contain .video_thumbnail, .login-panel #credits #link_wrap #links, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .search-panel header #page-header #contents #page-nav ul .sub-resources .video_contain .video_meta, .col-md-9, .col-md-10, .login-panel #credits #link_wrap #links ul, .col-md-11, .col-md-12 {
     float: left; }
 
   .col-md-1 {
@@ -1873,7 +1873,7 @@ pre {
   .col-md-3 {
     width: 25%; }
 
-  .col-md-4, .login-panel #credits #link_wrap #links {
+  .col-md-4, .search-panel header #page-header #contents #page-nav ul .sub-resources .sub-nav-break, .search-panel header #page-header #contents #page-nav ul .sub-resources .video_contain .video_thumbnail, .login-panel #credits #link_wrap #links {
     width: 33.3333333333%; }
 
   .col-md-5 {
@@ -1885,7 +1885,7 @@ pre {
   .col-md-7 {
     width: 58.3333333333%; }
 
-  .col-md-8 {
+  .col-md-8, .search-panel header #page-header #contents #page-nav ul .sub-resources .video_contain .video_meta {
     width: 66.6666666667%; }
 
   .col-md-9 {
@@ -3641,9 +3641,11 @@ tbody.collapse.in {
     .navbar-fixed-bottom .navbar-collapse {
       max-height: 200px; } }
 
-.container > .navbar-header, .search-panel header #page-header > .navbar-header, .search-panel #panel-content #search-form > .navbar-header, .login-panel header #header_contain > .navbar-header, .login-panel #panel-content #log-in > .navbar-header, .login-panel #credits #link_wrap > .navbar-header, .login-panel #credits #link_wrap #links > .navbar-header,
+.container > .navbar-header, .search-panel header #page-header > .navbar-header, .search-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap > .navbar-header, .search-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap > .navbar-header, .search-panel #panel-content #search-form > .navbar-header, .login-panel header #header_contain > .navbar-header, .login-panel #panel-content #log-in > .navbar-header, .login-panel #credits #link_wrap > .navbar-header, .login-panel #credits #link_wrap #links > .navbar-header,
 .container > .navbar-collapse,
 .search-panel header #page-header > .navbar-collapse,
+.search-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap > .navbar-collapse,
+.search-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap > .navbar-collapse,
 .search-panel #panel-content #search-form > .navbar-collapse,
 .login-panel header #header_contain > .navbar-collapse,
 .login-panel #panel-content #log-in > .navbar-collapse,
@@ -3654,9 +3656,11 @@ tbody.collapse.in {
   margin-right: -15px;
   margin-left: -15px; }
   @media (min-width: 768px) {
-    .container > .navbar-header, .search-panel header #page-header > .navbar-header, .search-panel #panel-content #search-form > .navbar-header, .login-panel header #header_contain > .navbar-header, .login-panel #panel-content #log-in > .navbar-header, .login-panel #credits #link_wrap > .navbar-header, .login-panel #credits #link_wrap #links > .navbar-header,
+    .container > .navbar-header, .search-panel header #page-header > .navbar-header, .search-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap > .navbar-header, .search-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap > .navbar-header, .search-panel #panel-content #search-form > .navbar-header, .login-panel header #header_contain > .navbar-header, .login-panel #panel-content #log-in > .navbar-header, .login-panel #credits #link_wrap > .navbar-header, .login-panel #credits #link_wrap #links > .navbar-header,
     .container > .navbar-collapse,
     .search-panel header #page-header > .navbar-collapse,
+    .search-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap > .navbar-collapse,
+    .search-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap > .navbar-collapse,
     .search-panel #panel-content #search-form > .navbar-collapse,
     .login-panel header #header_contain > .navbar-collapse,
     .login-panel #panel-content #log-in > .navbar-collapse,
@@ -3705,7 +3709,7 @@ tbody.collapse.in {
   .navbar-brand > img {
     display: block; }
   @media (min-width: 768px) {
-    .navbar > .container .navbar-brand, .search-panel header .navbar > #page-header .navbar-brand, .search-panel #panel-content .navbar > #search-form .navbar-brand, .login-panel header .navbar > #header_contain .navbar-brand, .login-panel #panel-content .navbar > #log-in .navbar-brand, .login-panel #credits .navbar > #link_wrap .navbar-brand, .login-panel #credits #link_wrap .navbar > #links .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    .navbar > .container .navbar-brand, .search-panel header .navbar > #page-header .navbar-brand, .search-panel header #page-header #contents #page-nav ul .sub-nav .navbar > .sub-nav-wrap .navbar-brand, .search-panel header #page-header #contents #page-nav ul ul .navbar > .sub-nav-wrap .navbar-brand, .search-panel #panel-content .navbar > #search-form .navbar-brand, .login-panel header .navbar > #header_contain .navbar-brand, .login-panel #panel-content .navbar > #log-in .navbar-brand, .login-panel #credits .navbar > #link_wrap .navbar-brand, .login-panel #credits #link_wrap .navbar > #links .navbar-brand, .navbar > .container-fluid .navbar-brand {
       margin-left: -15px; } }
 
 .navbar-toggle {
@@ -4217,14 +4221,14 @@ a.badge:hover, a.badge:focus {
     font-weight: 200; }
   .jumbotron > hr {
     border-top-color: #d5d5d5; }
-  .container .jumbotron, .search-panel header #page-header .jumbotron, .search-panel #panel-content #search-form .jumbotron, .login-panel header #header_contain .jumbotron, .login-panel #panel-content #log-in .jumbotron, .login-panel #credits #link_wrap .jumbotron, .login-panel #credits #link_wrap #links .jumbotron, .container-fluid .jumbotron {
+  .container .jumbotron, .search-panel header #page-header .jumbotron, .search-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap .jumbotron, .search-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap .jumbotron, .search-panel #panel-content #search-form .jumbotron, .login-panel header #header_contain .jumbotron, .login-panel #panel-content #log-in .jumbotron, .login-panel #credits #link_wrap .jumbotron, .login-panel #credits #link_wrap #links .jumbotron, .container-fluid .jumbotron {
     border-radius: 6px; }
-  .jumbotron .container, .jumbotron .search-panel header #page-header, .search-panel header .jumbotron #page-header, .jumbotron .search-panel #panel-content #search-form, .search-panel #panel-content .jumbotron #search-form, .jumbotron .login-panel header #header_contain, .login-panel header .jumbotron #header_contain, .jumbotron .login-panel #panel-content #log-in, .login-panel #panel-content .jumbotron #log-in, .jumbotron .login-panel #credits #link_wrap, .login-panel #credits .jumbotron #link_wrap, .jumbotron .login-panel #credits #link_wrap #links, .login-panel #credits #link_wrap .jumbotron #links {
+  .jumbotron .container, .jumbotron .search-panel header #page-header, .search-panel header .jumbotron #page-header, .jumbotron .search-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap, .search-panel header #page-header #contents #page-nav ul .sub-nav .jumbotron .sub-nav-wrap, .jumbotron .search-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap, .search-panel header #page-header #contents #page-nav ul ul .jumbotron .sub-nav-wrap, .jumbotron .search-panel #panel-content #search-form, .search-panel #panel-content .jumbotron #search-form, .jumbotron .login-panel header #header_contain, .login-panel header .jumbotron #header_contain, .jumbotron .login-panel #panel-content #log-in, .login-panel #panel-content .jumbotron #log-in, .jumbotron .login-panel #credits #link_wrap, .login-panel #credits .jumbotron #link_wrap, .jumbotron .login-panel #credits #link_wrap #links, .login-panel #credits #link_wrap .jumbotron #links {
     max-width: 100%; }
   @media screen and (min-width: 768px) {
     .jumbotron {
       padding: 48px 0; }
-      .container .jumbotron, .search-panel header #page-header .jumbotron, .search-panel #panel-content #search-form .jumbotron, .login-panel header #header_contain .jumbotron, .login-panel #panel-content #log-in .jumbotron, .login-panel #credits #link_wrap .jumbotron, .login-panel #credits #link_wrap #links .jumbotron, .container-fluid .jumbotron {
+      .container .jumbotron, .search-panel header #page-header .jumbotron, .search-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap .jumbotron, .search-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap .jumbotron, .search-panel #panel-content #search-form .jumbotron, .login-panel header #header_contain .jumbotron, .login-panel #panel-content #log-in .jumbotron, .login-panel #credits #link_wrap .jumbotron, .login-panel #credits #link_wrap #links .jumbotron, .container-fluid .jumbotron {
         padding-left: 60px;
         padding-right: 60px; }
       .jumbotron h1,
@@ -5431,10 +5435,10 @@ button.close {
 
   .carousel-indicators {
     bottom: 20px; } }
-.clearfix:before, .flex-nav .viewport #social-menu:before, .search-panel #panel-content #search-form .panel-center:before, .search-panel #panel-content #search-form .panel-center .panel-form .dropdown-menu li a:before, .login-panel #panel-content #log-in .div-inner:before, .login-panel #credits:before, .login-panel #credits #link_wrap #links:before, .login-panel #credits #link_wrap #links ul:before, .clearfix:after, .flex-nav .viewport #social-menu:after, .search-panel #panel-content #search-form .panel-center:after, .search-panel #panel-content #search-form .panel-center .panel-form .dropdown-menu li a:after, .login-panel #panel-content #log-in .div-inner:after, .login-panel #credits:after, .login-panel #credits #link_wrap #links:after, .login-panel #credits #link_wrap #links ul:after {
+.clearfix:before, .flex-nav .viewport #social-menu:before, .search-panel header #page-header #contents #page-nav ul .sub-resources .video_contain:before, .search-panel #panel-content #search-form .panel-center:before, .search-panel #panel-content #search-form .panel-center .panel-form .dropdown-menu li a:before, .login-panel #panel-content #log-in .div-inner:before, .login-panel #credits:before, .login-panel #credits #link_wrap #links:before, .login-panel #credits #link_wrap #links ul:before, .clearfix:after, .flex-nav .viewport #social-menu:after, .search-panel header #page-header #contents #page-nav ul .sub-resources .video_contain:after, .search-panel #panel-content #search-form .panel-center:after, .search-panel #panel-content #search-form .panel-center .panel-form .dropdown-menu li a:after, .login-panel #panel-content #log-in .div-inner:after, .login-panel #credits:after, .login-panel #credits #link_wrap #links:after, .login-panel #credits #link_wrap #links ul:after {
   content: " ";
   display: table; }
-.clearfix:after, .flex-nav .viewport #social-menu:after, .search-panel #panel-content #search-form .panel-center:after, .search-panel #panel-content #search-form .panel-center .panel-form .dropdown-menu li a:after, .login-panel #panel-content #log-in .div-inner:after, .login-panel #credits:after, .login-panel #credits #link_wrap #links:after, .login-panel #credits #link_wrap #links ul:after {
+.clearfix:after, .flex-nav .viewport #social-menu:after, .search-panel header #page-header #contents #page-nav ul .sub-resources .video_contain:after, .search-panel #panel-content #search-form .panel-center:after, .search-panel #panel-content #search-form .panel-center .panel-form .dropdown-menu li a:after, .login-panel #panel-content #log-in .div-inner:after, .login-panel #credits:after, .login-panel #credits #link_wrap #links:after, .login-panel #credits #link_wrap #links ul:after {
   clear: both; }
 
 .center-block {
@@ -7758,6 +7762,44 @@ body {
   #container.search-panel .flex-btn {
     position: fixed !important; }
 
+#video_modal_wrap #video_modal {
+  display: block !important;
+  visibility: hidden; }
+#video_modal_wrap .in {
+  visibility: visible !important; }
+#video_modal_wrap .modal-open .modal {
+  overflow-x: hidden !important;
+  overflow-y: hidden !important; }
+#video_modal_wrap .modal-dialog {
+  height: 100%;
+  width: 100%; }
+#video_modal_wrap .modal-content {
+  width: 70%;
+  margin: 0 auto;
+  height: 85%;
+  box-shadow: none !important;
+  border: none !important;
+  background: transparent !important; }
+#video_modal_wrap .close {
+  color: #fff;
+  font-size: 43px;
+  opacity: 1; }
+
+#all-videos {
+  text-align: right; }
+  #all-videos a {
+    padding: 0px !important;
+    font-size: 12px !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+    color: #069E87;
+    transition: all ease .5s;
+    margin-right: 8px;
+    margin-top: -5px; }
+    #all-videos a:hover {
+      border-bottom: 1px solid #069E87 !important;
+      text-decoration: none;
+      color: #069E87; }
+
 .search-panel {
   background: url("../images/bg.jpg");
   padding: 0px;
@@ -7772,17 +7814,50 @@ body {
     .search-panel header #page-header #contents #logo {
       height: 100px;
       width: auto;
-      position: absolute; }
+      position: absolute;
+      transition: ease all .2s;
+      z-index: 4; }
+      .search-panel header #page-header #contents #logo.active {
+        height: 60px !important; }
     .search-panel header #page-header #contents #page-nav ul .nav-item {
       transition: ease-in all .45s; }
-      .search-panel header #page-header #contents #page-nav ul .nav-item:hover {
-        background: #0c5449;
-        box-shadow: 4px 3px 2px rgba(0, 0, 0, 0.15); }
+    .search-panel header #page-header #contents #page-nav ul .nav-active .nav-link-sub:before {
+      position: absolute;
+      content: '';
+      display: block;
+      width: 0;
+      height: 0;
+      border-top: 17px solid rgba(0, 0, 0, 0.1);
+      border-bottom: 17px solid transparent;
+      border-left: 17px solid transparent;
+      bottom: -36px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      transition: 0.5s all ease;
+      border-right: 17px solid transparent;
+      z-index: 8; }
+    .search-panel header #page-header #contents #page-nav ul .nav-active .nav-link-sub:after {
+      position: absolute;
+      content: '';
+      display: block;
+      width: 0;
+      height: 0;
+      border-top: 15px solid #f7f7f7;
+      border-bottom: 15px solid transparent;
+      border-left: 15px solid transparent;
+      bottom: -29px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      transition: 0.5s all ease;
+      border-right: 15px solid transparent;
+      z-index: 9; }
     .search-panel header #page-header #contents #page-nav ul .nav-active a {
       color: #069E87; }
     .search-panel header #page-header #contents #page-nav ul li {
       display: inline-block;
-      margin-left: 25px; }
+      padding-left: 65px; }
       .search-panel header #page-header #contents #page-nav ul li a {
         color: #0c5449;
         font-size: 30px;
@@ -7792,32 +7867,103 @@ body {
         .search-panel header #page-header #contents #page-nav ul li a:hover {
           background: none;
           color: #069E87; }
+        .search-panel header #page-header #contents #page-nav ul li a:focus {
+          background: transparent;
+          color: #069E87; }
+    .search-panel header #page-header #contents #page-nav ul .sub-resources .sub-nav-break {
+      height: 100%; }
+    .search-panel header #page-header #contents #page-nav ul .sub-resources .video_contain {
+      margin-bottom: 12px; }
+      .search-panel header #page-header #contents #page-nav ul .sub-resources .video_contain a {
+        color: #444; }
+        .search-panel header #page-header #contents #page-nav ul .sub-resources .video_contain a:hover {
+          color: #069E87; }
+      .search-panel header #page-header #contents #page-nav ul .sub-resources .video_contain .video_thumbnail {
+        padding: 0px; }
+        .search-panel header #page-header #contents #page-nav ul .sub-resources .video_contain .video_thumbnail img {
+          width: 100% !important; }
+      .search-panel header #page-header #contents #page-nav ul .sub-resources .video_contain .video_meta {
+        padding-top: 0px;
+        font-size: 16px; }
+      .search-panel header #page-header #contents #page-nav ul .sub-resources .video_contain .youtube_link {
+        padding: 0px !important; }
+    .search-panel header #page-header #contents #page-nav ul .sub-resources h4 {
+      margin: 0px;
+      padding: 20px 0px; }
     .search-panel header #page-header #contents #page-nav ul .sub-nav, .search-panel header #page-header #contents #page-nav ul ul {
       width: auto;
-      padding: 0px;
-      background: #0c5449;
-      position: absolute;
+      padding: 50px 0px;
+      background: #fff;
+      position: fixed;
       left: 0px;
       z-index: 2;
       display: none;
-      margin-top: -5px;
       border-bottom: 3px solid rgba(0, 0, 0, 0.1);
-      min-width: 150px;
-      box-shadow: 4px 3px 2px rgba(0, 0, 0, 0.15); }
+      width: 100%; }
       .search-panel header #page-header #contents #page-nav ul .sub-nav li, .search-panel header #page-header #contents #page-nav ul ul li {
         margin-left: 0px;
-        width: 100%;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
-        .search-panel header #page-header #contents #page-nav ul .sub-nav li:last-child, .search-panel header #page-header #contents #page-nav ul ul li:last-child {
-          border-bottom: 0px; }
+        border-bottom: 1px dotted rgba(0, 0, 0, 0.07);
+        display: block;
+        transition: all ease .5s;
+        padding-left: 0px;
+        position: relative; }
+        .search-panel header #page-header #contents #page-nav ul .sub-nav li:before, .search-panel header #page-header #contents #page-nav ul ul li:before {
+          position: absolute;
+          content: '';
+          width: 0;
+          height: 0;
+          border: 0px solid #ccc;
+          bottom: 0px;
+          right: 100%;
+          transition: .2s all ease;
+          opacity: 0; }
+        .search-panel header #page-header #contents #page-nav ul .sub-nav li:after, .search-panel header #page-header #contents #page-nav ul ul li:after {
+          position: absolute;
+          content: '';
+          width: 0;
+          height: 0;
+          border: 0px solid #ccc;
+          top: 0px;
+          left: 100%;
+          transition: .2s all ease;
+          opacity: 0; }
         .search-panel header #page-header #contents #page-nav ul .sub-nav li:hover, .search-panel header #page-header #contents #page-nav ul ul li:hover {
-          background: rgba(0, 0, 0, 0.1); }
+          transition: all ease .5s;
+          background: rgba(247, 247, 247, 0.5); }
+          .search-panel header #page-header #contents #page-nav ul .sub-nav li:hover:before, .search-panel header #page-header #contents #page-nav ul ul li:hover:before {
+            position: absolute;
+            content: '';
+            width: 0;
+            height: 0;
+            right: 0;
+            transition: 1s all ease;
+            border-top: 4px solid transparent;
+            border-bottom: 4px solid rgba(204, 204, 204, 0.4);
+            border-left: 4px solid transparent;
+            border-right: 4px solid rgba(204, 204, 204, 0.4);
+            transition: .5s all ease;
+            z-index: 9;
+            opacity: 1; }
+          .search-panel header #page-header #contents #page-nav ul .sub-nav li:hover:after, .search-panel header #page-header #contents #page-nav ul ul li:hover:after {
+            position: absolute;
+            content: '';
+            width: 0;
+            height: 0;
+            left: 0;
+            transition: 1s all ease;
+            border-top: 4px solid rgba(204, 204, 204, 0.4);
+            border-bottom: 4px solid transparent;
+            border-left: 4px solid rgba(204, 204, 204, 0.4);
+            border-right: 4px solid transparent;
+            transition: .5s all ease;
+            z-index: 9;
+            opacity: 1; }
         .search-panel header #page-header #contents #page-nav ul .sub-nav li a, .search-panel header #page-header #contents #page-nav ul ul li a {
           width: 100%;
           display: block;
-          color: #ccc; }
+          color: #444; }
           .search-panel header #page-header #contents #page-nav ul .sub-nav li a:hover, .search-panel header #page-header #contents #page-nav ul ul li a:hover {
-            color: #fff; }
+            color: #069E87; }
   .search-panel #panel-content {
     background: url("../images/university.jpg") no-repeat center center;
     background-size: cover;
@@ -7877,7 +8023,6 @@ body {
           .search-panel #panel-content #search-form .panel-center .panel-form .search-go button {
             border: none;
             background: none;
-            width: 100%;
             padding: 0px 15px;
             height: 46px;
             z-index: 0;
@@ -8000,6 +8145,10 @@ body {
         -moz-transform: rotate(-45deg);
         -ms-transform: rotate(-45deg);
         transform: rotate(-45deg); }
+
+.ui-helper-hidden-accessible {
+  display: none !important;
+  visibility: hidden !important; }
 
 /*************************************
 	Log In Partial

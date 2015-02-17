@@ -15,19 +15,50 @@
 					<nav id="page-nav">
 						<ul class="nav main-nav parent-nav">
 						  <li role="presentation" class="nav-item">
-						  		<a href="#">Resources</a>
-						  		<ul class="sub-nav">
-						  			<li><a href="">Databases</a></li>
-						  			<li><a href="">Resource</a></li>
-						  			<li><a href="">Resource</a></li>
+						  		<a class="nav-link-sub" href="#">Resources</a>
+						  		<ul class="sub-nav sub-resources">
+							  		<div class="sub-nav-wrap">
+								  		<div class="sub-nav-break">
+								  			<li><a href="http://library.wayne.edu/resources/databases/">Article Databases</a></li>
+			            	<li><a href="http://elibrary.wayne.edu/search/X">Catalog</a></li>
+			            	<li><a href="http://up7af9tu5s.search.serialssolutions.com/?SS_Page=refiner">Citation Linker</a></li>
+			            	<li><a href="http://digital.library.wayne.edu/digitalcollections/">Digital Collections</a></li>
+			            	<li><a href="http://digitalcommons.wayne.edu/">Digital Commons</a></li>
+			            	<li><a href="http://library.wayne.edu/resources/ebooks/">E-Books</a></li>
+								  		</div>
+
+							  		
+								  		<div class="sub-nav-break">
+								  			<li><a href="http://library.wayne.edu/resources/journals/">E-Journals</a></li>
+			            	<li><a href="http://guides.lib.wayne.edu/c.php?g=174854">Reference Tools</a></li>
+			            	<li><a href="http://guides.lib.wayne.edu/">Research Guides</a></li>
+			            	<li><a href="http://guides.lib.wayne.edu/friendly.php?action=82&amp;s=SpecialCollections">Special Collections</a></li>
+			            	<li><a href="http://wayne.summon.serialssolutions.com/#!/">Summon</a></li>
+							<li><a class="icon" href="#"><i class="fa fa-comment"></i> Ask-A-Librarian</a></li>
+								  		</div>
+								  		
+								  		<div class="sub-nav-break video-resources">
+									  		<h4>Video Resources <i class="fa fa-youtube-play"></i></h4>
+									  		<?php
+										  		
+										  		get_youtube('https://www.youtube.com/watch?v=Oy7gJad7-A8');	
+										  		get_youtube('https://www.youtube.com/watch?v=FJdWZm6GgVc');
+										  		get_youtube('https://www.youtube.com/watch?v=lrUVfEt_1xg');
+										  	?>
+										  	<div id="all-videos"><a href='https://www.youtube.com/user/wsuinst/'>View All</a></div>
+								  		</div>
+								  		
+							  		</div>
 								</ul>
 						  </li>
 						  <li role="presentation" class="nav-item">
-						  		<a href="#">Services</a>
+						  		<a class="nav-link-sub" href="#">Services</a>
 						  		<ul class="sub-nav">
-						  			<li><a href="">Service</a></li>
-						  			<li><a href="">Service</a></li>
-						  			<li><a href="">Service</a></li>
+						  			<div class="sub-nav-wrap">
+							  			<li><a href="">Services</a></li>
+							  			<li><a href="">Resource</a></li>
+							  			<li><a href="">Resource</a></li>
+							  		</div>
 								</ul>
 						  </li>
 						  <li role="presentation"><a href="#">Libraries</a></li>
@@ -95,5 +126,14 @@
 	</section>
 
 </div>
-
+<div id="video_modal_wrap">
+<div class="modal fade" id="video_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <div class="modal-body" id="my_video"></div>
+    </div>
+  </div>
+</div>
+</div>
 <?php include($file_get->FileReturn($server,'footer.php')); ?>

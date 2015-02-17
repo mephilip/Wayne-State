@@ -28,7 +28,7 @@ body {
 			border-bottom: 1px solid $green-light;
 			text-decoration: none;
 			color: #069E87;
-		}
+		} 
 	}
 	input{
 		&:focus{
@@ -46,7 +46,6 @@ body {
 /*************************************
 	Full Panel Base Styles
 *************************************/
-
 .full-panel{
 	min-height: 100vh;
 	background: #fff;
@@ -355,6 +354,53 @@ body {
 	}
 }
 
+#video_modal_wrap{
+	#video_modal{
+		display:block !important;
+		visibility: hidden;
+	}
+	.in{
+		visibility: visible !important;
+	}
+	.modal-open .modal {
+		overflow-x: hidden!important;
+		overflow-y: hidden !important;
+	}
+	.modal-dialog{
+		height: 100%;
+		width: 100%;
+	}
+	.modal-content{
+		width: 70%;
+		margin: 0 auto;
+		height: 85%;
+		box-shadow: none !important;
+		border: none !important;
+		background: transparent !important;
+	}
+	.close{
+		color: #fff;
+		font-size: 43px;
+		opacity: 1;
+	}
+}
+#all-videos{
+	text-align: right;
+	a{
+		padding: 0px !important;
+		font-size: 12px !important;
+		border-bottom: 1px solid rgba(0,0,0,.1) !important;
+		color: $green-light;
+		transition: all ease .5s;
+		margin-right: 8px;
+		margin-top: -5px;
+		&:hover {
+			border-bottom: 1px solid $green-light !important;
+			text-decoration: none;
+			color: #069E87;
+		}
+	}
+}
 .search-panel{
 	background: url('../images/bg.jpg');
 	padding: 0px;
@@ -375,6 +421,11 @@ body {
 					height:100px;
 					width:auto;
 					position: absolute;
+					transition: ease all .2s;
+					z-index: 4;
+					&.active{
+						height:60px !important;
+					}
 				}
 				#page-nav{
 					@extend .col-xs-10;
@@ -384,18 +435,55 @@ body {
 						.nav-item{
 							transition: ease-in all .45s;
 							&:hover{
-								background: $green-darker;
-								box-shadow: 4px 3px 2px rgba(0,0,0,.15);
+								
 							}
 						}
 						.nav-active{
+							.nav-link-sub{
+								&:before{
+									position: absolute;
+									content: '';
+									display: block;
+									width: 0;
+									height: 0;
+									border-top: 17px solid rgba(0, 0, 0, 0.1);
+									border-bottom: 17px solid transparent;
+									border-left: 17px solid transparent;
+									bottom: -36px;
+									left: 0;
+									right: 0;
+									margin: 0 auto;
+									transition: 0.5s all ease;
+									border-right: 17px solid transparent;
+									z-index: 8;
+								}
+								&:after{
+								position: absolute;
+								content: '';
+								display: block;
+								width: 0;
+								height: 0;
+								border-top: 15px solid #f7f7f7;
+								border-bottom: 15px solid transparent;
+								border-left: 15px solid transparent;
+								bottom: -29px;
+								left: 0;
+								right: 0;
+								margin: 0 auto;
+								transition: 0.5s all ease;
+								border-right: 15px solid transparent;
+								z-index: 9;
+							}
+
+							}
 							a{
 								color:$green-light;
+								
 							}
 						}
 						li{
 							display: inline-block;
-							margin-left: 25px;
+							padding-left: 65px;
 							a{
 								color: $green-darker;
 								@include fontSize(30px);
@@ -405,36 +493,132 @@ body {
 									background: none;
 									color: $green-light;
 								}
+								&:focus{
+									background: transparent;
+									color: $green-light;
+								}
+							}
+						}
+						.sub-resources{
+							.sub-nav-break{
+								@extend .col-md-4;
+								height:100%;
+							}
+							.video_contain{
+								@extend .clearfix;
+								margin-bottom: 12px;
+								a{
+									color:#444;
+									&:hover{
+										color:$green-light;
+									}
+								}
+								.video_thumbnail{
+									@extend .col-md-4;
+									padding:0px;
+									img{
+										width:100% !important;
+									}
+								}
+								.video_meta{
+									@extend .col-md-8;
+									padding-top:0px;
+									font-size:16px;
+								}
+								.youtube_link{
+									padding:0px !important;
+								}
+							}
+							h4{
+								margin: 0px;
+								padding: 20px 0px;
+								.fa{
+								}
 							}
 						}
 						.sub-nav, ul{
 							width: auto;
-							padding: 0px;
-							background: $green-darker;
-							position: absolute;
+							padding: 50px 0px;
+							background: #fff;
+							position: fixed;
 							left: 0px;
 							z-index: 2;
 							display: none;
-							margin-top: -5px;
-							border-bottom: 3px solid rgba(0,0,0,.1);
-							min-width: 150px;
-							box-shadow: 4px 3px 2px rgba(0,0,0,.15);
+							border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+							width: 100%;
+							.sub-nav-wrap{
+								@extend .container;
+							}
 							li{
 								margin-left: 0px;
-								width:100%;
-								border-bottom: 1px solid rgba(0,0,0,.1);
-								&:last-child{
-									border-bottom: 0px;
+								border-bottom: 1px dotted rgba(0,0,0,.07);
+								display: block;
+								transition:all ease .5s;
+								padding-left:0px;
+								position: relative;
+								&:before{
+									position: absolute;
+									content: '';
+									width: 0;
+									height: 0;
+									border: 0px solid #ccc;
+									bottom: 0px;
+									right: 100%;
+									transition: .2s all ease;
+									opacity: 0;
+								}
+								&:after{
+									position: absolute;
+									content: '';
+									width: 0;
+									height: 0;
+									border: 0px solid #ccc;
+									top: 0px;
+									left: 100%;
+									transition: .2s all ease;
+									opacity: 0;
 								}
 								&:hover{
-									background: rgba(#000, .1);
+									transition:all ease .5s;
+									background: rgba(#f7f7f7,.5);
+									&:before{
+										position: absolute;
+										content: '';
+										width: 0;
+										height: 0;
+										right: 0;
+										transition: 1s all ease;
+										border-top: 4px solid transparent;
+										border-bottom: 4px solid rgba(#ccc,.4);
+										border-left: 4px solid transparent;
+										border-right: 4px solid rgba(#ccc,.4);
+										transition: .5s all ease;
+										z-index: 9;
+										opacity: 1;
+									}
+									
+									&:after{
+										position: absolute;
+										content: '';
+										width: 0;
+										height: 0;
+										left: 0;
+										transition: 1s all ease;
+										border-top: 4px solid rgba(#ccc,.4);
+										border-bottom: 4px solid transparent;
+										border-left: 4px solid rgba(#ccc,.4);
+										border-right: 4px solid transparent;
+										transition: .5s all ease;
+										z-index: 9;
+										opacity: 1;
+									}
 								}
 								a{
 									width:100%;
 									display:block;
-									color:#ccc;
+									color:#444;
 									&:hover{
-										color:#fff;
+										color:$green-light;
 									}
 								}
 							}
@@ -511,7 +695,6 @@ body {
 						button{
 							border: none;
 							background: none;
-							width: 100%;
 							padding:0px 15px;
 							height: 46px;
 							z-index:0;
@@ -676,7 +859,10 @@ body {
 }
 
 }
-
+.ui-helper-hidden-accessible{
+	display: none !important;
+	visibility: hidden !important;
+}
 /*************************************
 	Log In Partial
 *************************************/

@@ -12,7 +12,18 @@ jQuery(document).ready(function($) {
         	$("#logo").addClass('top-change');
         	$("#links").addClass('margin-return');
     }, 300 );
+	$(window).on('scroll', function() {
+	    var y_scroll_pos = window.pageYOffset;
+	    var scroll_pos_test = 150;             // set to whatever you want it to be
 	
+	    if(y_scroll_pos > scroll_pos_test) {
+		    $('#logo').addClass('active');
+	    }
+	    
+	    if(y_scroll_pos < scroll_pos_test) {
+		    $('#logo').removeClass('active');
+	    }
+	});
 	$('.flex-btn').click(function(){
 		if($(this).hasClass('flex-active')){
 			$(this).removeClass('flex-active');
@@ -62,7 +73,7 @@ jQuery(document).ready(function($) {
 		$(this).addClass('nav-active');
 		$(".sub-nav", this).slideDown(250);
 	}, function() {
-		$(".sub-nav", this).slideUp("fast"); 
+		$(".sub-nav", this).slideUp(250); 
 		$(this).removeClass('nav-active');
 	});
 	
