@@ -3,7 +3,6 @@
 	include($file_get->FileReturn($server,'header.php'));
 	include($file_get->FileReturn($server,'flex-nav.php'));
 ?>
-
 <div id="container" class="full-panel search-panel header-panel">
 	<div id="flex-overlay"></div>
 	<div id="nav-toggle" class="flex-btn"><span></span></div>
@@ -61,7 +60,9 @@
 					          <li><a class="all-search" href="#"><span class="drop-text">All</span><i class="fa fa-file-text"></i> <i class="fa fa-files-o"></i> <i class="fa fa-database"></i> <i class="fa fa-newspaper-o"></i> <i class="fa fa-book"></i></a></li>
 					        </ul>
 					      </div><!-- /btn-group -->
+					      <div id="search-entry-box" class="input-group">
 							<input id="search-input" type="text" class="form-control" placeholder="Articles, books, journals, and more" aria-describedby="sizing-addon1">
+					      </div>
 							<div class="input-group-addon search-go">
 								<button id="ajax-search">
 									<i class="fa fa-search"></i>
@@ -91,46 +92,8 @@
 	
 	<section id="panel-content">
 		<h1>"Imagine all the content ... " ~ John Lennon</h1> 
-		<script>
-  $(function() {
-    var availableTags = [
-      "ActionScript",
-      "AppleScript",
-      "Asp",
-      "BASIC",
-      "C",
-      "C++",
-      "Clojure",
-      "COBOL",
-      "ColdFusion",
-      "Erlang",
-      "Fortran",
-      "Groovy",
-      "Haskell",
-      "Java",
-      "JavaScript",
-      "Lisp",
-      "Perl",
-      "PHP",
-      "Python",
-      "Ruby",
-      "Scala",
-      "Scheme"
-    ];
-    $( "#tags" ).autocomplete({
-      source: availableTags
-    });
-  });
-  </script>
-</head>
-<body>
- 
-<div class="ui-widget">
-  <label for="tags">Tags: </label>
-  <input id="tags">
-</div>
 	</section>
 
 </div>
 
-<?php include($file_get->FileReturn($server,'footer.php')); ?>dwf
+<?php include($file_get->FileReturn($server,'footer.php')); ?>

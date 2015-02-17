@@ -1,29 +1,6 @@
 <?php
 	
-	
-	
-class FileReturn {
-	
-	var $server_type;
-	
-	var $file_name;
-	
-	function FileReturn($server_type, $file_name){
-		if($server_type != $_SERVER['DOCUMENT_ROOT']){
-			$this->server_type = $_SERVER['DOCUMENT_ROOT'];
-		} else {
-			$this->server_type = $server_type;
-		}
-		$this->file_name   = $file_name;
-		return $this->server_type . '/test/thomas/library/includes/' .  $this->file_name;
-	}
-	
-}
-
-
-$file_get = new FileReturn;
-
-function get_json($url) {
+	function get_json($url) {
     $ch = curl_init();
 
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -44,7 +21,9 @@ function get_json($url) {
 	 $keyword = array();
 	 foreach($json as $item => $value){
 		  $value = str_replace('"', '', $value->label);
-		  $keyword[] .=  htmlentities($value, ENT_QUOTES);
+		  $keyword[] .=  htmlspecialchars($value);
 	 }
-	 json_encode($keyword);
-	 $keywords = "'" . implode("','",$keyword) . "'";
+	 $keywords = implode(',',$keyword);
+	 echo json_encode($keyword);
+
+?>

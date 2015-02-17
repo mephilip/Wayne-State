@@ -7525,7 +7525,8 @@ body {
 	Flex Nav Styles // jQuery.functions.js
 ********************************************/
 .no-scroll {
-  overflow: hidden; }
+  overflow: hidden;
+  height: 100vh; }
 
 #container {
   min-height: 100vh !important;
@@ -7866,7 +7867,8 @@ body {
           background: #0c5449;
           border-bottom: 3px solid rgba(0, 0, 0, 0.2);
           color: #fff;
-          min-width: 102px; }
+          min-width: 102px;
+          height: 47px; }
         .search-panel #panel-content #search-form .panel-center .panel-form .search-go {
           background: #0c5449;
           color: #fff;
@@ -7880,6 +7882,27 @@ body {
             height: 46px;
             z-index: 0;
             border-bottom: 3px solid rgba(0, 0, 0, 0.2); }
+        .search-panel #panel-content #search-form .panel-center .panel-form #search-entry-box {
+          width: 100%; }
+          .search-panel #panel-content #search-form .panel-center .panel-form #search-entry-box #search-input {
+            height: 47px;
+            border-radius: 0px; }
+          .search-panel #panel-content #search-form .panel-center .panel-form #search-entry-box .ui-autocomplete {
+            position: absolute !important;
+            text-align: left;
+            list-style-type: none;
+            background: #fff;
+            border: solid 1px rgba(0, 0, 0, 0.1);
+            border-bottom: solid 3px rgba(0, 0, 0, 0.1); }
+            .search-panel #panel-content #search-form .panel-center .panel-form #search-entry-box .ui-autocomplete li {
+              text-align: left;
+              padding: 10px 12px;
+              cursor: pointer; }
+              .search-panel #panel-content #search-form .panel-center .panel-form #search-entry-box .ui-autocomplete li:hover {
+                background: #eee; }
+            .search-panel #panel-content #search-form .panel-center .panel-form #search-entry-box .ui-autocomplete .ui-state-focus {
+              background: #eee;
+              color: #069E87; }
         .search-panel #panel-content #search-form .panel-center .panel-form input {
           z-index: 0 !important; }
         .search-panel #panel-content #search-form .panel-center .panel-form .dropdown-menu {
@@ -8002,7 +8025,7 @@ body {
   margin-top: 0px; }
   .login-panel #panel-content #log-in {
     margin-top: 85px;
-    margin-top: 8.125rem; }
+    margin-top: 11.875rem; }
     .login-panel #panel-content #log-in .div-inner {
       margin: 0 auto;
       padding: 0px;
@@ -8091,3 +8114,11 @@ body {
   .login-panel #credits #link_wrap .margin-return {
     opacity: 1 !important;
     bottom: 0.0625rem !important; }
+
+/*************************************
+	Auto complete styling
+*************************************/
+.ui-menu .ui-menu-item a {
+  color: #96f226;
+  border-radius: 0px;
+  border: 1px solid #454545; }
