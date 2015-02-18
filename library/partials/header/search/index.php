@@ -108,7 +108,7 @@
 		</div>
 		
 	</header>
-	<section id="panel-content">
+	<section class="panel-content">
 	
 		<div id="search-form">
 			<div id="search-close" class="active"><span></span></div>
@@ -159,11 +159,133 @@
 </div>
 <div id="" class="full-panel">
 	
-	<section id="panel-content">
+	<section class="panel-content">
 		<h1>"Imagine all the content ... " ~ John Lennon</h1> 
 	</section>
 
 </div>
+
+
+
+<div id="" class="auto-panel">
+	
+	<section class="panel-content">
+		<footer id="main-footer">
+			<div id="branding-panel">
+				<div class="brand-inner">
+					<span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span class="five"></span>
+				</div>
+			</div>
+			<div id="footer-top">
+				<div class="footer-contents">
+					<div class="footer-list">
+						<h2>Resources</h2>
+						<ul>
+							<li><a href="http://library.wayne.edu/resources/databases/">Article Databases</a></li>
+			            	<li><a href="http://elibrary.wayne.edu/search/X">Catalog</a></li>
+			            	<li><a href="http://up7af9tu5s.search.serialssolutions.com/?SS_Page=refiner">Citation Linker</a></li>
+			            	<li><a href="http://digital.library.wayne.edu/digitalcollections/">Digital Collections</a></li>
+			            	<li><a href="http://digitalcommons.wayne.edu/">Digital Commons</a></li>
+			            	<li><a href="http://library.wayne.edu/resources/ebooks/">E-Books</a></li>
+			            	<li><a href="http://library.wayne.edu/resources/journals/">E-Journals</a></li>
+			            	<li><a href="http://guides.lib.wayne.edu/c.php?g=174854">Reference Tools</a></li>
+			            	<li><a href="http://guides.lib.wayne.edu/">Research Guides</a></li>
+			            	<li><a href="http://guides.lib.wayne.edu/friendly.php?action=82&amp;s=SpecialCollections">Special Collections</a></li>
+			            	<li><a href="http://wayne.summon.serialssolutions.com/#!/">Summon</a></li>
+						</ul>
+					</div>
+					
+					<div class="footer-list">
+						<h2>Services</h2>
+						<ul>
+							<li><a href="http://library.wayne.edu/services/help/">Ask-A-Librarian</a></li>
+			            	<li><a href="http://library.wayne.edu/services/borrowing/">Borrowing</a></li>
+			            	<li><a href="http://library.wayne.edu/services/classroom/">Classroom Support</a></li>
+			            	<li><a href="http://library.wayne.edu/services/computing/">Computing</a></li>
+			            	<li><a href="http://copyright.wayne.edu/">Copyright@Wayne</a></li>
+			            	<li><a href="http://library.wayne.edu/services/events/">Events Support</a></li>
+			            	<li><a href="http://library.wayne.edu/services/research/">Faculty/Grad Research Support</a></li>
+			            	<li><a href="https://wayne.illiad.oclc.org/illiad/illiad.dll">Interlibrary Loan</a></li>
+			            	<li><a href="http://library.wayne.edu/services/instruction/">Instruction</a></li>
+			            	<li><a href="http://library.wayne.edu/services/reserves/">Reserves</a></li>
+			            	<li><a href="http://library.wayne.edu/services/rooms/">Room Reservations</a></li>
+			            	<li><a href="http://scholarscooperative.wayne.edu/">Scholars Cooperative</a></li>
+						</ul>
+					</div>
+					
+					<div class="footer-list">
+						<h2>Libraries</h2>
+						<ul>
+			            	<li><a href="http://library.wayne.edu/neef">Authur Neef Law</a></li>
+			            	<li><a href="http://library.wayne.edu/pk">Purdy/Kresge</a></li>
+			            	<li><a href="http://reuther.wayne.edu/">Reuther</a></li>
+			            	<li><a href="http://library.wayne.edu/shiffman">Shiffman Medical</a></li>
+			            	<li><a href="http://library.wayne.edu/ugl">Undergraduate</a></li>
+			            	<li><a href="http://library.wayne.edu/info/about/">About</a></li>
+			            	<li><a href="http://library.wayne.edu/info/app-lab/">App Lab</a></li>
+			            	<li><a href="http://library.wayne.edu/info/staff/">Contact &amp; Staff Directory</a></li>
+			            	<li><a href="http://library.wayne.edu/info/hours/">Hours</a></li>
+			            	<li><a href="http://library.wayne.edu/info/maps/">Maps &amp; Directions</a></li>
+			            	<li><a href="http://library.wayne.edu/blog/">News</a></li>
+			            	<li><a href="http://library.wayne.edu/info/policies/">Policies</a></li>
+		            	</ul>
+					</div>
+					
+					<div class="footer-list footer-give">
+						<div id="give-wsu">
+							<span class="give-text">GIVE to WSU</span>
+							<span class="right-wave"></span>
+							<span class="left-wave"></span>
+						</div>
+						<address>
+						<strong>Wayne State <small>University Libraries</small></strong><br/>
+						5265 Cass Ave<br/>
+						Detroit, MI 48202, USA
+						</address>
+						<ul class="social-links">
+				          <li><a href=""><i class="fa fa-facebook"></i></a></li>
+				          <li><a href=""><i class="fa fa-twitter"></i></a></li>
+				          <li><a href=""><i class="fa fa-youtube"></i></a></li>
+						</ul>
+											
+						<form id="newsletter-signup">
+							<div class="input-group">
+						      
+								<input id="newsletter-input" type="text" class="form-control" placeholder="Newsletter Signup" autocomplete="off">
+								<div class="input-group-addon newsletter-go">
+									<button id="ajax-search">
+										<i class="fa fa-envelope"></i>
+									</button>
+								</div>
+							</div>
+						</form>						
+						
+					</div>
+				</div>
+			</div>
+			
+			<div id="footer-bottom">
+				<div class="footer-contents">
+					<div class="date">
+						<p>© 2009 - <?php echo date('Y');?> Wayne State University Board of Governors</p>
+					</div>
+					<div class="logo"></div>
+					<div class="credits">
+						<ul>
+							<li><a href="http://library.wayne.edu/info/policies/eresources.php">Acceptable Use</a></li>
+							<li><a href="http://library.wayne.edu/info/policies/privacy.php">Privacy</a></li>
+							<li><a href="http://library.wayne.edu/info/meta/sitemap.php">Site Map</a></li>
+							<li><a href="http://library.wayne.edu/forms/suggestions.php">Suggestions</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</section>
+	
+</div>
+
+
 <div id="video_modal_wrap">
 <div class="modal fade" id="video_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">

@@ -12,7 +12,7 @@
 		</div>			
 	</header>
 	
-	<section id="panel-content">
+	<section class="panel-content">
 		<div id="log-in">
 			<div class="div-inner">
 				<h1>University Libraries <small>EZproxy Login</small></h1>

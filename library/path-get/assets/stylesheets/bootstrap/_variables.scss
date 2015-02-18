@@ -4,6 +4,13 @@ $bootstrap-sass-asset-helper: false !default;
 // --------------------------------------------------
 
 
+
+// Fonts for Wayne
+
+
+
+
+
 //== Colors
 //
 //## Gray and brand colors for use across Bootstrap.
@@ -23,14 +30,25 @@ $brand-danger:          #d9534f !default;
 
 
 
-
+//Green
 $green-darkest: 		#013335 !default;
 $green-darker:			#0c5449 !default;
 $green-base: 			#226357 !default;
 $green-light:			#069E87 !default;
-$yellow-base: 			#f2ce65 !default;
+
+//Beige
+$beige-base:			#E3DCC5 !default;
+
+//Yellow
+$yellow-base: 			#FFD969 !default;
 $yellow-darker:			#eec445 !default;
 $yellow-darkest:		#d8b139 !default;
+
+//Red
+$red-base:				#992B50 !default;
+
+//Blue
+$blue-base: 			#003F5C !default;
 
 //== Scaffolding
 //
