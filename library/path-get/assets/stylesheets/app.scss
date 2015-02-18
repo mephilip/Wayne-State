@@ -1047,6 +1047,8 @@ body {
 		top: 0px;
 		right: 0px;
 		height: 5px;
+		margin-top: -5px;
+		z-index:9;
 		@extend .container;
 		text-align: right;
 		.brand-inner{
@@ -1125,6 +1127,7 @@ body {
 				font-size: 18px;
 				position: absolute;
 				z-index: 1;
+				transition: .5s all ease;
 			}
 			.right-wave{
 				position: absolute;
@@ -1139,7 +1142,8 @@ body {
 				border-right: 14px solid transparent;
 				transition: .5s all ease;
 				z-index: 0;
-				top: -5px;
+				top: -3px;
+				transform-style: preserve-3d;
 			}
 			.left-wave{
 				position: absolute;
@@ -1154,7 +1158,37 @@ body {
 				border-right: 14px solid #992B50;
 				transition: .5s all ease;
 				z-index: 0;
-				top: 10px;
+				top: 7px;
+				transform-style: preserve-3d;
+			}
+			&:hover{
+				.give-text{
+					background: $blue-base;
+				}
+				.left-wave{
+					border-top: 22px solid $blue-base;
+					border-bottom: 22px solid $blue-base;
+					border-left: 14px solid transparent;
+					border-right: 14px solid $blue-base;
+					
+					  -webkit-animation: banner-wave-left .3s linear infinite;
+					  -moz-animation: banner-wave-left .3s linear infinite;
+					  -ms-animation: banner-wave-left .3s linear infinite;
+					  -o-animation: banner-wave-left .3s linear infinite;
+					  transform-style: preserve-3d;
+
+				}
+				.right-wave{
+					border-top: 22px solid $blue-base;
+					border-bottom: 22px solid $blue-base;
+					border-left: 14px solid $blue-base;
+					border-right: 14px solid transparent;
+					  -webkit-animation: banner-wave-right .3s linear infinite;
+					  -moz-animation: banner-wave-right .3s linear infinite;
+					  -ms-animation: banner-wave-right .3s linear infinite;
+					  -o-animation: banner-wave-right .3s linear infinite;
+					  transform-style: preserve-3d;
+				}
 			}
 		}
 		#newsletter-signup{
@@ -1163,6 +1197,10 @@ body {
 				background: $green-light;
 				border: none;
 				padding:0px;
+				transition: .5s all ease;
+				&:hover{
+					background: $blue-base;
+				}
 				button {
 					border: none;
 					background: none;
@@ -1178,14 +1216,14 @@ body {
 			margin:15px 0px 5px 0px;
 			li{
 				display: inline;
-				margin-right: 6px !important;
+				margin-right: 9px !important;
 				a{
 					border-bottom: none;
 					color: #fff !important;
 					font-size: 24px !important;
 					&:hover{
 						margin-left: 0px !important;
-						color: $green-light !important;
+						color: $blue-base !important;
 					}
 				}
 			}
@@ -1236,9 +1274,71 @@ body {
 
 
 
+@-webkit-keyframes banner-wave-right { 
+	50% { 
+	
+	-webkit-transform: rotateX(25deg); 
+	-webkit-transform: rotateY(-37deg); 
+	transform: rotateX(25deg); 
+	transform: rotateY(-37deg); 
+	
+	} 
+}
 
+@-webkit-keyframes banner-wave-left { 
+	50% { 
+	
+	-webkit-transform: rotateX(-45deg); 
+	-webkit-transform: rotateY(-37deg); 
+	transform: rotateX(-45deg); 
+	transform: rotateY(-37deg); 
+	
+	} 
+}
 
+@-moz-keyframes banner-wave-right { 
+	50% { 
+	
+	-webkit-transform: rotateX(25deg); 
+	-webkit-transform: rotateY(-37deg); 
+	transform: rotateX(25deg); 
+	transform: rotateY(-37deg); 
+	
+	} 
+}
 
+@-moz-keyframes banner-wave-left { 
+	50% { 
+	
+	-webkit-transform: rotateX(-45deg); 
+	-webkit-transform: rotateY(-37deg); 
+	transform: rotateX(-45deg); 
+	transform: rotateY(-37deg); 
+	
+	} 
+}
+
+@-ms-keyframes banner-wave-right { 
+	50% { 
+	
+	-webkit-transform: rotateX(25deg); 
+	-webkit-transform: rotateY(-37deg); 
+	transform: rotateX(25deg); 
+	transform: rotateY(-37deg); 
+	
+	} 
+}
+
+@-ms-keyframes banner-wave-left { 
+	50% { 
+	
+	-webkit-transform: rotateX(-45deg); 
+	-webkit-transform: rotateY(-37deg); 
+	transform: rotateX(-45deg); 
+	transform: rotateY(-37deg); 
+	
+	} 
+}
 
 
 

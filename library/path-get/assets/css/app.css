@@ -8297,6 +8297,8 @@ body {
     top: 0px;
     right: 0px;
     height: 5px;
+    margin-top: -5px;
+    z-index: 9;
     text-align: right; }
     #main-footer #branding-panel span {
       width: 30px;
@@ -8352,7 +8354,8 @@ body {
         font-style: italic;
         font-size: 18px;
         position: absolute;
-        z-index: 1; }
+        z-index: 1;
+        transition: .5s all ease; }
       #main-footer #footer-top #give-wsu .right-wave {
         position: absolute;
         content: '';
@@ -8366,7 +8369,8 @@ body {
         border-right: 14px solid transparent;
         transition: .5s all ease;
         z-index: 0;
-        top: -5px; }
+        top: -3px;
+        transform-style: preserve-3d; }
       #main-footer #footer-top #give-wsu .left-wave {
         position: absolute;
         content: '';
@@ -8380,13 +8384,39 @@ body {
         border-right: 14px solid #992B50;
         transition: .5s all ease;
         z-index: 0;
-        top: 10px; }
+        top: 7px;
+        transform-style: preserve-3d; }
+      #main-footer #footer-top #give-wsu:hover .give-text {
+        background: #003F5C; }
+      #main-footer #footer-top #give-wsu:hover .left-wave {
+        border-top: 22px solid #003F5C;
+        border-bottom: 22px solid #003F5C;
+        border-left: 14px solid transparent;
+        border-right: 14px solid #003F5C;
+        -webkit-animation: banner-wave-left .3s linear infinite;
+        -moz-animation: banner-wave-left .3s linear infinite;
+        -ms-animation: banner-wave-left .3s linear infinite;
+        -o-animation: banner-wave-left .3s linear infinite;
+        transform-style: preserve-3d; }
+      #main-footer #footer-top #give-wsu:hover .right-wave {
+        border-top: 22px solid #003F5C;
+        border-bottom: 22px solid #003F5C;
+        border-left: 14px solid #003F5C;
+        border-right: 14px solid transparent;
+        -webkit-animation: banner-wave-right .3s linear infinite;
+        -moz-animation: banner-wave-right .3s linear infinite;
+        -ms-animation: banner-wave-right .3s linear infinite;
+        -o-animation: banner-wave-right .3s linear infinite;
+        transform-style: preserve-3d; }
     #main-footer #footer-top #newsletter-signup {
       margin-top: 10px; }
       #main-footer #footer-top #newsletter-signup .newsletter-go {
         background: #069E87;
         border: none;
-        padding: 0px; }
+        padding: 0px;
+        transition: .5s all ease; }
+        #main-footer #footer-top #newsletter-signup .newsletter-go:hover {
+          background: #003F5C; }
         #main-footer #footer-top #newsletter-signup .newsletter-go button {
           border: none;
           background: none;
@@ -8399,14 +8429,14 @@ body {
       margin: 15px 0px 5px 0px; }
       #main-footer #footer-top .social-links li {
         display: inline;
-        margin-right: 6px !important; }
+        margin-right: 9px !important; }
         #main-footer #footer-top .social-links li a {
           border-bottom: none;
           color: #fff !important;
           font-size: 24px !important; }
           #main-footer #footer-top .social-links li a:hover {
             margin-left: 0px !important;
-            color: #069E87 !important; }
+            color: #003F5C !important; }
   #main-footer #footer-bottom {
     background: rgba(12, 84, 73, 0.95);
     color: #fff;
@@ -8428,3 +8458,40 @@ body {
         margin-left: 14px; }
   #main-footer .footer-contents {
     color: #fff; }
+
+@-webkit-keyframes banner-wave-right {
+  50% {
+    -webkit-transform: rotateX(25deg);
+    -webkit-transform: rotateY(-37deg);
+    transform: rotateX(25deg);
+    transform: rotateY(-37deg); } }
+@-webkit-keyframes banner-wave-left {
+  50% {
+    -webkit-transform: rotateX(-45deg);
+    -webkit-transform: rotateY(-37deg);
+    transform: rotateX(-45deg);
+    transform: rotateY(-37deg); } }
+@-moz-keyframes banner-wave-right {
+  50% {
+    -webkit-transform: rotateX(25deg);
+    -webkit-transform: rotateY(-37deg);
+    transform: rotateX(25deg);
+    transform: rotateY(-37deg); } }
+@-moz-keyframes banner-wave-left {
+  50% {
+    -webkit-transform: rotateX(-45deg);
+    -webkit-transform: rotateY(-37deg);
+    transform: rotateX(-45deg);
+    transform: rotateY(-37deg); } }
+@-ms-keyframes banner-wave-right {
+  50% {
+    -webkit-transform: rotateX(25deg);
+    -webkit-transform: rotateY(-37deg);
+    transform: rotateX(25deg);
+    transform: rotateY(-37deg); } }
+@-ms-keyframes banner-wave-left {
+  50% {
+    -webkit-transform: rotateX(-45deg);
+    -webkit-transform: rotateY(-37deg);
+    transform: rotateX(-45deg);
+    transform: rotateY(-37deg); } }
