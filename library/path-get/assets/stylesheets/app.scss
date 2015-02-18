@@ -15,7 +15,8 @@ body {
 	margin-bottom: 0px;
 	@include font-smoothing(antialiased);
 	overflow:  visible;
-	position: relative;-webkit-animation-delay: 0.1s;
+	position: relative;
+	-webkit-animation-delay: 0.1s;
     -webkit-animation-name: fontfix;
     -webkit-animation-duration: 0.1s;
     -webkit-animation-iteration-count: 1;
@@ -358,6 +359,7 @@ body {
 	#video_modal{
 		display:block !important;
 		visibility: hidden;
+		top:-9000;
 	}
 	.in{
 		visibility: visible !important;
@@ -365,6 +367,7 @@ body {
 	.modal-open .modal {
 		overflow-x: hidden!important;
 		overflow-y: hidden !important;
+		top:0;
 	}
 	.modal-dialog{
 		height: 100%;
@@ -499,7 +502,6 @@ body {
 								}
 							}
 						}
-						.sub-resources{
 							.sub-nav-break{
 								@extend .col-md-4;
 								height:100%;
@@ -509,15 +511,22 @@ body {
 								margin-bottom: 12px;
 								a{
 									color:#444;
+									img{
+										width:100% !important;
+										border-left:4px solid transparent;
+										transition: border-color .2s;
+									}
 									&:hover{
 										color:$green-light;
+										img{
+											
+											border-left:4px solid $green-light;
 									}
 								}
 								.video_thumbnail{
 									@extend .col-md-4;
 									padding:0px;
-									img{
-										width:100% !important;
+										
 									}
 								}
 								.video_meta{
@@ -536,7 +545,6 @@ body {
 								.fa{
 								}
 							}
-						}
 						.sub-nav, ul{
 							width: auto;
 							padding: 50px 0px;

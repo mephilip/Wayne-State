@@ -55,13 +55,51 @@
 						  		<a class="nav-link-sub" href="#">Services</a>
 						  		<ul class="sub-nav">
 						  			<div class="sub-nav-wrap">
-							  			<li><a href="">Services</a></li>
-							  			<li><a href="">Resource</a></li>
-							  			<li><a href="">Resource</a></li>
+							  			<div class="sub-nav-break">
+								  			<li><a href="http://library.wayne.edu/services/help/">Ask-A-Librarian</a></li>
+								  			<li><a href="http://library.wayne.edu/services/borrowing/">Borrowing</a></li>
+								  			<li><a href="http://library.wayne.edu/services/classroom/">Classroom Support</a></li>
+								  			<li><a href="http://library.wayne.edu/services/computing/">Computing</a></li>								
+							  			</div>
+							  			<div class="sub-nav-break">
+								  			<li><a href="http://copyright.wayne.edu/">Copyright@Wayne</a></li>
+							            	<li><a href="http://library.wayne.edu/services/events/">Events Support</a></li>
+							            	<li><a href="http://library.wayne.edu/services/research/">Faculty/Grad Research Support</a></li>
+							            	<li><a href="https://wayne.illiad.oclc.org/illiad/illiad.dll">Interlibrary Loan</a></li>
+							  			</div>
+							  			<div class="sub-nav-break">
+								  			<li><a href="http://library.wayne.edu/services/instruction/">Instruction</a></li>
+							            	<li><a href="http://library.wayne.edu/services/reserves/">Reserves</a></li>
+							            	<li><a href="http://library.wayne.edu/services/rooms/">Room Reservations</a></li>
+							            	<li><a href="http://scholarscooperative.wayne.edu/">Scholars Cooperative</a></li>
+							  			</div>
 							  		</div>
 								</ul>
 						  </li>
-						  <li role="presentation"><a href="#">Libraries</a></li>
+						  <li role="presentation" class="nav-item">
+						  <a class="nav-link-sub" href="#">Libraries</a>
+						  	<ul class="sub-nav">
+						  	<div class="sub-nav-wrap">
+							  			<div class="sub-nav-break">
+								  			<li><a href="http://library.wayne.edu/neef">Authur Neef Law</a></li>
+								  			<li><a href="http://library.wayne.edu/pk">Purdy/Kresge</a></li>
+								  			<li><a href="http://reuther.wayne.edu/">Reuther</a></li>
+								  			<li><a href="http://library.wayne.edu/shiffman">Shiffman Medical</a></li>
+							  			</div>
+							  			<div class="sub-nav-break">
+								  			<li><a href="http://library.wayne.edu/ugl">Undergraduate</a></li>
+							            	<li><a href="http://library.wayne.edu/info/about/">About</a></li>
+							            	<li><a href="http://library.wayne.edu/info/app-lab/">App Lab</a></li>
+							            	<li><a href="http://library.wayne.edu/info/staff/">Contact &amp; Staff Directory</a></li>							  			
+							            </div>
+							  			<div class="sub-nav-break">
+								  			<li><a href="http://library.wayne.edu/info/hours/">Hours</a></li>
+							            	<li><a href="http://library.wayne.edu/info/maps/">Maps &amp; Directions</a></li>
+							            	<li><a href="http://library.wayne.edu/blog/">News</a></li>
+							            	<li><a href="http://library.wayne.edu/info/policies/">Policies</a></li>							  				</div>
+							  </div>
+						  	</ul>
+						  </li>
 						  <li role="presentation"><a class="icon" href="#"><i class="fa fa-comment"></i> Ask-A-Librarian</a></li>
 						</ul>
 					</nav>
