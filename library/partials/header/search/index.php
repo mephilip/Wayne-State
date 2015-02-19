@@ -30,11 +30,16 @@
 							  		
 								  		<div class="sub-nav-break">
 								  			<li><a href="http://library.wayne.edu/resources/journals/">E-Journals</a></li>
-			            	<li><a href="http://guides.lib.wayne.edu/c.php?g=174854">Reference Tools</a></li>
-			            	<li><a href="http://guides.lib.wayne.edu/">Research Guides</a></li>
-			            	<li><a href="http://guides.lib.wayne.edu/friendly.php?action=82&amp;s=SpecialCollections">Special Collections</a></li>
-			            	<li><a href="http://wayne.summon.serialssolutions.com/#!/">Summon</a></li>
-							<li><a class="icon" href="#"><i class="fa fa-comment"></i> Ask-A-Librarian</a></li>
+							            	<li><a href="http://guides.lib.wayne.edu/c.php?g=174854">Reference Tools</a></li>
+							            	<li><a href="http://guides.lib.wayne.edu/">Research Guides</a></li>
+							            	<li><a href="http://guides.lib.wayne.edu/friendly.php?action=82&amp;s=SpecialCollections">Special Collections</a></li>
+							            	<li><a href="http://wayne.summon.serialssolutions.com/#!/">Summon</a></li>
+											<li>
+												<a class="icon" href="https://scholar.google.com/">
+													<span class='goo-blue'>G</span><span class='goo-red'>o</span><span class='goo-yellow'>o</span><span class='goo-blue'>g</span><span class='goo-green'>l</span><span class='goo-red'>e</span>
+													 Scholar
+												</a>
+											</li>
 								  		</div>
 								  		
 								  		<div class="sub-nav-break video-resources">

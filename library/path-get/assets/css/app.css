@@ -7875,7 +7875,7 @@ body {
       color: #069E87; }
     .search-panel header #page-header #contents #page-nav ul li {
       display: inline-block;
-      padding-left: 65px; }
+      padding-left: 45px; }
       .search-panel header #page-header #contents #page-nav ul li a {
         color: #0c5449;
         font-size: 30px;
@@ -7896,12 +7896,12 @@ body {
         color: #444; }
         .search-panel header #page-header #contents #page-nav ul .video_contain a img {
           width: 100% !important;
-          border-left: 4px solid transparent;
+          border-left: 2px solid transparent;
           transition: border-color .2s; }
         .search-panel header #page-header #contents #page-nav ul .video_contain a:hover {
           color: #069E87; }
           .search-panel header #page-header #contents #page-nav ul .video_contain a:hover img {
-            border-left: 4px solid #069E87; }
+            border-left: 2px solid #069E87; }
         .search-panel header #page-header #contents #page-nav ul .video_contain a .video_thumbnail {
           padding: 0px; }
       .search-panel header #page-header #contents #page-nav ul .video_contain .video_meta {
@@ -7987,6 +7987,14 @@ body {
           color: #444; }
           .search-panel header #page-header #contents #page-nav ul .sub-nav li a:hover, .search-panel header #page-header #contents #page-nav ul ul li a:hover {
             color: #069E87; }
+          .search-panel header #page-header #contents #page-nav ul .sub-nav li a .goo-red, .search-panel header #page-header #contents #page-nav ul ul li a .goo-red {
+            color: #F90101; }
+          .search-panel header #page-header #contents #page-nav ul .sub-nav li a .goo-blue, .search-panel header #page-header #contents #page-nav ul ul li a .goo-blue {
+            color: #0266C8; }
+          .search-panel header #page-header #contents #page-nav ul .sub-nav li a .goo-yellow, .search-panel header #page-header #contents #page-nav ul ul li a .goo-yellow {
+            color: #F2B50F; }
+          .search-panel header #page-header #contents #page-nav ul .sub-nav li a .goo-green, .search-panel header #page-header #contents #page-nav ul ul li a .goo-green {
+            color: #00933B; }
   .search-panel .panel-content {
     background: url("../images/university.jpg") no-repeat center center;
     background-size: cover;
