@@ -8440,6 +8440,9 @@ body {
         transform-style: preserve-3d; }
     #main-footer #footer-top #newsletter-signup {
       margin-top: 10px; }
+      #main-footer #footer-top #newsletter-signup .input-group {
+        max-width: 280px;
+        margin: 0 auto; }
       #main-footer #footer-top #newsletter-signup .newsletter-go {
         background: #069E87;
         border: none;

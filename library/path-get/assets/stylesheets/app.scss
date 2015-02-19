@@ -1229,6 +1229,10 @@ body {
 		}
 		#newsletter-signup{
 			margin-top:10px;
+			.input-group{
+				max-width:280px;
+				margin: 0 auto;
+			}
 			.newsletter-go{
 				background: $green-light;
 				border: none;
