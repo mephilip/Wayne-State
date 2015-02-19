@@ -7490,8 +7490,6 @@ body {
     border-color: #069E87 !important;
     box-shadow: 0 1px 1px rgba(6, 158, 135, 0.075) inset, 0 0 8px rgba(6, 158, 135, 0.6) !important;
     outline: 0 none !important; }
-  body img {
-    -webkit-transform: translate3d(0, 0, 0); }
 
 @-webkit-keyframes fontfix {
   from {
