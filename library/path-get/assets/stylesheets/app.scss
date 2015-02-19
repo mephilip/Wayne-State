@@ -1123,6 +1123,14 @@ body {
 					}
 				}
 			}
+			h4{
+				text-align: center;
+				margin-top: 25px;
+				a{
+					color:#fff !important;
+					border: none !important;
+				}
+			}
 		}
 		#give-wsu{
 		cursor: pointer;
@@ -1226,9 +1234,10 @@ body {
 		}
 		.social-links{
 			margin:15px 0px 5px 0px;
+			text-align: center;
 			li{
 				display: inline;
-				margin-right: 9px !important;
+				margin: 0px 5px !important;
 				a{
 					border-bottom: none;
 					color: #fff !important;

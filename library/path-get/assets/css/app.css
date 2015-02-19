@@ -8348,6 +8348,12 @@ body {
           #main-footer #footer-top .footer-list ul li a:hover {
             color: #fff;
             margin-left: 8px; }
+    #main-footer #footer-top .footer-list h4 {
+      text-align: center;
+      margin-top: 25px; }
+      #main-footer #footer-top .footer-list h4 a {
+        color: #fff !important;
+        border: none !important; }
     #main-footer #footer-top #give-wsu {
       cursor: pointer;
       position: relative;
@@ -8434,10 +8440,11 @@ body {
           color: #fff;
           height: 35px; }
     #main-footer #footer-top .social-links {
-      margin: 15px 0px 5px 0px; }
+      margin: 15px 0px 5px 0px;
+      text-align: center; }
       #main-footer #footer-top .social-links li {
         display: inline;
-        margin-right: 9px !important; }
+        margin: 0px 5px !important; }
         #main-footer #footer-top .social-links li a {
           border-bottom: none;
           color: #fff !important;

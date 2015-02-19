@@ -197,6 +197,7 @@
 			            	<li><a href="http://guides.lib.wayne.edu/">Research Guides</a></li>
 			            	<li><a href="http://guides.lib.wayne.edu/friendly.php?action=82&amp;s=SpecialCollections">Special Collections</a></li>
 			            	<li><a href="http://wayne.summon.serialssolutions.com/#!/">Summon</a></li>
+			            	
 						</ul>
 					</div>
 					
@@ -247,11 +248,7 @@
 						5265 Cass Ave<br/>
 						Detroit, MI 48202, USA
 						</address>
-						<ul class="social-links">
-				          <li><a href=""><i class="fa fa-facebook"></i></a></li>
-				          <li><a href=""><i class="fa fa-twitter"></i></a></li>
-				          <li><a href=""><i class="fa fa-youtube-play"></i></a></li>
-						</ul>
+						
 						<form id="newsletter-signup">
 							<div class="input-group">
 						      
@@ -262,7 +259,13 @@
 									</button>
 								</div>
 							</div>
-						</form>						
+						</form>		
+						<h4><a href="http://wayne.edu/aimhigher/">AIM HIGHER</a></h4>		
+						<ul class="social-links">
+				          <li><a href=""><i class="fa fa-facebook"></i></a></li>
+				          <li><a href=""><i class="fa fa-twitter"></i></a></li>
+				          <li><a href=""><i class="fa fa-youtube-play"></i></a></li>
+						</ul>		
 						
 					</div>
 				</div>
