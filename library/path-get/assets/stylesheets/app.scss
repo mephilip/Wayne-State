@@ -557,6 +557,7 @@ body {
 							border-bottom: 3px solid rgba(0, 0, 0, 0.1);
 							width: 100%;
 							top:61px;
+							transition: none !important;
 							.sub-nav-wrap{
 								@extend .container;
 							}

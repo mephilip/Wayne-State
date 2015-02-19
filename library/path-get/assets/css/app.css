@@ -7922,7 +7922,8 @@ body {
       display: none;
       border-bottom: 3px solid rgba(0, 0, 0, 0.1);
       width: 100%;
-      top: 61px; }
+      top: 61px;
+      transition: none !important; }
       .search-panel header #page-header #contents #page-nav ul .sub-nav li, .search-panel header #page-header #contents #page-nav ul ul li {
         margin-left: 0px;
         border-bottom: 1px dotted rgba(0, 0, 0, 0.07);

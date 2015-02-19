@@ -73,7 +73,7 @@ jQuery(document).ready(function($) {
 		$(this).addClass('nav-active');
 		$(".sub-nav", this).slideDown(250);
 	}, function() {
-		$(".sub-nav", this).hide(''); 
+		$(".sub-nav", this).hide(); 
 		$(this).removeClass('nav-active');
 	});
 	
