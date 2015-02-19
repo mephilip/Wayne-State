@@ -7550,13 +7550,14 @@ body {
 #container {
   min-height: 100vh !important;
   position: relative; }
-  #container #flex-overlay {
-    position: absolute;
-    background: rgba(0, 0, 0, 0.7);
-    width: 100%;
-    height: 100%;
-    z-index: 9998;
-    display: none; }
+
+#flex-overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  display: none; }
 
 .flex-expand {
   margin-left: 0% !important;
@@ -7568,7 +7569,7 @@ body {
 .flex-btn {
   background: transparent !important;
   margin: 17px 0px 0px 20px;
-  position: absolute !important;
+  position: fixed !important;
   top: 0px;
   left: 0%;
   z-index: 9999;
@@ -7823,7 +7824,7 @@ body {
   margin: 0px; }
   .search-panel header {
     position: fixed;
-    z-index: 1;
+    z-index: 3;
     background: #f7f7f7;
     height: 61px;
     border-bottom: 3px solid rgba(0, 0, 0, 0.1);

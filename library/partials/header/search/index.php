@@ -3,10 +3,10 @@
 	include($file_get->FileReturn($server,'header.php'));
 	include($file_get->FileReturn($server,'flex-nav.php'));
 ?>
-<div id="container" class="full-panel search-panel header-panel">
-	<div id="flex-overlay"></div>
-	<div id="nav-toggle" class="flex-btn"><span></span></div>
-	<header>
+
+<div class="search-panel">
+
+<header>
 		<div id="page-header">
 			<div id="header-wrap">
 				<div id="contents">
@@ -113,7 +113,13 @@
 		</div>
 		
 	</header>
-	<section class="panel-content">
+</div>
+<div id="nav-toggle" class="flex-btn"><span></span></div>
+<div id="flex-overlay"></div>
+
+<div id="container" class="full-panel search-panel header-panel">
+	
+		<section class="panel-content">
 	
 		<div id="search-form">
 			<div id="search-close" class="active"><span></span></div>
