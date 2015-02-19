@@ -8146,7 +8146,8 @@ body {
     padding: 10px 35px 16px 0px;
     position: absolute;
     right: 27px;
-    top: 90px; }
+    top: 90px;
+    z-index: 99; }
     #search-form.active #search-close span, #search-form.active #search-close span:before, #search-form.active #search-close span:after {
       cursor: pointer;
       border-radius: 1px;

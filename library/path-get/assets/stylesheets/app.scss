@@ -848,6 +848,7 @@ body {
 		position: absolute;
 		right: 27px;
 		top: 90px;
+		z-index:99;
 	span, span:before,  span:after {
 	  cursor: pointer;
 	  border-radius: 1px;
