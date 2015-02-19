@@ -1549,7 +1549,7 @@ pre {
   .row:after, .search-panel header #page-header #contents:after {
     clear: both; }
 
-.col-xs-1, .col-sm-1, #main-footer #branding-panel .brand-inner, .col-md-1, .col-lg-1, .col-xs-2, .search-panel header #page-header #contents #logo, .col-sm-2, .col-md-2, #main-footer #footer-bottom .logo, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, #main-footer #footer-top .footer-list, .col-lg-3, .col-xs-4, .col-sm-4, .login-panel #credits #link_wrap #links, .col-md-4, .search-panel header #page-header #contents #page-nav ul .sub-nav-break, .search-panel header #page-header #contents #page-nav ul .video_contain a .video_thumbnail, .login-panel #credits #link_wrap #links, .col-lg-4, .login-panel #credits #link_wrap #links, .col-xs-5, .col-sm-5, .col-md-5, #main-footer #footer-bottom .date, #main-footer #footer-bottom .credits, .col-lg-5, .col-xs-6, .col-sm-6, .login-panel .panel-content #log-in .div-inner, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .login-panel #credits #link_wrap #links, .col-sm-8, .col-md-8, .search-panel header #page-header #contents #page-nav ul .video_contain .video_meta, .col-lg-8, .search-panel .panel-content #search-form .panel-center, .login-panel #credits #link_wrap #links ul, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .search-panel header #page-header #contents #page-nav, .col-sm-10, .col-md-10, .login-panel #credits #link_wrap #links ul, .col-lg-10, .login-panel #credits #link_wrap, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .login-panel .panel-content #log-in .div-inner, .login-panel #credits #link_wrap #links ul, .col-sm-12, .login-panel .panel-content #log-in .div-inner #form_wrap, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, #main-footer #branding-panel .brand-inner, .col-md-1, .col-lg-1, .col-xs-2, .search-panel header #page-header #contents #logo, .col-sm-2, .col-md-2, #main-footer #footer-bottom .logo, .col-lg-2, .col-xs-3, .col-sm-3, #main-footer #footer-top .footer-list, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .login-panel #credits #link_wrap #links, .col-md-4, .search-panel header #page-header #contents #page-nav ul .sub-nav-break, .search-panel header #page-header #contents #page-nav ul .video_contain a .video_thumbnail, .login-panel #credits #link_wrap #links, .col-lg-4, .login-panel #credits #link_wrap #links, .col-xs-5, .col-sm-5, .col-md-5, #main-footer #footer-bottom .date, #main-footer #footer-bottom .credits, .col-lg-5, .col-xs-6, .col-sm-6, .login-panel .panel-content #log-in .div-inner, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .login-panel #credits #link_wrap #links, .col-sm-8, .col-md-8, .search-panel header #page-header #contents #page-nav ul .video_contain .video_meta, .col-lg-8, .search-panel .panel-content #search-form .panel-center, .login-panel #credits #link_wrap #links ul, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .search-panel header #page-header #contents #page-nav, .col-sm-10, .col-md-10, .login-panel #credits #link_wrap #links ul, .col-lg-10, .login-panel #credits #link_wrap, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .login-panel .panel-content #log-in .div-inner, .login-panel #credits #link_wrap #links ul, .col-sm-12, .login-panel .panel-content #log-in .div-inner #form_wrap, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -1712,7 +1712,7 @@ pre {
   margin-left: 100%; }
 
 @media (min-width: 768px) {
-  .col-sm-1, #main-footer #branding-panel .brand-inner, .col-sm-2, .col-sm-3, .col-sm-4, .login-panel #credits #link_wrap #links, .col-sm-5, .col-sm-6, .login-panel .panel-content #log-in .div-inner, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .login-panel .panel-content #log-in .div-inner #form_wrap {
+  .col-sm-1, #main-footer #branding-panel .brand-inner, .col-sm-2, .col-sm-3, #main-footer #footer-top .footer-list, .col-sm-4, .login-panel #credits #link_wrap #links, .col-sm-5, .col-sm-6, .login-panel .panel-content #log-in .div-inner, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .login-panel .panel-content #log-in .div-inner #form_wrap {
     float: left; }
 
   .col-sm-1, #main-footer #branding-panel .brand-inner {
@@ -1721,7 +1721,7 @@ pre {
   .col-sm-2 {
     width: 16.6666666667%; }
 
-  .col-sm-3 {
+  .col-sm-3, #main-footer #footer-top .footer-list {
     width: 25%; }
 
   .col-sm-4, .login-panel #credits #link_wrap #links {
@@ -1868,7 +1868,7 @@ pre {
   .col-sm-offset-12 {
     margin-left: 100%; } }
 @media (min-width: 992px) {
-  .col-md-1, .col-md-2, #main-footer #footer-bottom .logo, .col-md-3, #main-footer #footer-top .footer-list, .col-md-4, .search-panel header #page-header #contents #page-nav ul .sub-nav-break, .search-panel header #page-header #contents #page-nav ul .video_contain a .video_thumbnail, .login-panel #credits #link_wrap #links, .col-md-5, #main-footer #footer-bottom .date, #main-footer #footer-bottom .credits, .col-md-6, .col-md-7, .col-md-8, .search-panel header #page-header #contents #page-nav ul .video_contain .video_meta, .col-md-9, .col-md-10, .login-panel #credits #link_wrap #links ul, .col-md-11, .col-md-12 {
+  .col-md-1, .col-md-2, #main-footer #footer-bottom .logo, .col-md-3, .col-md-4, .search-panel header #page-header #contents #page-nav ul .sub-nav-break, .search-panel header #page-header #contents #page-nav ul .video_contain a .video_thumbnail, .login-panel #credits #link_wrap #links, .col-md-5, #main-footer #footer-bottom .date, #main-footer #footer-bottom .credits, .col-md-6, .col-md-7, .col-md-8, .search-panel header #page-header #contents #page-nav ul .video_contain .video_meta, .col-md-9, .col-md-10, .login-panel #credits #link_wrap #links ul, .col-md-11, .col-md-12 {
     float: left; }
 
   .col-md-1 {
@@ -1877,7 +1877,7 @@ pre {
   .col-md-2, #main-footer #footer-bottom .logo {
     width: 16.6666666667%; }
 
-  .col-md-3, #main-footer #footer-top .footer-list {
+  .col-md-3 {
     width: 25%; }
 
   .col-md-4, .search-panel header #page-header #contents #page-nav ul .sub-nav-break, .search-panel header #page-header #contents #page-nav ul .video_contain a .video_thumbnail, .login-panel #credits #link_wrap #links {
@@ -8363,7 +8363,9 @@ body {
       @media (max-width: 991px) {
         #main-footer #footer-top .footer-give {
           display: block;
-          margin-top: 80px; } }
+          margin-top: 80px; }
+          #main-footer #footer-top .footer-give address {
+            text-align: center; } }
     #main-footer #footer-top #give-wsu {
       cursor: pointer;
       position: relative;

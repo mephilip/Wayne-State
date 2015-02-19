@@ -1101,7 +1101,7 @@ body {
 		border-bottom: 1px solid rgba(0,0,0,.06);
 		
 		.footer-list{
-			@extend .col-md-3;
+			@extend .col-sm-3;
 			@media (max-width: $screen-xs-max) { 
 				display:none;
 			}
@@ -1139,6 +1139,9 @@ body {
 			@media (max-width: $screen-sm-max) { 
 				display:block;
 				margin-top: 80px;
+				address{
+					text-align: center;
+				}
 			}
 		}
 		#give-wsu{
