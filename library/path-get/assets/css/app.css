@@ -7921,7 +7921,8 @@ body {
       z-index: 2;
       display: none;
       border-bottom: 3px solid rgba(0, 0, 0, 0.1);
-      width: 100%; }
+      width: 100%;
+      top: 61px; }
       .search-panel header #page-header #contents #page-nav ul .sub-nav li, .search-panel header #page-header #contents #page-nav ul ul li {
         margin-left: 0px;
         border-bottom: 1px dotted rgba(0, 0, 0, 0.07);
