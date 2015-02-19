@@ -1055,12 +1055,13 @@ body {
 #main-footer{
 	position: relative;
 	#branding-panel{
-		position: relative;
+		position: absolute;
 		top: 0px;
 		right: 0px;
 		height: 5px;
 		margin-top: -5px;
-		z-index:9;
+		z-index:2;
+		left:0;
 		@extend .container;
 		text-align: right;
 		.brand-inner{
@@ -1233,7 +1234,7 @@ body {
 			}
 		}
 		.social-links{
-			margin:15px 0px 5px 0px;
+			margin:15px 0px 5px 0px !important;
 			text-align: center;
 			li{
 				display: inline;

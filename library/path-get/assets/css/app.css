@@ -8301,12 +8301,13 @@ body {
 #main-footer {
   position: relative; }
   #main-footer #branding-panel {
-    position: relative;
+    position: absolute;
     top: 0px;
     right: 0px;
     height: 5px;
     margin-top: -5px;
-    z-index: 9;
+    z-index: 2;
+    left: 0;
     text-align: right; }
     #main-footer #branding-panel span {
       width: 30px;
@@ -8440,7 +8441,7 @@ body {
           color: #fff;
           height: 35px; }
     #main-footer #footer-top .social-links {
-      margin: 15px 0px 5px 0px;
+      margin: 15px 0px 5px 0px !important;
       text-align: center; }
       #main-footer #footer-top .social-links li {
         display: inline;
