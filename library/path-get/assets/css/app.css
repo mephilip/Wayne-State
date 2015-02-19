@@ -8333,8 +8333,9 @@ body {
     background: #226357;
     padding: 30px 15px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.06); }
-    #main-footer #footer-top .footer-give {
-      margin-top: 27px; }
+    @media (max-width: 767px) {
+      #main-footer #footer-top .footer-list {
+        display: none; } }
     #main-footer #footer-top .footer-list h2 {
       border-bottom: 1px solid rgba(255, 255, 255, 0.1);
       margin-top: 0px; }
@@ -8356,12 +8357,22 @@ body {
       #main-footer #footer-top .footer-list h4 a {
         color: #fff !important;
         border: none !important; }
+    #main-footer #footer-top .footer-give {
+      margin-top: 27px; }
+      @media (max-width: 991px) {
+        #main-footer #footer-top .footer-give {
+          display: block;
+          margin-top: 80px; } }
     #main-footer #footer-top #give-wsu {
       cursor: pointer;
       position: relative;
       margin: 0 auto;
       width: 158px;
       margin-bottom: 70px; }
+      @media (max-width: 991px) {
+        #main-footer #footer-top #give-wsu {
+          margin-bottom: 0px;
+          top: -72px; } }
       #main-footer #footer-top #give-wsu .give-text {
         font-family: "Gentium Basic";
         background: #992B50;
@@ -8461,10 +8472,21 @@ body {
       margin: 0px;
       padding: 0px;
       color: #ccc; }
+      @media (max-width: 991px) {
+        #main-footer #footer-bottom .date p span {
+          width: 100%;
+          display: block;
+          text-align: center;
+          font-size: 11px; }
+          #main-footer #footer-bottom .date p span:last-child {
+            margin-bottom: 8px; } }
     #main-footer #footer-bottom .logo {
       background: url("../images/w-yellow.png") no-repeat top center;
       background-size: 27px;
       height: 21px; }
+    @media (max-width: 991px) {
+      #main-footer #footer-bottom .credits {
+        display: none; } }
     #main-footer #footer-bottom .credits ul {
       list-style-type: none;
       margin: 0px;
@@ -8472,6 +8494,9 @@ body {
       #main-footer #footer-bottom .credits ul li {
         display: inline-block;
         margin-left: 14px; }
+        @media (max-width: 991px) {
+          #main-footer #footer-bottom .credits ul li a {
+            font-size: 11px; } }
   #main-footer .footer-contents {
     color: #fff; }
 

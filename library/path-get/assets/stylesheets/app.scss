@@ -1098,11 +1098,12 @@ body {
 		background: $green-base;
 		padding:30px 15px;
 		border-bottom: 1px solid rgba(0,0,0,.06);
-		.footer-give{
-			margin-top: 27px;
-		}
+		
 		.footer-list{
 			@extend .col-md-3;
+			@media (max-width: $screen-xs-max) { 
+				display:none;
+			}
 			h2{
 				border-bottom: 1px solid rgba(#fff,.1);
 				margin-top: 0px;
@@ -1132,12 +1133,23 @@ body {
 				}
 			}
 		}
+		.footer-give{
+			margin-top: 27px;
+			@media (max-width: $screen-sm-max) { 
+				display:block;
+				margin-top: 80px;
+			}
+		}
 		#give-wsu{
 		cursor: pointer;
 		position: relative;
 		margin: 0 auto;
 		width: 158px;
 		margin-bottom: 70px;
+		@media (max-width: $screen-sm-max) { 
+			margin-bottom: 0px;
+			top:-72px;
+		}
 			.give-text{
 				font-family: "Gentium Basic";
 				background: $red-base;
@@ -1260,6 +1272,17 @@ body {
 				margin:0px;
 				padding:0px;
 				color: #ccc;
+				span{
+					@media (max-width: $screen-sm-max) { 
+						width:100%;
+						display:block;
+						text-align: center;
+						font-size: 11px;
+						&:last-child{
+							margin-bottom: 8px;
+						}
+					}
+				}
 			}
 		}
 		.logo{
@@ -1270,6 +1293,9 @@ body {
 		}
 		.credits{
 			@extend .col-md-5;
+			@media (max-width: $screen-sm-max) { 
+				display: none;	
+			}
 			ul{
 				list-style-type: none;
 				margin: 0px;
@@ -1278,6 +1304,11 @@ body {
 				li{
 					display: inline-block;
 					margin-left: 14px;
+					a{
+						@media (max-width: $screen-sm-max) { 
+							font-size: 11px;
+						}
+					}
 					
 				}
 			}

@@ -280,7 +280,7 @@
 			<div id="footer-bottom">
 				<div class="footer-contents">
 					<div class="date">
-						<p>© 2009 - <?php echo date('Y');?> Wayne State University Board of Governors</p>
+						<p><span>© 2009 - <?php echo date('Y');?></span> <span>Wayne State University Board of Governors</span></p>
 					</div>
 					<div class="logo"></div>
 					<div class="credits">
