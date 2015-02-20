@@ -7841,7 +7841,9 @@ body {
     width: 100%; }
     @media (max-width: 767px) {
       .header-panel header {
-        height: 40px; } }
+        height: 40px;
+        border: none;
+        box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2); } }
     .header-panel header #page-header #contents #logo {
       height: 100px;
       width: auto;
@@ -8612,12 +8614,15 @@ body {
     padding: 10px 0px 5px 0px;
     padding: 0.625rem 0rem 0.3125rem 0rem;
     border-right: 1px solid rgba(0, 0, 0, 0.1);
-    transition: background ease .2s;
+    transition: background ease .5s;
     height: 100%;
     font-size: 27px;
     font-size: 1.6875rem; }
     #mobile-slider .mobile-button:hover {
-      background: #fff;
+      background: #E3DCC5;
       cursor: pointer; }
+    #mobile-slider .mobile-button.active {
+      background: #0c5449;
+      color: #fff; }
     #mobile-slider .mobile-button:last-child {
       border-right: none; }

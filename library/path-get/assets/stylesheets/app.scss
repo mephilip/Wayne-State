@@ -426,6 +426,8 @@ body {
 		width:100%;
 		@media(max-width: $screen-xs-max){
 			height:40px;
+			border:none;
+			box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
 		}
 		#page-header{
 			@extend .container;
@@ -1474,12 +1476,16 @@ body {
 		@extend .text-center;
 		@include paddingSize(10px, 0px, 5px, 0px);
 		border-right:1px solid rgba(#000,.1);
-		transition: background ease .2s;
+		transition: background ease .5s;
 		height:100%;
 		@include fontSize(27px);
 		&:hover{
-			background: #fff;
+			background: $beige-base;
 			cursor: pointer;
+		}
+		&.active{
+			background: $green-darker;
+			color:#fff;
 		}
 		&:last-child{
 		border-right:none;
