@@ -1489,8 +1489,7 @@ body {
 			cursor: pointer;
 		}
 		&.active{
-			background: $green-darker;
-			color:#fff;
+			background: $beige-base;
 		}
 		&:last-child{
 		border-right:none;
@@ -1499,7 +1498,26 @@ body {
 }
 
 
-
+#mobile-swipe{
+	position: fixed;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	background: #fff;
+	z-index: 8;
+	display:none;
+	overflow-y: scroll;
+	@media(min-width: $screen-sm-max){
+		display:none !important;
+	}
+	&.active{
+		display: block;
+	}
+	.swipe-inner{
+		padding:50px 60px;
+	}
+}
 
 
 

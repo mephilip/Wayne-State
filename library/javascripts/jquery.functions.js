@@ -114,5 +114,28 @@ jQuery(document).ready(function($) {
 	});
 	
 	
+	$( ".mobile-button" ).click(function() {
+		$( '.mobile-button' ).removeClass( "active" );
+		var current_button = $(this);
+		current_button.addClass('active');
+		if(current_button.hasClass('home')){
+			$('#mobile-swipe').fadeOut();
+			$('body').removeClass('no-scroll');
+		} else {
+			$('.tab-close').hide();
+			$('#mobile-swipe').fadeIn();
+			$('body').addClass('no-scroll');
+			$( "body" ).scrollTop( 0 );
+			if(current_button.hasClass('hours')){
+				$('.hours-open').fadeIn();
+			} else if(current_button.hasClass('phone')){
+				$('.phone-open').fadeIn();
+			} else if(current_button.hasClass('map')){
+				$('.map-open').fadeIn();
+			}
+			// then do some ajax to get the content
+		}
+		return false;
+	});
 	
 });

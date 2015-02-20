@@ -309,18 +309,50 @@
   </div>
 </div>
 </div>
+<div id="mobile-swipe">
+	<div class="swipe-inner">
+		<div class="hours-open tab-close">
+			<h3>Hours Content</h3>
 
+<p>Vivamus ornare neque at ex luctus fringilla. In fringilla erat lacinia velit imperdiet sagittis. Suspendisse aliquam at ante sed suscipit. Pellentesque ac ligula posuere, rhoncus massa vitae, tempus tortor. Vestibulum ut sem quis turpis venenatis sagittis. Proin turpis lacus, luctus eu lacus eu, pharetra scelerisque nibh. Morbi lorem erat, porttitor vel tincidunt sit amet, aliquam vitae eros. Nunc ac eleifend eros. Nam congue eros eu suscipit efficitur. Nulla ut nisi at risus rhoncus efficitur nec a arcu. Aenean aliquam odio ut dui efficitur, at varius arcu egestas.</p>
+
+<p>Phasellus scelerisque lectus eget ipsum rhoncus, et sagittis lorem sollicitudin. Donec vel metus tempor, facilisis risus eget, placerat lorem. Aenean lacinia turpis eu ligula porta sodales. Etiam eros eros, rutrum et molestie in, facilisis eu massa. In vel lorem vel neque mattis dapibus. Pellentesque efficitur mi sem, ut venenatis quam lobortis ac. Cras euismod ligula porta tortor malesuada cursus. Quisque egestas ornare eleifend. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum ut dui elementum, euismod augue quis, ornare turpis. Mauris a pulvinar nisl, quis porttitor nulla. In hac habitasse platea dictumst. Vivamus molestie, nisi sed maximus venenatis, quam erat ullamcorper lacus, ac iaculis felis tellus et diam. Nam tincidunt hendrerit turpis, sed egestas nulla pulvinar et.</p>
+
+<p>Mauris congue, neque id dapibus tincidunt, tellus felis cursus eros, non fringilla lorem risus quis nibh. Cras posuere ligula quis vestibulum lobortis. Maecenas eget mollis augue, nec porttitor nisl. Donec bibendum nulla a blandit congue. Cras elementum ex velit, tempor feugiat enim vestibulum eu. Suspendisse potenti. Phasellus placerat lacus ac mi pellentesque, id lobortis lorem ornare. Nulla maximus iaculis urna, sit amet aliquet magna lacinia vitae.</p>
+		</div>
+		
+		<div class="phone-open tab-close">
+			<h3>Phone Number/Contact Content</h3>
+
+<p>Vivamus ornare neque at ex luctus fringilla. In fringilla erat lacinia velit imperdiet sagittis. Suspendisse aliquam at ante sed suscipit. Pellentesque ac ligula posuere, rhoncus massa vitae, tempus tortor. Vestibulum ut sem quis turpis venenatis sagittis. Proin turpis lacus, luctus eu lacus eu, pharetra scelerisque nibh. Morbi lorem erat, porttitor vel tincidunt sit amet, aliquam vitae eros. Nunc ac eleifend eros. Nam congue eros eu suscipit efficitur. Nulla ut nisi at risus rhoncus efficitur nec a arcu. Aenean aliquam odio ut dui efficitur, at varius arcu egestas.</p>
+
+<p>Phasellus scelerisque lectus eget ipsum rhoncus, et sagittis lorem sollicitudin. Donec vel metus tempor, facilisis risus eget, placerat lorem. Aenean lacinia turpis eu ligula porta sodales. Etiam eros eros, rutrum et molestie in, facilisis eu massa. In vel lorem vel neque mattis dapibus. Pellentesque efficitur mi sem, ut venenatis quam lobortis ac. Cras euismod ligula porta tortor malesuada cursus. Quisque egestas ornare eleifend. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum ut dui elementum, euismod augue quis, ornare turpis. Mauris a pulvinar nisl, quis porttitor nulla. In hac habitasse platea dictumst. Vivamus molestie, nisi sed maximus venenatis, quam erat ullamcorper lacus, ac iaculis felis tellus et diam. Nam tincidunt hendrerit turpis, sed egestas nulla pulvinar et.</p>
+
+<p>Mauris congue, neque id dapibus tincidunt, tellus felis cursus eros, non fringilla lorem risus quis nibh. Cras posuere ligula quis vestibulum lobortis. Maecenas eget mollis augue, nec porttitor nisl. Donec bibendum nulla a blandit congue. Cras elementum ex velit, tempor feugiat enim vestibulum eu. Suspendisse potenti. Phasellus placerat lacus ac mi pellentesque, id lobortis lorem ornare. Nulla maximus iaculis urna, sit amet aliquet magna lacinia vitae.</p>
+		</div>
+		
+		<div class="map-open tab-close">
+			<h3>Maps Content</h3>
+
+<p>Vivamus ornare neque at ex luctus fringilla. In fringilla erat lacinia velit imperdiet sagittis. Suspendisse aliquam at ante sed suscipit. Pellentesque ac ligula posuere, rhoncus massa vitae, tempus tortor. Vestibulum ut sem quis turpis venenatis sagittis. Proin turpis lacus, luctus eu lacus eu, pharetra scelerisque nibh. Morbi lorem erat, porttitor vel tincidunt sit amet, aliquam vitae eros. Nunc ac eleifend eros. Nam congue eros eu suscipit efficitur. Nulla ut nisi at risus rhoncus efficitur nec a arcu. Aenean aliquam odio ut dui efficitur, at varius arcu egestas.</p>
+
+<p>Phasellus scelerisque lectus eget ipsum rhoncus, et sagittis lorem sollicitudin. Donec vel metus tempor, facilisis risus eget, placerat lorem. Aenean lacinia turpis eu ligula porta sodales. Etiam eros eros, rutrum et molestie in, facilisis eu massa. In vel lorem vel neque mattis dapibus. Pellentesque efficitur mi sem, ut venenatis quam lobortis ac. Cras euismod ligula porta tortor malesuada cursus. Quisque egestas ornare eleifend. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum ut dui elementum, euismod augue quis, ornare turpis. Mauris a pulvinar nisl, quis porttitor nulla. In hac habitasse platea dictumst. Vivamus molestie, nisi sed maximus venenatis, quam erat ullamcorper lacus, ac iaculis felis tellus et diam. Nam tincidunt hendrerit turpis, sed egestas nulla pulvinar et.</p>
+
+<p>Mauris congue, neque id dapibus tincidunt, tellus felis cursus eros, non fringilla lorem risus quis nibh. Cras posuere ligula quis vestibulum lobortis. Maecenas eget mollis augue, nec porttitor nisl. Donec bibendum nulla a blandit congue. Cras elementum ex velit, tempor feugiat enim vestibulum eu. Suspendisse potenti. Phasellus placerat lacus ac mi pellentesque, id lobortis lorem ornare. Nulla maximus iaculis urna, sit amet aliquet magna lacinia vitae.</p>
+		</div>
+	</div>
+</div>
 <div id="mobile-slider">
-	<div class="mobile-button">
+	<div class="mobile-button home active">
 		<i class="fa fa-home"></i>
 	</div>
-	<div class="mobile-button">
+	<div class="mobile-button hours ">
 		<i class="fa fa-clock-o"></i>
 	</div>
-	<div class="mobile-button">
+	<div class="mobile-button phone">
 		<i class="fa fa-phone"></i>
 	</div>
-	<div class="mobile-button">
+	<div class="mobile-button map">
 		<i class="fa fa-map-marker"></i>
 	</div>
 </div>

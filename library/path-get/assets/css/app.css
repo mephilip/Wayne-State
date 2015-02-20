@@ -8628,7 +8628,24 @@ body {
       background: #E3DCC5;
       cursor: pointer; }
     #mobile-slider .mobile-button.active {
-      background: #0c5449;
-      color: #fff; }
+      background: #E3DCC5; }
     #mobile-slider .mobile-button:last-child {
       border-right: none; }
+
+#mobile-swipe {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  background: #fff;
+  z-index: 8;
+  display: none;
+  overflow-y: scroll; }
+  @media (min-width: 991px) {
+    #mobile-swipe {
+      display: none !important; } }
+  #mobile-swipe.active {
+    display: block; }
+  #mobile-swipe .swipe-inner {
+    padding: 50px 60px; }
