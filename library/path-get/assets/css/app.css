@@ -1245,7 +1245,7 @@ mark,
 .text-right {
   text-align: right; }
 
-.text-center, .flex-nav .viewport #social-menu, .search-panel .panel-content #search-form .panel-center, .login-panel header #header_contain, .login-panel #credits #link_wrap #links {
+.text-center, .flex-nav .viewport #social-menu, .header-panel .panel-content #search-form .panel-center, .login-panel header #header_contain, .login-panel #credits #link_wrap #links {
   text-align: center; }
 
 .text-justify {
@@ -1420,7 +1420,7 @@ blockquote {
 
 .blockquote-reverse,
 blockquote.pull-right,
-.search-panel header #page-header #contents blockquote#page-nav,
+.header-panel header #page-header #contents blockquote#page-nav,
 #main-footer #branding-panel blockquote.brand-inner {
   padding-right: 15px;
   padding-left: 0;
@@ -1431,26 +1431,26 @@ blockquote.pull-right,
   .blockquote-reverse small:before,
   .blockquote-reverse .small:before,
   blockquote.pull-right footer:before,
-  .search-panel header #page-header #contents blockquote#page-nav footer:before,
+  .header-panel header #page-header #contents blockquote#page-nav footer:before,
   #main-footer #branding-panel blockquote.brand-inner footer:before,
   blockquote.pull-right small:before,
-  .search-panel header #page-header #contents blockquote#page-nav small:before,
+  .header-panel header #page-header #contents blockquote#page-nav small:before,
   #main-footer #branding-panel blockquote.brand-inner small:before,
   blockquote.pull-right .small:before,
-  .search-panel header #page-header #contents blockquote#page-nav .small:before,
+  .header-panel header #page-header #contents blockquote#page-nav .small:before,
   #main-footer #branding-panel blockquote.brand-inner .small:before {
     content: ''; }
   .blockquote-reverse footer:after,
   .blockquote-reverse small:after,
   .blockquote-reverse .small:after,
   blockquote.pull-right footer:after,
-  .search-panel header #page-header #contents blockquote#page-nav footer:after,
+  .header-panel header #page-header #contents blockquote#page-nav footer:after,
   #main-footer #branding-panel blockquote.brand-inner footer:after,
   blockquote.pull-right small:after,
-  .search-panel header #page-header #contents blockquote#page-nav small:after,
+  .header-panel header #page-header #contents blockquote#page-nav small:after,
   #main-footer #branding-panel blockquote.brand-inner small:after,
   blockquote.pull-right .small:after,
-  .search-panel header #page-header #contents blockquote#page-nav .small:after,
+  .header-panel header #page-header #contents blockquote#page-nav .small:after,
   #main-footer #branding-panel blockquote.brand-inner .small:after {
     content: '\00A0 \2014'; }
 
@@ -1509,24 +1509,24 @@ pre {
   max-height: 340px;
   overflow-y: scroll; }
 
-.container, .search-panel header #page-header, .search-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap, .search-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap, .search-panel .panel-content #search-form, .login-panel header #header_contain, .login-panel .panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links, #main-footer #branding-panel, #main-footer .footer-contents {
+.container, .header-panel header #page-header, .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap, .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap, .header-panel .panel-content #search-form, .login-panel header #header_contain, .login-panel .panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links, #main-footer #branding-panel, #main-footer .footer-contents {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px; }
-  .container:before, .search-panel header #page-header:before, .search-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap:before, .search-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap:before, .search-panel .panel-content #search-form:before, .login-panel header #header_contain:before, .login-panel .panel-content #log-in:before, .login-panel #credits #link_wrap:before, .login-panel #credits #link_wrap #links:before, #main-footer #branding-panel:before, #main-footer .footer-contents:before, .container:after, .search-panel header #page-header:after, .search-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap:after, .search-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap:after, .search-panel .panel-content #search-form:after, .login-panel header #header_contain:after, .login-panel .panel-content #log-in:after, .login-panel #credits #link_wrap:after, .login-panel #credits #link_wrap #links:after, #main-footer #branding-panel:after, #main-footer .footer-contents:after {
+  .container:before, .header-panel header #page-header:before, .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap:before, .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap:before, .header-panel .panel-content #search-form:before, .login-panel header #header_contain:before, .login-panel .panel-content #log-in:before, .login-panel #credits #link_wrap:before, .login-panel #credits #link_wrap #links:before, #main-footer #branding-panel:before, #main-footer .footer-contents:before, .container:after, .header-panel header #page-header:after, .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap:after, .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap:after, .header-panel .panel-content #search-form:after, .login-panel header #header_contain:after, .login-panel .panel-content #log-in:after, .login-panel #credits #link_wrap:after, .login-panel #credits #link_wrap #links:after, #main-footer #branding-panel:after, #main-footer .footer-contents:after {
     content: " ";
     display: table; }
-  .container:after, .search-panel header #page-header:after, .search-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap:after, .search-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap:after, .search-panel .panel-content #search-form:after, .login-panel header #header_contain:after, .login-panel .panel-content #log-in:after, .login-panel #credits #link_wrap:after, .login-panel #credits #link_wrap #links:after, #main-footer #branding-panel:after, #main-footer .footer-contents:after {
+  .container:after, .header-panel header #page-header:after, .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap:after, .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap:after, .header-panel .panel-content #search-form:after, .login-panel header #header_contain:after, .login-panel .panel-content #log-in:after, .login-panel #credits #link_wrap:after, .login-panel #credits #link_wrap #links:after, #main-footer #branding-panel:after, #main-footer .footer-contents:after {
     clear: both; }
   @media (min-width: 768px) {
-    .container, .search-panel header #page-header, .search-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap, .search-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap, .search-panel .panel-content #search-form, .login-panel header #header_contain, .login-panel .panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links, #main-footer #branding-panel, #main-footer .footer-contents {
+    .container, .header-panel header #page-header, .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap, .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap, .header-panel .panel-content #search-form, .login-panel header #header_contain, .login-panel .panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links, #main-footer #branding-panel, #main-footer .footer-contents {
       width: 750px; } }
   @media (min-width: 992px) {
-    .container, .search-panel header #page-header, .search-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap, .search-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap, .search-panel .panel-content #search-form, .login-panel header #header_contain, .login-panel .panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links, #main-footer #branding-panel, #main-footer .footer-contents {
+    .container, .header-panel header #page-header, .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap, .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap, .header-panel .panel-content #search-form, .login-panel header #header_contain, .login-panel .panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links, #main-footer #branding-panel, #main-footer .footer-contents {
       width: 970px; } }
   @media (min-width: 1200px) {
-    .container, .search-panel header #page-header, .search-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap, .search-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap, .search-panel .panel-content #search-form, .login-panel header #header_contain, .login-panel .panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links, #main-footer #branding-panel, #main-footer .footer-contents {
+    .container, .header-panel header #page-header, .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap, .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap, .header-panel .panel-content #search-form, .login-panel header #header_contain, .login-panel .panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links, #main-footer #branding-panel, #main-footer .footer-contents {
       width: 1170px; } }
 
 .container-fluid {
@@ -1540,28 +1540,28 @@ pre {
   .container-fluid:after {
     clear: both; }
 
-.row, .search-panel header #page-header #contents {
+.row, .header-panel header #page-header #contents {
   margin-left: -15px;
   margin-right: -15px; }
-  .row:before, .search-panel header #page-header #contents:before, .row:after, .search-panel header #page-header #contents:after {
+  .row:before, .header-panel header #page-header #contents:before, .row:after, .header-panel header #page-header #contents:after {
     content: " ";
     display: table; }
-  .row:after, .search-panel header #page-header #contents:after {
+  .row:after, .header-panel header #page-header #contents:after {
     clear: both; }
 
-.col-xs-1, .col-sm-1, #main-footer #branding-panel .brand-inner, .col-md-1, .col-lg-1, .col-xs-2, .search-panel header #page-header #contents #logo, .col-sm-2, .col-md-2, #main-footer #footer-bottom .logo, .col-lg-2, .col-xs-3, .col-sm-3, #main-footer #footer-top .footer-list, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .login-panel #credits #link_wrap #links, .col-md-4, .search-panel header #page-header #contents #page-nav ul .sub-nav-break, .search-panel header #page-header #contents #page-nav ul .video_contain a .video_thumbnail, .login-panel #credits #link_wrap #links, .col-lg-4, .login-panel #credits #link_wrap #links, .col-xs-5, .col-sm-5, .col-md-5, #main-footer #footer-bottom .date, #main-footer #footer-bottom .credits, .col-lg-5, .col-xs-6, .col-sm-6, .login-panel .panel-content #log-in .div-inner, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .login-panel #credits #link_wrap #links, .col-sm-8, .col-md-8, .search-panel header #page-header #contents #page-nav ul .video_contain .video_meta, .col-lg-8, .search-panel .panel-content #search-form .panel-center, .login-panel #credits #link_wrap #links ul, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .search-panel header #page-header #contents #page-nav, .col-sm-10, .col-md-10, .login-panel #credits #link_wrap #links ul, .col-lg-10, .login-panel #credits #link_wrap, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .login-panel .panel-content #log-in .div-inner, .login-panel #credits #link_wrap #links ul, .col-sm-12, .login-panel .panel-content #log-in .div-inner #form_wrap, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, #main-footer #branding-panel .brand-inner, .col-md-1, .col-lg-1, .col-xs-2, .header-panel header #page-header #contents #logo, .col-sm-2, .col-md-2, #main-footer #footer-bottom .logo, .col-lg-2, .col-xs-3, .col-sm-3, #main-footer #footer-top .footer-list, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .login-panel #credits #link_wrap #links, .col-md-4, .header-panel header #page-header #contents #page-nav ul .sub-nav-break, .header-panel header #page-header #contents #page-nav ul .video_contain a .video_thumbnail, .login-panel #credits #link_wrap #links, .col-lg-4, .login-panel #credits #link_wrap #links, .col-xs-5, .col-sm-5, .col-md-5, #main-footer #footer-bottom .date, #main-footer #footer-bottom .credits, .col-lg-5, .col-xs-6, .col-sm-6, .login-panel .panel-content #log-in .div-inner, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .login-panel #credits #link_wrap #links, .col-sm-8, .col-md-8, .header-panel header #page-header #contents #page-nav ul .video_contain .video_meta, .col-lg-8, .header-panel .panel-content #search-form .panel-center, .login-panel #credits #link_wrap #links ul, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .header-panel header #page-header #contents #page-nav, .col-sm-10, .col-md-10, .login-panel #credits #link_wrap #links ul, .col-lg-10, .login-panel #credits #link_wrap, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .login-panel .panel-content #log-in .div-inner, .login-panel #credits #link_wrap #links ul, .col-sm-12, .login-panel .panel-content #log-in .div-inner #form_wrap, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px; }
 
-.col-xs-1, .col-xs-2, .search-panel header #page-header #contents #logo, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .login-panel #credits #link_wrap #links, .col-xs-9, .col-xs-10, .search-panel header #page-header #contents #page-nav, .col-xs-11, .col-xs-12, .login-panel .panel-content #log-in .div-inner, .login-panel #credits #link_wrap #links ul {
+.col-xs-1, .col-xs-2, .header-panel header #page-header #contents #logo, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .login-panel #credits #link_wrap #links, .col-xs-9, .col-xs-10, .header-panel header #page-header #contents #page-nav, .col-xs-11, .col-xs-12, .login-panel .panel-content #log-in .div-inner, .login-panel #credits #link_wrap #links ul {
   float: left; }
 
 .col-xs-1 {
   width: 8.3333333333%; }
 
-.col-xs-2, .search-panel header #page-header #contents #logo {
+.col-xs-2, .header-panel header #page-header #contents #logo {
   width: 16.6666666667%; }
 
 .col-xs-3 {
@@ -1585,7 +1585,7 @@ pre {
 .col-xs-9 {
   width: 75%; }
 
-.col-xs-10, .search-panel header #page-header #contents #page-nav {
+.col-xs-10, .header-panel header #page-header #contents #page-nav {
   width: 83.3333333333%; }
 
 .col-xs-11 {
@@ -1868,7 +1868,7 @@ pre {
   .col-sm-offset-12 {
     margin-left: 100%; } }
 @media (min-width: 992px) {
-  .col-md-1, .col-md-2, #main-footer #footer-bottom .logo, .col-md-3, .col-md-4, .search-panel header #page-header #contents #page-nav ul .sub-nav-break, .search-panel header #page-header #contents #page-nav ul .video_contain a .video_thumbnail, .login-panel #credits #link_wrap #links, .col-md-5, #main-footer #footer-bottom .date, #main-footer #footer-bottom .credits, .col-md-6, .col-md-7, .col-md-8, .search-panel header #page-header #contents #page-nav ul .video_contain .video_meta, .col-md-9, .col-md-10, .login-panel #credits #link_wrap #links ul, .col-md-11, .col-md-12 {
+  .col-md-1, .col-md-2, #main-footer #footer-bottom .logo, .col-md-3, .col-md-4, .header-panel header #page-header #contents #page-nav ul .sub-nav-break, .header-panel header #page-header #contents #page-nav ul .video_contain a .video_thumbnail, .login-panel #credits #link_wrap #links, .col-md-5, #main-footer #footer-bottom .date, #main-footer #footer-bottom .credits, .col-md-6, .col-md-7, .col-md-8, .header-panel header #page-header #contents #page-nav ul .video_contain .video_meta, .col-md-9, .col-md-10, .login-panel #credits #link_wrap #links ul, .col-md-11, .col-md-12 {
     float: left; }
 
   .col-md-1 {
@@ -1880,7 +1880,7 @@ pre {
   .col-md-3 {
     width: 25%; }
 
-  .col-md-4, .search-panel header #page-header #contents #page-nav ul .sub-nav-break, .search-panel header #page-header #contents #page-nav ul .video_contain a .video_thumbnail, .login-panel #credits #link_wrap #links {
+  .col-md-4, .header-panel header #page-header #contents #page-nav ul .sub-nav-break, .header-panel header #page-header #contents #page-nav ul .video_contain a .video_thumbnail, .login-panel #credits #link_wrap #links {
     width: 33.3333333333%; }
 
   .col-md-5, #main-footer #footer-bottom .date, #main-footer #footer-bottom .credits {
@@ -1892,7 +1892,7 @@ pre {
   .col-md-7 {
     width: 58.3333333333%; }
 
-  .col-md-8, .search-panel header #page-header #contents #page-nav ul .video_contain .video_meta {
+  .col-md-8, .header-panel header #page-header #contents #page-nav ul .video_contain .video_meta {
     width: 66.6666666667%; }
 
   .col-md-9 {
@@ -2024,7 +2024,7 @@ pre {
   .col-md-offset-12 {
     margin-left: 100%; } }
 @media (min-width: 1200px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .login-panel #credits #link_wrap #links, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .search-panel .panel-content #search-form .panel-center, .login-panel #credits #link_wrap #links ul, .col-lg-9, .col-lg-10, .login-panel #credits #link_wrap, .col-lg-11, .col-lg-12 {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .login-panel #credits #link_wrap #links, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .header-panel .panel-content #search-form .panel-center, .login-panel #credits #link_wrap #links ul, .col-lg-9, .col-lg-10, .login-panel #credits #link_wrap, .col-lg-11, .col-lg-12 {
     float: left; }
 
   .col-lg-1 {
@@ -2048,7 +2048,7 @@ pre {
   .col-lg-7 {
     width: 58.3333333333%; }
 
-  .col-lg-8, .search-panel .panel-content #search-form .panel-center, .login-panel #credits #link_wrap #links ul {
+  .col-lg-8, .header-panel .panel-content #search-form .panel-center, .login-panel #credits #link_wrap #links ul {
     width: 66.6666666667%; }
 
   .col-lg-9 {
@@ -2147,7 +2147,7 @@ pre {
   .col-lg-offset-1, .login-panel #credits #link_wrap {
     margin-left: 8.3333333333%; }
 
-  .col-lg-offset-2, .search-panel .panel-content #search-form .panel-center, .login-panel #credits #link_wrap #links ul {
+  .col-lg-offset-2, .header-panel .panel-content #search-form .panel-center, .login-panel #credits #link_wrap #links ul {
     margin-left: 16.6666666667%; }
 
   .col-lg-offset-3 {
@@ -3114,7 +3114,7 @@ tbody.collapse.in {
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   background-clip: padding-box; }
-  .dropdown-menu.pull-right, .search-panel header #page-header #contents .dropdown-menu#page-nav, .search-panel header #page-header #contents #page-nav ul.dropdown-menu, #main-footer #branding-panel .dropdown-menu.brand-inner, #main-footer #footer-bottom .credits ul.dropdown-menu {
+  .dropdown-menu.pull-right, .header-panel header #page-header #contents .dropdown-menu#page-nav, .header-panel header #page-header #contents #page-nav ul.dropdown-menu, #main-footer #branding-panel .dropdown-menu.brand-inner, #main-footer #footer-bottom .credits ul.dropdown-menu {
     right: 0;
     left: auto; }
   .dropdown-menu .divider {
@@ -3180,7 +3180,7 @@ tbody.collapse.in {
   top: 0;
   z-index: 990; }
 
-.pull-right > .dropdown-menu, .search-panel header #page-header #contents #page-nav > .dropdown-menu, .search-panel header #page-header #contents #page-nav ul > .dropdown-menu, #main-footer #branding-panel .brand-inner > .dropdown-menu, #main-footer #footer-bottom .credits ul > .dropdown-menu {
+.pull-right > .dropdown-menu, .header-panel header #page-header #contents #page-nav > .dropdown-menu, .header-panel header #page-header #contents #page-nav ul > .dropdown-menu, #main-footer #branding-panel .brand-inner > .dropdown-menu, #main-footer #footer-bottom .credits ul > .dropdown-menu {
   right: 0;
   left: auto; }
 
@@ -3648,12 +3648,12 @@ tbody.collapse.in {
     .navbar-fixed-bottom .navbar-collapse {
       max-height: 200px; } }
 
-.container > .navbar-header, .search-panel header #page-header > .navbar-header, .search-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap > .navbar-header, .search-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap > .navbar-header, .search-panel .panel-content #search-form > .navbar-header, .login-panel header #header_contain > .navbar-header, .login-panel .panel-content #log-in > .navbar-header, .login-panel #credits #link_wrap > .navbar-header, .login-panel #credits #link_wrap #links > .navbar-header, #main-footer #branding-panel > .navbar-header, #main-footer .footer-contents > .navbar-header,
+.container > .navbar-header, .header-panel header #page-header > .navbar-header, .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap > .navbar-header, .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap > .navbar-header, .header-panel .panel-content #search-form > .navbar-header, .login-panel header #header_contain > .navbar-header, .login-panel .panel-content #log-in > .navbar-header, .login-panel #credits #link_wrap > .navbar-header, .login-panel #credits #link_wrap #links > .navbar-header, #main-footer #branding-panel > .navbar-header, #main-footer .footer-contents > .navbar-header,
 .container > .navbar-collapse,
-.search-panel header #page-header > .navbar-collapse,
-.search-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap > .navbar-collapse,
-.search-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap > .navbar-collapse,
-.search-panel .panel-content #search-form > .navbar-collapse,
+.header-panel header #page-header > .navbar-collapse,
+.header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap > .navbar-collapse,
+.header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap > .navbar-collapse,
+.header-panel .panel-content #search-form > .navbar-collapse,
 .login-panel header #header_contain > .navbar-collapse,
 .login-panel .panel-content #log-in > .navbar-collapse,
 .login-panel #credits #link_wrap > .navbar-collapse,
@@ -3665,12 +3665,12 @@ tbody.collapse.in {
   margin-right: -15px;
   margin-left: -15px; }
   @media (min-width: 768px) {
-    .container > .navbar-header, .search-panel header #page-header > .navbar-header, .search-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap > .navbar-header, .search-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap > .navbar-header, .search-panel .panel-content #search-form > .navbar-header, .login-panel header #header_contain > .navbar-header, .login-panel .panel-content #log-in > .navbar-header, .login-panel #credits #link_wrap > .navbar-header, .login-panel #credits #link_wrap #links > .navbar-header, #main-footer #branding-panel > .navbar-header, #main-footer .footer-contents > .navbar-header,
+    .container > .navbar-header, .header-panel header #page-header > .navbar-header, .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap > .navbar-header, .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap > .navbar-header, .header-panel .panel-content #search-form > .navbar-header, .login-panel header #header_contain > .navbar-header, .login-panel .panel-content #log-in > .navbar-header, .login-panel #credits #link_wrap > .navbar-header, .login-panel #credits #link_wrap #links > .navbar-header, #main-footer #branding-panel > .navbar-header, #main-footer .footer-contents > .navbar-header,
     .container > .navbar-collapse,
-    .search-panel header #page-header > .navbar-collapse,
-    .search-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap > .navbar-collapse,
-    .search-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap > .navbar-collapse,
-    .search-panel .panel-content #search-form > .navbar-collapse,
+    .header-panel header #page-header > .navbar-collapse,
+    .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap > .navbar-collapse,
+    .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap > .navbar-collapse,
+    .header-panel .panel-content #search-form > .navbar-collapse,
     .login-panel header #header_contain > .navbar-collapse,
     .login-panel .panel-content #log-in > .navbar-collapse,
     .login-panel #credits #link_wrap > .navbar-collapse,
@@ -3720,7 +3720,7 @@ tbody.collapse.in {
   .navbar-brand > img {
     display: block; }
   @media (min-width: 768px) {
-    .navbar > .container .navbar-brand, .search-panel header .navbar > #page-header .navbar-brand, .search-panel header #page-header #contents #page-nav ul .sub-nav .navbar > .sub-nav-wrap .navbar-brand, .search-panel header #page-header #contents #page-nav ul ul .navbar > .sub-nav-wrap .navbar-brand, .search-panel .panel-content .navbar > #search-form .navbar-brand, .login-panel header .navbar > #header_contain .navbar-brand, .login-panel .panel-content .navbar > #log-in .navbar-brand, .login-panel #credits .navbar > #link_wrap .navbar-brand, .login-panel #credits #link_wrap .navbar > #links .navbar-brand, #main-footer .navbar > #branding-panel .navbar-brand, #main-footer .navbar > .footer-contents .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    .navbar > .container .navbar-brand, .header-panel header .navbar > #page-header .navbar-brand, .header-panel header #page-header #contents #page-nav ul .sub-nav .navbar > .sub-nav-wrap .navbar-brand, .header-panel header #page-header #contents #page-nav ul ul .navbar > .sub-nav-wrap .navbar-brand, .header-panel .panel-content .navbar > #search-form .navbar-brand, .login-panel header .navbar > #header_contain .navbar-brand, .login-panel .panel-content .navbar > #log-in .navbar-brand, .login-panel #credits .navbar > #link_wrap .navbar-brand, .login-panel #credits #link_wrap .navbar > #links .navbar-brand, #main-footer .navbar > #branding-panel .navbar-brand, #main-footer .navbar > .footer-contents .navbar-brand, .navbar > .container-fluid .navbar-brand {
       margin-left: -15px; } }
 
 .navbar-toggle {
@@ -4232,14 +4232,14 @@ a.badge:hover, a.badge:focus {
     font-weight: 200; }
   .jumbotron > hr {
     border-top-color: #d5d5d5; }
-  .container .jumbotron, .search-panel header #page-header .jumbotron, .search-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap .jumbotron, .search-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap .jumbotron, .search-panel .panel-content #search-form .jumbotron, .login-panel header #header_contain .jumbotron, .login-panel .panel-content #log-in .jumbotron, .login-panel #credits #link_wrap .jumbotron, .login-panel #credits #link_wrap #links .jumbotron, #main-footer #branding-panel .jumbotron, #main-footer .footer-contents .jumbotron, .container-fluid .jumbotron {
+  .container .jumbotron, .header-panel header #page-header .jumbotron, .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap .jumbotron, .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap .jumbotron, .header-panel .panel-content #search-form .jumbotron, .login-panel header #header_contain .jumbotron, .login-panel .panel-content #log-in .jumbotron, .login-panel #credits #link_wrap .jumbotron, .login-panel #credits #link_wrap #links .jumbotron, #main-footer #branding-panel .jumbotron, #main-footer .footer-contents .jumbotron, .container-fluid .jumbotron {
     border-radius: 6px; }
-  .jumbotron .container, .jumbotron .search-panel header #page-header, .search-panel header .jumbotron #page-header, .jumbotron .search-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap, .search-panel header #page-header #contents #page-nav ul .sub-nav .jumbotron .sub-nav-wrap, .jumbotron .search-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap, .search-panel header #page-header #contents #page-nav ul ul .jumbotron .sub-nav-wrap, .jumbotron .search-panel .panel-content #search-form, .search-panel .panel-content .jumbotron #search-form, .jumbotron .login-panel header #header_contain, .login-panel header .jumbotron #header_contain, .jumbotron .login-panel .panel-content #log-in, .login-panel .panel-content .jumbotron #log-in, .jumbotron .login-panel #credits #link_wrap, .login-panel #credits .jumbotron #link_wrap, .jumbotron .login-panel #credits #link_wrap #links, .login-panel #credits #link_wrap .jumbotron #links, .jumbotron #main-footer #branding-panel, #main-footer .jumbotron #branding-panel, .jumbotron #main-footer .footer-contents, #main-footer .jumbotron .footer-contents {
+  .jumbotron .container, .jumbotron .header-panel header #page-header, .header-panel header .jumbotron #page-header, .jumbotron .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap, .header-panel header #page-header #contents #page-nav ul .sub-nav .jumbotron .sub-nav-wrap, .jumbotron .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap, .header-panel header #page-header #contents #page-nav ul ul .jumbotron .sub-nav-wrap, .jumbotron .header-panel .panel-content #search-form, .header-panel .panel-content .jumbotron #search-form, .jumbotron .login-panel header #header_contain, .login-panel header .jumbotron #header_contain, .jumbotron .login-panel .panel-content #log-in, .login-panel .panel-content .jumbotron #log-in, .jumbotron .login-panel #credits #link_wrap, .login-panel #credits .jumbotron #link_wrap, .jumbotron .login-panel #credits #link_wrap #links, .login-panel #credits #link_wrap .jumbotron #links, .jumbotron #main-footer #branding-panel, #main-footer .jumbotron #branding-panel, .jumbotron #main-footer .footer-contents, #main-footer .jumbotron .footer-contents {
     max-width: 100%; }
   @media screen and (min-width: 768px) {
     .jumbotron {
       padding: 48px 0; }
-      .container .jumbotron, .search-panel header #page-header .jumbotron, .search-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap .jumbotron, .search-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap .jumbotron, .search-panel .panel-content #search-form .jumbotron, .login-panel header #header_contain .jumbotron, .login-panel .panel-content #log-in .jumbotron, .login-panel #credits #link_wrap .jumbotron, .login-panel #credits #link_wrap #links .jumbotron, #main-footer #branding-panel .jumbotron, #main-footer .footer-contents .jumbotron, .container-fluid .jumbotron {
+      .container .jumbotron, .header-panel header #page-header .jumbotron, .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap .jumbotron, .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap .jumbotron, .header-panel .panel-content #search-form .jumbotron, .login-panel header #header_contain .jumbotron, .login-panel .panel-content #log-in .jumbotron, .login-panel #credits #link_wrap .jumbotron, .login-panel #credits #link_wrap #links .jumbotron, #main-footer #branding-panel .jumbotron, #main-footer .footer-contents .jumbotron, .container-fluid .jumbotron {
         padding-left: 60px;
         padding-right: 60px; }
       .jumbotron h1,
@@ -4428,8 +4428,8 @@ a.thumbnail.active {
 
 .media-right,
 .media > .pull-right,
-.search-panel header #page-header #contents .media > #page-nav,
-.search-panel header #page-header #contents #page-nav .media > ul,
+.header-panel header #page-header #contents .media > #page-nav,
+.header-panel header #page-header #contents #page-nav .media > ul,
 #main-footer #branding-panel .media > .brand-inner,
 #main-footer #footer-bottom .credits .media > ul {
   padding-left: 10px; }
@@ -5448,10 +5448,10 @@ button.close {
 
   .carousel-indicators {
     bottom: 20px; } }
-.clearfix:before, .flex-nav .viewport #social-menu:before, .search-panel header #page-header #contents #page-nav ul .video_contain:before, .search-panel .panel-content #search-form .panel-center:before, .search-panel .panel-content #search-form .panel-center .panel-form .dropdown-menu li a:before, .login-panel .panel-content #log-in .div-inner:before, .login-panel #credits:before, .login-panel #credits #link_wrap #links:before, .login-panel #credits #link_wrap #links ul:before, .clearfix:after, .flex-nav .viewport #social-menu:after, .search-panel header #page-header #contents #page-nav ul .video_contain:after, .search-panel .panel-content #search-form .panel-center:after, .search-panel .panel-content #search-form .panel-center .panel-form .dropdown-menu li a:after, .login-panel .panel-content #log-in .div-inner:after, .login-panel #credits:after, .login-panel #credits #link_wrap #links:after, .login-panel #credits #link_wrap #links ul:after {
+.clearfix:before, .flex-nav .viewport #social-menu:before, .header-panel header #page-header #contents #page-nav ul .video_contain:before, .header-panel .panel-content #search-form .panel-center:before, .header-panel .panel-content #search-form .panel-center .panel-form .dropdown-menu li a:before, .login-panel .panel-content #log-in .div-inner:before, .login-panel #credits:before, .login-panel #credits #link_wrap #links:before, .login-panel #credits #link_wrap #links ul:before, .clearfix:after, .flex-nav .viewport #social-menu:after, .header-panel header #page-header #contents #page-nav ul .video_contain:after, .header-panel .panel-content #search-form .panel-center:after, .header-panel .panel-content #search-form .panel-center .panel-form .dropdown-menu li a:after, .login-panel .panel-content #log-in .div-inner:after, .login-panel #credits:after, .login-panel #credits #link_wrap #links:after, .login-panel #credits #link_wrap #links ul:after {
   content: " ";
   display: table; }
-.clearfix:after, .flex-nav .viewport #social-menu:after, .search-panel header #page-header #contents #page-nav ul .video_contain:after, .search-panel .panel-content #search-form .panel-center:after, .search-panel .panel-content #search-form .panel-center .panel-form .dropdown-menu li a:after, .login-panel .panel-content #log-in .div-inner:after, .login-panel #credits:after, .login-panel #credits #link_wrap #links:after, .login-panel #credits #link_wrap #links ul:after {
+.clearfix:after, .flex-nav .viewport #social-menu:after, .header-panel header #page-header #contents #page-nav ul .video_contain:after, .header-panel .panel-content #search-form .panel-center:after, .header-panel .panel-content #search-form .panel-center .panel-form .dropdown-menu li a:after, .login-panel .panel-content #log-in .div-inner:after, .login-panel #credits:after, .login-panel #credits #link_wrap #links:after, .login-panel #credits #link_wrap #links ul:after {
   clear: both; }
 
 .center-block {
@@ -5459,7 +5459,7 @@ button.close {
   margin-left: auto;
   margin-right: auto; }
 
-.pull-right, .search-panel header #page-header #contents #page-nav, .search-panel header #page-header #contents #page-nav ul, #main-footer #branding-panel .brand-inner, #main-footer #footer-bottom .credits ul {
+.pull-right, .header-panel header #page-header #contents #page-nav, .header-panel header #page-header #contents #page-nav ul, #main-footer #branding-panel .brand-inner, #main-footer #footer-bottom .credits ul {
   float: right !important; }
 
 .pull-left {
@@ -5617,7 +5617,7 @@ button.close {
     display: inline-block !important; } }
 
 @media (max-width: 767px) {
-  .hidden-xs {
+  .hidden-xs, .header-panel header #page-header #contents #page-nav {
     display: none !important; } }
 @media (min-width: 768px) and (max-width: 991px) {
   .hidden-sm {
@@ -5729,7 +5729,7 @@ button.close {
   border: solid 0.08em #eee;
   border-radius: .1em; }
 
-.pull-right, .search-panel header #page-header #contents #page-nav, .search-panel header #page-header #contents #page-nav ul, #main-footer #branding-panel .brand-inner, #main-footer #footer-bottom .credits ul {
+.pull-right, .header-panel header #page-header #contents #page-nav, .header-panel header #page-header #contents #page-nav ul, #main-footer #branding-panel .brand-inner, #main-footer #footer-bottom .credits ul {
   float: right; }
 
 .pull-left {
@@ -5737,7 +5737,7 @@ button.close {
 
 .fa.pull-left {
   margin-right: .3em; }
-.fa.pull-right, .search-panel header #page-header #contents .fa#page-nav, .search-panel header #page-header #contents #page-nav ul.fa, #main-footer #branding-panel .fa.brand-inner, #main-footer #footer-bottom .credits ul.fa {
+.fa.pull-right, .header-panel header #page-header #contents .fa#page-nav, .header-panel header #page-header #contents #page-nav ul.fa, #main-footer #branding-panel .fa.brand-inner, #main-footer #footer-bottom .credits ul.fa {
   margin-left: .3em; }
 
 .fa-spin {
@@ -7510,6 +7510,9 @@ body {
     display: table; }
   .full-panel:after {
     clear: both; }
+  @media (max-width: 767px) {
+    .full-panel {
+      min-height: 100% !important; } }
   .full-panel.white {
     border-bottom: 1px solid rgba(0, 0, 0, 0.06);
     border-top: 1px solid rgba(0, 0, 0, 0.06); }
@@ -7546,8 +7549,11 @@ body {
   height: 100vh; }
 
 #container {
-  min-height: 100vh !important;
+  min-height: 100vh;
   position: relative; }
+  @media (max-width: 767px) {
+    #container {
+      min-height: 100% !important; } }
 
 #flex-overlay {
   position: absolute;
@@ -7572,6 +7578,9 @@ body {
   left: 0%;
   z-index: 9999;
   transition: margin ease .5s; }
+  @media (max-width: 767px) {
+    .flex-btn {
+      margin: 7px 0px 0px 10px; } }
 
 .flex-active {
   margin-left: 41%; }
@@ -7580,7 +7589,7 @@ body {
       margin-left: 86%; } }
   @media (max-width: 767px) {
     .flex-active {
-      margin-left: 89%; } }
+      margin-left: 88%; } }
 
 .flex-nav {
   position: fixed;
@@ -7816,29 +7825,36 @@ body {
       text-decoration: none;
       color: #069E87; }
 
-.search-panel {
+.header-panel {
   background: url("../images/bg.jpg");
   padding: 0px;
   margin: 0px; }
-  .search-panel header {
+  .header-panel header {
     position: fixed;
     z-index: 3;
     background: #f7f7f7;
     height: 61px;
     border-bottom: 3px solid rgba(0, 0, 0, 0.1);
     width: 100%; }
-    .search-panel header #page-header #contents #logo {
+    @media (max-width: 767px) {
+      .header-panel header {
+        height: 40px; } }
+    .header-panel header #page-header #contents #logo {
       height: 100px;
       width: auto;
       position: absolute;
       transition: ease all .2s;
       z-index: 4;
       -webkit-transform: none; }
-      .search-panel header #page-header #contents #logo.active {
-        height: 60px !important; }
-    .search-panel header #page-header #contents #page-nav ul .nav-item {
+      @media (max-width: 767px) {
+        .header-panel header #page-header #contents #logo {
+          height: 50px !important;
+          left: 0;
+          right: 0;
+          margin: 0 auto; } }
+    .header-panel header #page-header #contents #page-nav ul .nav-item {
       transition: ease-in all .45s; }
-    .search-panel header #page-header #contents #page-nav ul .nav-active .nav-link-sub:before {
+    .header-panel header #page-header #contents #page-nav ul .nav-active .nav-link-sub:before {
       position: absolute;
       content: '';
       display: block;
@@ -7854,7 +7870,7 @@ body {
       transition: 0.5s all ease;
       border-right: 17px solid transparent;
       z-index: 8; }
-    .search-panel header #page-header #contents #page-nav ul .nav-active .nav-link-sub:after {
+    .header-panel header #page-header #contents #page-nav ul .nav-active .nav-link-sub:after {
       position: absolute;
       content: '';
       display: block;
@@ -7870,49 +7886,49 @@ body {
       transition: 0.5s all ease;
       border-right: 15px solid transparent;
       z-index: 9; }
-    .search-panel header #page-header #contents #page-nav ul .nav-active a {
+    .header-panel header #page-header #contents #page-nav ul .nav-active a {
       color: #069E87; }
-    .search-panel header #page-header #contents #page-nav ul li {
+    .header-panel header #page-header #contents #page-nav ul li {
       display: inline-block;
       padding-left: 45px; }
-      .search-panel header #page-header #contents #page-nav ul li a {
+      .header-panel header #page-header #contents #page-nav ul li a {
         color: #0c5449;
         font-size: 30px;
         font-size: 1.875rem;
         border-bottom: 2px solid transparent;
         padding: 16px; }
-        .search-panel header #page-header #contents #page-nav ul li a:hover {
+        .header-panel header #page-header #contents #page-nav ul li a:hover {
           background: none;
           color: #069E87; }
-        .search-panel header #page-header #contents #page-nav ul li a:focus {
+        .header-panel header #page-header #contents #page-nav ul li a:focus {
           background: transparent;
           color: #069E87; }
-    .search-panel header #page-header #contents #page-nav ul .sub-nav-break {
+    .header-panel header #page-header #contents #page-nav ul .sub-nav-break {
       height: 100%; }
-    .search-panel header #page-header #contents #page-nav ul .video_contain {
+    .header-panel header #page-header #contents #page-nav ul .video_contain {
       margin-bottom: 12px; }
-      .search-panel header #page-header #contents #page-nav ul .video_contain a {
+      .header-panel header #page-header #contents #page-nav ul .video_contain a {
         color: #444; }
-        .search-panel header #page-header #contents #page-nav ul .video_contain a img {
+        .header-panel header #page-header #contents #page-nav ul .video_contain a img {
           width: 100% !important;
           border-left: 2px solid transparent;
           transition: border-color .2s; }
-        .search-panel header #page-header #contents #page-nav ul .video_contain a:hover {
+        .header-panel header #page-header #contents #page-nav ul .video_contain a:hover {
           color: #069E87; }
-          .search-panel header #page-header #contents #page-nav ul .video_contain a:hover img {
+          .header-panel header #page-header #contents #page-nav ul .video_contain a:hover img {
             border-left: 2px solid #069E87; }
-        .search-panel header #page-header #contents #page-nav ul .video_contain a .video_thumbnail {
+        .header-panel header #page-header #contents #page-nav ul .video_contain a .video_thumbnail {
           padding: 0px; }
-      .search-panel header #page-header #contents #page-nav ul .video_contain .video_meta {
+      .header-panel header #page-header #contents #page-nav ul .video_contain .video_meta {
         padding-top: 0px;
         font-size: 16px; }
-      .search-panel header #page-header #contents #page-nav ul .video_contain .youtube_link {
+      .header-panel header #page-header #contents #page-nav ul .video_contain .youtube_link {
         padding: 0px !important;
         cursor: pointer; }
-    .search-panel header #page-header #contents #page-nav ul h4 {
+    .header-panel header #page-header #contents #page-nav ul h4 {
       margin: 0px;
       padding: 20px 0px; }
-    .search-panel header #page-header #contents #page-nav ul .sub-nav, .search-panel header #page-header #contents #page-nav ul ul {
+    .header-panel header #page-header #contents #page-nav ul .sub-nav, .header-panel header #page-header #contents #page-nav ul ul {
       width: auto;
       padding: 50px 0px;
       background: #fff;
@@ -7920,18 +7936,18 @@ body {
       left: 0px;
       z-index: 2;
       display: none;
-      border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+      box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
       width: 100%;
       top: 61px;
       transition: none !important; }
-      .search-panel header #page-header #contents #page-nav ul .sub-nav li, .search-panel header #page-header #contents #page-nav ul ul li {
+      .header-panel header #page-header #contents #page-nav ul .sub-nav li, .header-panel header #page-header #contents #page-nav ul ul li {
         margin-left: 0px;
         border-bottom: 1px dotted rgba(0, 0, 0, 0.07);
         display: block;
         transition: all ease .5s;
         padding-left: 0px;
         position: relative; }
-        .search-panel header #page-header #contents #page-nav ul .sub-nav li:before, .search-panel header #page-header #contents #page-nav ul ul li:before {
+        .header-panel header #page-header #contents #page-nav ul .sub-nav li:before, .header-panel header #page-header #contents #page-nav ul ul li:before {
           position: absolute;
           content: '';
           width: 0;
@@ -7941,7 +7957,7 @@ body {
           right: 100%;
           transition: .2s all ease;
           opacity: 0; }
-        .search-panel header #page-header #contents #page-nav ul .sub-nav li:after, .search-panel header #page-header #contents #page-nav ul ul li:after {
+        .header-panel header #page-header #contents #page-nav ul .sub-nav li:after, .header-panel header #page-header #contents #page-nav ul ul li:after {
           position: absolute;
           content: '';
           width: 0;
@@ -7951,10 +7967,10 @@ body {
           left: 100%;
           transition: .2s all ease;
           opacity: 0; }
-        .search-panel header #page-header #contents #page-nav ul .sub-nav li:hover, .search-panel header #page-header #contents #page-nav ul ul li:hover {
+        .header-panel header #page-header #contents #page-nav ul .sub-nav li:hover, .header-panel header #page-header #contents #page-nav ul ul li:hover {
           transition: all ease .5s;
           background: rgba(247, 247, 247, 0.5); }
-          .search-panel header #page-header #contents #page-nav ul .sub-nav li:hover:before, .search-panel header #page-header #contents #page-nav ul ul li:hover:before {
+          .header-panel header #page-header #contents #page-nav ul .sub-nav li:hover:before, .header-panel header #page-header #contents #page-nav ul ul li:hover:before {
             position: absolute;
             content: '';
             width: 0;
@@ -7968,7 +7984,7 @@ body {
             transition: .5s all ease;
             z-index: 9;
             opacity: 1; }
-          .search-panel header #page-header #contents #page-nav ul .sub-nav li:hover:after, .search-panel header #page-header #contents #page-nav ul ul li:hover:after {
+          .header-panel header #page-header #contents #page-nav ul .sub-nav li:hover:after, .header-panel header #page-header #contents #page-nav ul ul li:hover:after {
             position: absolute;
             content: '';
             width: 0;
@@ -7982,21 +7998,21 @@ body {
             transition: .5s all ease;
             z-index: 9;
             opacity: 1; }
-        .search-panel header #page-header #contents #page-nav ul .sub-nav li a, .search-panel header #page-header #contents #page-nav ul ul li a {
+        .header-panel header #page-header #contents #page-nav ul .sub-nav li a, .header-panel header #page-header #contents #page-nav ul ul li a {
           width: 100%;
           display: block;
           color: #444; }
-          .search-panel header #page-header #contents #page-nav ul .sub-nav li a:hover, .search-panel header #page-header #contents #page-nav ul ul li a:hover {
+          .header-panel header #page-header #contents #page-nav ul .sub-nav li a:hover, .header-panel header #page-header #contents #page-nav ul ul li a:hover {
             color: #069E87; }
-          .search-panel header #page-header #contents #page-nav ul .sub-nav li a .goo-red, .search-panel header #page-header #contents #page-nav ul ul li a .goo-red {
+          .header-panel header #page-header #contents #page-nav ul .sub-nav li a .goo-red, .header-panel header #page-header #contents #page-nav ul ul li a .goo-red {
             color: #F90101; }
-          .search-panel header #page-header #contents #page-nav ul .sub-nav li a .goo-blue, .search-panel header #page-header #contents #page-nav ul ul li a .goo-blue {
+          .header-panel header #page-header #contents #page-nav ul .sub-nav li a .goo-blue, .header-panel header #page-header #contents #page-nav ul ul li a .goo-blue {
             color: #0266C8; }
-          .search-panel header #page-header #contents #page-nav ul .sub-nav li a .goo-yellow, .search-panel header #page-header #contents #page-nav ul ul li a .goo-yellow {
+          .header-panel header #page-header #contents #page-nav ul .sub-nav li a .goo-yellow, .header-panel header #page-header #contents #page-nav ul ul li a .goo-yellow {
             color: #F2B50F; }
-          .search-panel header #page-header #contents #page-nav ul .sub-nav li a .goo-green, .search-panel header #page-header #contents #page-nav ul ul li a .goo-green {
+          .header-panel header #page-header #contents #page-nav ul .sub-nav li a .goo-green, .header-panel header #page-header #contents #page-nav ul ul li a .goo-green {
             color: #00933B; }
-  .search-panel .panel-content {
+  .header-panel .panel-content {
     background: url("../images/university.jpg") no-repeat center center;
     background-size: cover;
     width: 100%;
@@ -8004,7 +8020,10 @@ body {
     opacity: 1;
     top: 0;
     left: 0; }
-    .search-panel .panel-content #search-form {
+    @media (max-width: 767px) {
+      .header-panel .panel-content {
+        min-height: 100% !important; } }
+    .header-panel .panel-content #search-form {
       position: absolute;
       top: 41%;
       left: 0;
@@ -8012,7 +8031,12 @@ body {
       margin: 0 auto;
       transition-property: width, height, background;
       transition-duration: .05s,.3s,.2s; }
-      .search-panel .panel-content #search-form .panel-center h1 {
+      @media (max-width: 767px) {
+        .header-panel .panel-content #search-form {
+          position: static;
+          padding: 100px 0px;
+          background: rgba(255, 255, 255, 0.8); } }
+      .header-panel .panel-content #search-form .panel-center h1 {
         background: #f7f7f7;
         margin: 0px;
         color: #0c5449;
@@ -8022,7 +8046,10 @@ body {
         text-align: left;
         width: 103%;
         box-shadow: 6px 3px 2px rgba(0, 0, 0, 0.3); }
-        .search-panel .panel-content #search-form .panel-center h1:after {
+        @media (max-width: 767px) {
+          .header-panel .panel-content #search-form .panel-center h1 {
+            display: none; } }
+        .header-panel .panel-content #search-form .panel-center h1:after {
           content: "";
           position: absolute;
           background: #f7f7f7;
@@ -8036,99 +8063,109 @@ body {
           transform: skew(-7deg);
           box-shadow: 6px 3px 2px rgba(0, 0, 0, 0.3);
           border-radius: 10px 10px 0px 0px; }
-      .search-panel .panel-content #search-form .panel-center .panel-form {
+      .header-panel .panel-content #search-form .panel-center .panel-form {
         padding: 30px 50px 10px 30px;
         background: rgba(255, 255, 255, 0.8);
         box-shadow: 6px 3px 2px rgba(0, 0, 0, 0.3);
         width: 101%; }
-        .search-panel .panel-content #search-form .panel-center .panel-form .search-select {
+        @media (max-width: 767px) {
+          .header-panel .panel-content #search-form .panel-center .panel-form {
+            width: 100%;
+            padding: 0px;
+            box-shadow: none; } }
+        @media (max-width: 767px) {
+          .header-panel .panel-content #search-form .panel-center .panel-form {
+            background: transparent; } }
+        .header-panel .panel-content #search-form .panel-center .panel-form .search-select {
           background: #0c5449;
           border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+          border-top: none;
+          border-left: none;
           color: #fff;
           min-width: 102px;
           height: 47px; }
-        .search-panel .panel-content #search-form .panel-center .panel-form .search-go {
+        .header-panel .panel-content #search-form .panel-center .panel-form .search-go {
           background: #0c5449;
           color: #fff;
           padding: 0px;
           border: none; }
-          .search-panel .panel-content #search-form .panel-center .panel-form .search-go button {
+          .header-panel .panel-content #search-form .panel-center .panel-form .search-go button {
             border: none;
             background: none;
             padding: 0px 15px;
             height: 46px;
             z-index: 0;
             border-bottom: 3px solid rgba(0, 0, 0, 0.2); }
-        .search-panel .panel-content #search-form .panel-center .panel-form #search-entry-box {
+        .header-panel .panel-content #search-form .panel-center .panel-form #search-entry-box {
           width: 100%; }
-          .search-panel .panel-content #search-form .panel-center .panel-form #search-entry-box #search-input {
+          .header-panel .panel-content #search-form .panel-center .panel-form #search-entry-box #search-input {
             height: 47px;
             border-radius: 0px; }
-          .search-panel .panel-content #search-form .panel-center .panel-form #search-entry-box .ui-autocomplete {
+          .header-panel .panel-content #search-form .panel-center .panel-form #search-entry-box .ui-autocomplete {
             position: absolute !important;
             text-align: left;
             list-style-type: none;
             background: #fff;
             border: solid 1px rgba(0, 0, 0, 0.1);
             border-bottom: solid 3px rgba(0, 0, 0, 0.1); }
-            .search-panel .panel-content #search-form .panel-center .panel-form #search-entry-box .ui-autocomplete li {
+            .header-panel .panel-content #search-form .panel-center .panel-form #search-entry-box .ui-autocomplete li {
               text-align: left;
               padding: 10px 12px;
               cursor: pointer; }
-              .search-panel .panel-content #search-form .panel-center .panel-form #search-entry-box .ui-autocomplete li:hover {
+              .header-panel .panel-content #search-form .panel-center .panel-form #search-entry-box .ui-autocomplete li:hover {
                 background: #eee; }
-            .search-panel .panel-content #search-form .panel-center .panel-form #search-entry-box .ui-autocomplete .ui-state-focus {
+            .header-panel .panel-content #search-form .panel-center .panel-form #search-entry-box .ui-autocomplete .ui-state-focus {
               background: #eee;
               color: #069E87; }
-        .search-panel .panel-content #search-form .panel-center .panel-form input {
+        .header-panel .panel-content #search-form .panel-center .panel-form input {
           z-index: 0 !important; }
-        .search-panel .panel-content #search-form .panel-center .panel-form .dropdown-menu {
+        .header-panel .panel-content #search-form .panel-center .panel-form .dropdown-menu {
           padding: 0px;
           background: #f7f7f7;
           min-width: 180px; }
-          .search-panel .panel-content #search-form .panel-center .panel-form .dropdown-menu .divider {
+          .header-panel .panel-content #search-form .panel-center .panel-form .dropdown-menu .divider {
             margin: 0px;
             background: #069E87; }
-          .search-panel .panel-content #search-form .panel-center .panel-form .dropdown-menu li {
+          .header-panel .panel-content #search-form .panel-center .panel-form .dropdown-menu li {
             margin-left: 0px;
             width: 100%; }
-            .search-panel .panel-content #search-form .panel-center .panel-form .dropdown-menu li:last-child {
+            .header-panel .panel-content #search-form .panel-center .panel-form .dropdown-menu li:last-child {
               border-bottom: 0px; }
-            .search-panel .panel-content #search-form .panel-center .panel-form .dropdown-menu li:hover {
+            .header-panel .panel-content #search-form .panel-center .panel-form .dropdown-menu li:hover {
               background: rgba(0, 0, 0, 0.1); }
-            .search-panel .panel-content #search-form .panel-center .panel-form .dropdown-menu li a {
+            .header-panel .panel-content #search-form .panel-center .panel-form .dropdown-menu li a {
               width: 100%;
               display: block;
               padding: 12px 15px; }
-              .search-panel .panel-content #search-form .panel-center .panel-form .dropdown-menu li a:hover {
+              .header-panel .panel-content #search-form .panel-center .panel-form .dropdown-menu li a:hover {
                 color: #069E87;
                 border-bottom: 1px solid #ccc; }
-            .search-panel .panel-content #search-form .panel-center .panel-form .dropdown-menu li .all-search .fa {
+            .header-panel .panel-content #search-form .panel-center .panel-form .dropdown-menu li .all-search .fa {
               margin-left: 8px; }
-            .search-panel .panel-content #search-form .panel-center .panel-form .dropdown-menu li .drop-text {
+            .header-panel .panel-content #search-form .panel-center .panel-form .dropdown-menu li .drop-text {
               float: left; }
-            .search-panel .panel-content #search-form .panel-center .panel-form .dropdown-menu li .fa {
+            .header-panel .panel-content #search-form .panel-center .panel-form .dropdown-menu li .fa {
               float: right;
               margin-top: 3px; }
-        .search-panel .panel-content #search-form .panel-center .panel-form #form-help {
+        .header-panel .panel-content #search-form .panel-center .panel-form #form-help {
           list-style-type: none;
           text-align: right;
           margin: 10px 2px 0px 0px; }
-          .search-panel .panel-content #search-form .panel-center .panel-form #form-help li {
+          .header-panel .panel-content #search-form .panel-center .panel-form #form-help li {
             display: inline;
             margin: 0px;
             padding: 0px;
             margin-left: 10px; }
-            .search-panel .panel-content #search-form .panel-center .panel-form #form-help li a {
+            .header-panel .panel-content #search-form .panel-center .panel-form #form-help li a {
               color: #0c5449; }
-      .search-panel .panel-content #search-form .panel-center #search-results {
+      .header-panel .panel-content #search-form .panel-center #search-results {
         display: none; }
 
 #search-form.active {
   top: 0px !important;
   width: 100% !important;
   min-height: 100vh;
-  background: white;
+  background: #fff !important;
   padding-top: 120px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   position: relative !important;
@@ -8148,6 +8185,10 @@ body {
     right: 27px;
     top: 90px;
     z-index: 99; }
+    @media (max-width: 767px) {
+      #search-form.active #search-close {
+        right: 10px;
+        top: 56px; } }
     #search-form.active #search-close span, #search-form.active #search-close span:before, #search-form.active #search-close span:after {
       cursor: pointer;
       border-radius: 1px;

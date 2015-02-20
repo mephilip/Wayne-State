@@ -53,6 +53,9 @@ body {
 	z-index:1;
 	@include paddingSize(60px, 0px, 60px, 0px);
 	@include clearfix();
+	@media(max-width: $screen-xs-max){
+		min-height: 100% !important;
+	}
 	&.white{
 		border-bottom: 1px solid rgba(#000,.06);
 		border-top: 1px solid rgba(#000,.06);
@@ -95,8 +98,11 @@ body {
 }
 
 #container{
-	min-height: 100vh !important;
+	min-height: 100vh;
 	position: relative;
+	@media(max-width: $screen-xs-max){
+		min-height: 100% !important;
+	}
 	
 }
 #flex-overlay{
@@ -124,6 +130,9 @@ body {
 	left:0%;
 	z-index: 9999;
 	transition: margin ease .5s;
+	@media(max-width: $screen-xs-max){
+		margin: 7px 0px 0px 10px;
+	}
 }
 
 .flex-active{
@@ -134,7 +143,7 @@ body {
 	}
 	
 	@media (max-width: $screen-xs-max) { 
-		margin-left: 89%;
+		margin-left: 88%;
 	}
 }
 
@@ -404,7 +413,7 @@ body {
 		}
 	}
 }
-.search-panel{
+.header-panel{
 	background: url('../images/bg.jpg');
 	padding: 0px;
 	margin: 0px;
@@ -415,6 +424,9 @@ body {
 		height:61px;
 		border-bottom: 3px solid rgba(#000, .1);
 		width:100%;
+		@media(max-width: $screen-xs-max){
+			height:40px;
+		}
 		#page-header{
 			@extend .container;
 			#contents{
@@ -427,13 +439,17 @@ body {
 					transition: ease all .2s;
 					z-index: 4;
 					-webkit-transform: none;
-					&.active{
-						height:60px !important;
+					@media(max-width: $screen-xs-max){
+						height:50px !important;
+						left:0;
+						right:0;
+						margin:0 auto;
 					}
 				}
 				#page-nav{
 					@extend .col-xs-10;
 					@extend .pull-right;
+					@extend .hidden-xs;
 					ul{
 						@extend .pull-right;
 						.nav-item{
@@ -554,7 +570,7 @@ body {
 							left: 0px;
 							z-index: 2;
 							display: none;
-							border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+							box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
 							width: 100%;
 							top:61px;
 							transition: none !important;
@@ -660,6 +676,9 @@ body {
 		opacity: 1;
 		top:0;
 		left:0;
+		@media(max-width: $screen-xs-max){
+			min-height: 100% !important;
+		}
 		#search-form{
 			position: absolute;
 			top: 41%;
@@ -668,6 +687,11 @@ body {
 			margin: 0 auto;
 			transition-property: width, height, background;
 			transition-duration: .05s,.3s,.2s;
+			@media(max-width: $screen-xs-max){
+				position: static;
+				padding: 100px 0px;
+				background: rgba(255,255,255,.8);
+			}
 			@extend .container;
 			.panel-center{
 				@extend .clearfix;
@@ -683,6 +707,9 @@ body {
 					text-align: left;
 					width:103%;
 					box-shadow: 6px 3px 2px rgba(0, 0, 0, 0.3);
+					@media(max-width: $screen-xs-max){
+						display: none;
+					}
 					&:after{
 						content: "";
 						position: absolute;
@@ -704,9 +731,19 @@ body {
 					background: rgba(255,255,255,.8);
 					box-shadow: 6px 3px 2px rgba(0, 0, 0, 0.3);
 					width: 101%;
+					@media(max-width: $screen-xs-max){
+						width:100%;
+						padding:0px;
+						box-shadow: none;
+					}
+					@media(max-width: $screen-xs-max){
+						background: transparent;
+					}
 					.search-select{
 						background: $green-darker;
 						border-bottom: 3px solid rgba(0,0,0,.2);
+						border-top:none;
+						border-left:none;
 						color: #fff;
 						min-width: 102px;
 						height:47px;
@@ -824,11 +861,14 @@ body {
 	top: 0px !important;
 	width: 100% !important;
 	min-height: 100vh;
-	background: white;
+	background: #fff !important;
 	padding-top: 120px;
 	border-bottom: 1px solid rgba(#000, .1);
 	position: relative !important;
 	transition-duration: .01s,.3s,.2s !important;
+	@media(max-width: $screen-xs-max){
+
+	}
 	.panel-center{
 		h1{
 			display: none !important;
@@ -849,6 +889,10 @@ body {
 		right: 27px;
 		top: 90px;
 		z-index:99;
+		@media(max-width: $screen-xs-max){
+			right: 10px;
+			top: 56px;
+		}
 	span, span:before,  span:after {
 	  cursor: pointer;
 	  border-radius: 1px;

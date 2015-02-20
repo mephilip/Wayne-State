@@ -4,7 +4,7 @@
 	include($file_get->FileReturn($server,'flex-nav.php'));
 ?>
 
-<div class="search-panel">
+<div class="header-panel">
 
 <header>
 		<div id="page-header">
