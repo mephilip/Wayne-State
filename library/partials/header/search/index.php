@@ -309,4 +309,34 @@
   </div>
 </div>
 </div>
+
+<div id="mobile-slider">
+	<div class="mobile-button">
+		<i class="fa fa-home"></i>
+	</div>
+	<div class="mobile-button">
+		<i class="fa fa-clock-o"></i>
+	</div>
+	<div class="mobile-button">
+		<i class="fa fa-phone"></i>
+	</div>
+	<div class="mobile-button">
+		<i class="fa fa-map-marker"></i>
+	</div>
+</div>
 <?php include($file_get->FileReturn($server,'footer.php')); ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,14 +1,14 @@
 <?php 
-	include($_SERVER['DOCUMENT_ROOT'] . '/test/thomas/library/includes/functions.php');
-	include($file_get->FileReturn($server,'header.php'));
-	include($file_get->FileReturn($server,'flex-nav.php'));
+	include('functions.php');
+	include('header.php');
+	include('flex-nav.php');
 ?>
-<div id="container" class="full-panel login-panel header-panel">
+<div id="container" class="full-panel login-panel">
 	<div id="flex-overlay"></div>
 	<div id="nav-toggle" class="flex-btn"><span></span></div>
 	<header>
 		<div id="header_contain">
-			<img id="logo" src="http://<?php echo $_SERVER[HTTP_HOST]?>/test/thomas/library/path-get/assets/images/wsu-shield.png" alt="wsu-shield" width="482" height="424">
+			<img id="logo" src="path-get/assets/images/wsu-shield.png" alt="wsu-shield" width="482" height="424">
 		</div>			
 	</header>
 	
@@ -48,4 +48,4 @@
 		</div>
 	</section>
 </div>
-<?php include($file_get->FileReturn($server,'footer.php')); ?>
+<?php include('footer.php'); ?>
