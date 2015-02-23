@@ -156,9 +156,26 @@
 					</ul>
 				</div>
 				
-				<div id="search-results">
-					<div id="search-term-wrap"><span id="search-term"></span></div>
-					<div id="search-divide"></div>				
+				<div id="search-return">
+					<?php /*<div id="search-term-wrap"><span id="search-term"></span></div> */ ?>
+					<div id="search-divide"></div>	
+					<div id="search-results">
+						<div id="search-ajax-loader">
+							<div class="ajax-inner">
+								<span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span class="five"></span>
+							</div>
+						</div>
+						<ul class="list-type">
+							<li><a class='list-type-item active' href="">All</a></li>
+							<li><a class='list-type-item' href="">Articles</a></li>
+							<li><a class='list-type-item' href="">Books</a></li>
+							<li><a class='list-type-item' href="">Databases</a></li>
+							<li><a class='list-type-item' href="">Journals</a></li>
+							<li><a class='list-type-item' href="">Images</a></li>
+							<li><a class='list-type-item' href="">Research Guides</a></li>
+						</ul>
+						
+					</div>	
 				</div>
 			</div>
 			
@@ -322,7 +339,7 @@
 		</div>
 		
 		<div class="phone-open tab-close">
-			<h3>Phone Number/Contact Content</h3>
+			<h3>Phone/Contact Content</h3>
 
 <p>Vivamus ornare neque at ex luctus fringilla. In fringilla erat lacinia velit imperdiet sagittis. Suspendisse aliquam at ante sed suscipit. Pellentesque ac ligula posuere, rhoncus massa vitae, tempus tortor. Vestibulum ut sem quis turpis venenatis sagittis. Proin turpis lacus, luctus eu lacus eu, pharetra scelerisque nibh. Morbi lorem erat, porttitor vel tincidunt sit amet, aliquam vitae eros. Nunc ac eleifend eros. Nam congue eros eu suscipit efficitur. Nulla ut nisi at risus rhoncus efficitur nec a arcu. Aenean aliquam odio ut dui efficitur, at varius arcu egestas.</p>
 

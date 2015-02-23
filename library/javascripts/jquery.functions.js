@@ -80,13 +80,17 @@ jQuery(document).ready(function($) {
 	$( "#ajax-search" ).click(function() {
 		var search_query = $('#search-input').val();
 		$( '#search-form' ).addClass( "active" );
+		$('#search-ajax-loader').show();
 		$('html, body').animate({
        	 	scrollTop: $('#container').offset().top
 		}, 200);
 		if(search_query !== ''){
 			$('#search-term').html('Showing results for ... <strong>' + search_query + '</strong>');
+			$('#search-results').show();
 		} else {
 			$('#search-term').html('');
+			$('#search-results').hide();
+			$('#search-ajax-loader').hide();
 		}
 		return false;
 	});
@@ -103,13 +107,17 @@ jQuery(document).ready(function($) {
 				$('#search-term').html('Showing results for ... <strong>' + search_query + '</strong>');
 			} else {
 				$('#search-term').html('');
+				$('#search-ajax-loader').hide();
 			}
 			return false;
+			
     	}, 500 );
 	});
 	$( "#search-close" ).click(function() {
 		$( '#search-form' ).removeClass( "active" );
 		$('#search-input').val('');
+		$('#search-results').hide();
+		$('#search-ajax-loader').hide();
 		return false;
 	});
 	
@@ -137,5 +145,14 @@ jQuery(document).ready(function($) {
 		}
 		return false;
 	});
+	
+	$( ".list-type-item" ).click(function() {
+		$('.list-type-item').removeClass('active');
+		$(this).addClass('active');
+		
+		return false;
+		
+		
+	});	
 	
 });
