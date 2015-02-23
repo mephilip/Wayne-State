@@ -967,6 +967,25 @@ body {
 								}
 							}
 						}
+						#search-results-inner{
+							display:none;
+							@include paddingSize(40px, 0px, 40px, 0px);
+							h4{
+								a{
+									color: $blue-base;
+									&:hover{
+										border-color: $blue-base;
+									}
+								}
+							}
+							h6{
+								color: $green-light;
+								@include fontSize(18px);
+							}
+							p{
+								@include marginSize(0px, 0px, 30px, 0px);
+							}
+						}
 						/*.toggle{
 							@extend .pull-right;
 							padding: 0px;

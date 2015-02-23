@@ -10,6 +10,11 @@ class QuickSearch {
         $this->search_term = $search_term;
         $this->data_type = $data_type;
     }
+    
+    public function searchTerm(){
+        return $this->search_term;
+    }
+    
     public function database(){
         $conn = new PDO('mysql:host=localhost;dbname=resources', 'load', 'REm1ngt0n');
 		if($conn){
@@ -18,9 +23,9 @@ class QuickSearch {
 		
 		$results = $sth->fetchAll();
 		$number = count($results);
-		echo $number;
 		foreach ($results as $result){
 			$json_return .= "<h4><a href='{$result[url]}'>{$result[title]}</a></h4>";
+			$json_return .= "<h6>{$result[url]}</h6>";
 			$json_return .= "<p>{$result[2]}</p>";
 		}
 		$conn = null;
@@ -29,18 +34,14 @@ class QuickSearch {
 			return "no connections";
 		}
     }
-    public function articles(){
-        return $this->search_term;
-    }
-    public function collections(){
-        return $this->msg;
-    }
-    public function toJSON(){
-        return json_encode($json);
+    
+    public function search_count($number){
+        return $number;
     }
 }
 
 
 $db = new QuickSearch($_GET['q'], $data_type, $json_url);
-$json_feed = $db->articles();
-echo $json_feed;
+echo "<h1>{$db->searchTerm()}</h1>";
+$json_feed = json_encode($db->database());
+echo json_decode($json_feed);
