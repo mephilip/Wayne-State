@@ -36,6 +36,7 @@ class QuickSearch {
 	*/
 	public $spell_object = null;
 	
+	
     public function __construct($search_term, $data_type, $use_replace, $spell_object){
 	    $this->initial_search = urldecode($search_term);
         $this->search_term    = urldecode($search_term);
