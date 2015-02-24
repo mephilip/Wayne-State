@@ -77,11 +77,42 @@ jQuery(document).ready(function($) {
 		$(this).removeClass('nav-active');
 	});
 	
-	$( "#ajax-search" ).click(function() {
+	
+	
+	$( "#search-input" ).keyup(function(e) {
+		if (e.keyCode === 13) {
+			$( "#quick-search-form" ).submit();
+			$( "#search-input" ).autocomplete( "close" );
+			return true;
+		} else {
+			var search_query = $('#search-input').val();
+			delay(function(){
+				$( '#search-form' ).addClass( "active" );
+				$('#search-results-inner').hide();
+				$('html, body').animate({
+	       	 	scrollTop: $('#container').offset().top
+				}, 200);
+				if(search_query !== ''){
+					$('#search-term').html('Showing results for ... <strong>' + search_query + '</strong>');
+					delay(function(){
+					}, 1500);
+				} else {
+					$('#search-term').html('');
+					$('#search-ajax-loader').hide();
+					$('#search-results-inner').hide();
+				}
+				
+	    	}, 200 );
+    	}
+	});
+	
+	$( "#quick-search-form" ).on( "submit" , function(e) {
+		e.preventDefault();
 		var search_query = $('#search-input').val();
 		$( '#search-form' ).addClass( "active" );
 		$('#search-results-inner').hide();
 		$('#search-ajax-loader').show();
+		$( "#search-input" ).autocomplete( "close" );
 		$('html, body').animate({
        	 	scrollTop: $('#container').offset().top
 		}, 200);
@@ -98,34 +129,8 @@ jQuery(document).ready(function($) {
 			$('#search-ajax-loader').hide();
 			$('#search-results-inner').hide();
 		}
-		return false;
 	});
 	
-	$( "#search-input" ).keyup(function( event ) {
-		event.preventDefault();
-		var search_query = $('#search-input').val();
-		delay(function(){
-			$( '#search-form' ).addClass( "active" );
-			$('#search-results-inner').hide();
-			$('#search-ajax-loader').show();
-			$('html, body').animate({
-       	 	scrollTop: $('#container').offset().top
-			}, 200);
-			if(search_query !== ''){
-				$('#search-term').html('Showing results for ... <strong>' + search_query + '</strong>');
-				delay(function(){
-					$('#search-ajax-loader').hide();
-					$('#search-results-inner').fadeIn();
-				}, 1500);
-			} else {
-				$('#search-term').html('');
-				$('#search-ajax-loader').hide();
-				$('#search-results-inner').hide();
-			}
-			return false;
-			
-    	}, 500 );
-	});
 	$( "#search-close" ).click(function() {
 		$( '#search-form' ).removeClass( "active" );
 		$('#search-input').val('');
