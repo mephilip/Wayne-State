@@ -40,7 +40,10 @@ class QuickSearch {
     public function __construct($search_term, $data_type, $use_replace, $spell_object){
 	    $this->initial_search = urldecode($search_term);
         $this->search_term    = urldecode($search_term);
-        $this->data_type    = $data_type;
+        $this->data_type      = $data_type;
+        $this->multiple_keywords = $this->search_term;
+        
+        
         if($this->search_term){
 	       // $this->search_term = preg_replace("/[^ \w]+/", "", $search_term);
         }
@@ -55,16 +58,33 @@ class QuickSearch {
 		
 		// If we are using suggestion to replace the search query for mispelled words
 		if($this->use_replace){
-			// Get the suggestions list and pick the first one
-			$word_suggest = file_get_contents("http://silo.lib.wayne.edu/solr4/DCArchive/spell?rows=0&spellcheck=true&spellcheck.collate=true&wt=json&q={$this->search_term}");
-			$word_suggest = json_decode($word_suggest);
-			if($word_suggest->response->numFound <= 0){
-				$suggest = $word_suggest->spellcheck->suggestions;
-				$this->search_term = $suggest[1]->suggestion[0];
-			} 
-		} else {
 			
+			
+			// If auto replace is on split the words to find spelling mistakes in each word
+			// Words are split by comma and 
+			$this->all_keywords = preg_split("/[\s,]+/", $this->search_term);
+
+			$this->multiple_keywords = '';
+			foreach($this->all_keywords as $keyword){
+				$word_suggest = file_get_contents("http://silo.lib.wayne.edu/solr4/DCArchive/spell?rows=0&spellcheck=true&spellcheck.collate=true&wt=json&q={$keyword}");
+				$word_suggest = json_decode($word_suggest);
+				if($word_suggest->response->numFound <= 0){
+					$suggest = $word_suggest->spellcheck->suggestions;
+					$this->multiple_keywords .= $suggest[1]->suggestion[0] . " ";
+				} else {
+					$this->multiple_keywords .= $keyword . " ";
+				}
+			}
+			$this->multiple_keywords = trim($this->multiple_keywords);
+			
+		} else {
+			// Serve backup content *** Also use synonyms
 		}
+    }
+    
+    
+    public function spell_multiple(){
+	    return $this->multiple_keywords . "<br/>";
     }
       
     public function spell_check(){
@@ -72,10 +92,10 @@ class QuickSearch {
 		    return $this->spell_object;
 	    } else{
 		    if($this->use_replace){
-			    if($this->initial_search == $this->search_term){
+			    if($this->initial_search == $this->multiple_keywords){
 				    return "<h4>Search Term: $this->initial_search</h4>";
 			    } else {
-		   	 		return "<h4>Searching for $this->search_term.<br/> Search for  <a href='http://library2.wayne.edu/test/thomas/library/partials/header/classes/class-quicksearch.php?type=all&use_replace=0&q=$this->initial_search'>$this->initial_search</a> instead?</h4>";
+		   	 		return "<h4>Searching for $this->multiple_keywords.<br/> Search for  <a href='http://library2.wayne.edu/test/thomas/library/partials/header/classes/class-quicksearch.php?type=all&use_replace=0&q=$this->initial_search'>$this->initial_search</a> instead?</h4><br/>";
 		   	 	}
 		   	} else {
 			   	return "<h4>Search Term: $this->initial_search</h4>";
@@ -87,7 +107,7 @@ class QuickSearch {
 	    if($this->data_type == 'all' || $this->data_type == 'database'){
 	        $conn = new PDO('mysql:host=localhost;dbname=resources', 'load', 'REm1ngt0n');
 			if($conn->beginTransaction()){
-				$sth = $conn->prepare("SELECT title,url,description FROM resources_view WHERE title LIKE '%{$this->search_term}%'");
+				$sth = $conn->prepare("SELECT title,url,description FROM resources_view WHERE title LIKE '%{$this->multiple_keywords}%'");
 				$sth->execute();
 				$results = $sth->fetchAll();
 				$number = count($results);
@@ -95,7 +115,7 @@ class QuickSearch {
 					$json_return .= "<h4><a href='{$result[url]}'>{$result[title]}</a></h4>";
 					$json_return .= "<h6>{$result[url]}</h6>";
 					$json_return .= "<p>{$result[description]}</p>";
-					if(strtolower($result[title]) === strtolower($this->search_term)){
+					if(strtolower($result[title]) === strtolower($this->multiple_keywords)){
 						$json_return .= "<blockquote><strong><em>This is an exact match. Set priority.</em></strong></blockquote>";
 					}
 					$json_return .= "<hr/>";
@@ -115,6 +135,7 @@ class QuickSearch {
 
 
 $db = new QuickSearch($_GET['q'], $_GET['type'], $_GET['use_replace']);
+echo $db->spell_multiple();
 echo $db->spell_check();
 $json_feed = json_encode($db->database());
 
@@ -142,3 +163,8 @@ $suggest = $word->spellcheck->suggestions;
 foreach($suggest[1]->suggestion as $suggestion){
 	echo $suggestion . "<br/>";
 }
+
+echo "<br/>";
+echo "<br/>";
+echo "<br/>";
+
