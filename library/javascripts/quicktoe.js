@@ -5,4 +5,4 @@ search_form.addEventListener('submit', function(e){
    var url_encode_search = search_query.replace(/\s+/g, '-').toLowerCase();
    history.pushState('search_query', "Quick Search"  + search_query, url_encode_search);  
    e.preventDefault();
-});
+}); 
