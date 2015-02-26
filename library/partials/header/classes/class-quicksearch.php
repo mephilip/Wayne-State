@@ -152,7 +152,6 @@ $word = json_decode($variable);
 
 echo "<br/>";
 echo "<br/>";
-echo "<br/>";
 
 echo "Number of instances the query is matched with our records for <strong>" . $_GET['q'] . "</strong>: " . $word->response->numFound;
 
