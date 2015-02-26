@@ -140,6 +140,7 @@ echo $db->spell_check();
 $json_feed = json_encode($db->database());
 
 $tmp = $db->database();
+
 echo $tmp[0] . " results";
 echo "<br/>";
 echo $tmp[1];
