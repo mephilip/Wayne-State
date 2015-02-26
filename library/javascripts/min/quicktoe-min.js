@@ -1,0 +1,1 @@
+var search_form=document.getElementById("quick-search-form");search_form.addEventListener("submit",function(e){var r=document.getElementById("search-input"),t=r.value.trim(),a=t.replace(/\s+/g,"-").toLowerCase();history.pushState("search_query","Quick Search"+t,a),e.preventDefault()});

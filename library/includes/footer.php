@@ -6,6 +6,7 @@
 <script src="http://www.youtube.com/player_api"></script>
 <script src="http://<?php echo $_SERVER[HTTP_HOST]?>/test/thomas/library/javascripts/min/jquery.functions-min.js"></script>
 <script src="http://<?php echo $_SERVER[HTTP_HOST]?>/test/thomas/library/javascripts/min/bento_queries-min.js"></script>
+<script src="http://<?php echo $_SERVER[HTTP_HOST]?>/test/thomas/library/javascripts/min/quicktoe-min.js"></script>
 
 <script>
 		  
