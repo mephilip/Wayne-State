@@ -8527,8 +8527,7 @@ body {
         right: 20px; }
   #main-footer #footer-top {
     background: #226357;
-    padding: 30px 15px;
-    box-shadow: inset 0 1px 0 #226357, 0 1px 0 #226357, 0 3px 0 rgba(0, 0, 0, 0.1); }
+    padding: 30px 15px; }
     @media (max-width: 767px) {
       #main-footer #footer-top .footer-list {
         display: none; } }
