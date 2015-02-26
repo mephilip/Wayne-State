@@ -1,3 +1,3 @@
 <?php
 
-thomas
+echo "Finally got my github showing commits correctly ... YEEESH!!";
