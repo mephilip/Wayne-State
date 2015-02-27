@@ -156,7 +156,7 @@ echo "<br/>";
 echo "Number of instances the query is matched with our records for <strong>" . $_GET['q'] . "</strong>: " . $word->response->numFound;
 
 
-echo "<h3>Suggestions</h3>";
+/*echo "<h3>Suggestions</h3>";
 
 $suggest = $word->spellcheck->suggestions;
 
@@ -166,5 +166,58 @@ foreach($suggest[1]->suggestion as $suggestion){
 
 echo "<br/>";
 echo "<br/>";
-echo "<br/>";
+echo "<br/>";*/
+
+
+
+
+
+
+
+
+
+
+
+
+// ajax-functions.php
+
+
+/*if($_GET['database']){
+	echo json_encode($db->database());
+} elseif($_GET['books']){
+	echo json_encode($db->books());
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -11,6 +11,7 @@ echo "<div class='container' style='padding:40px;'>";
 echo "Parent Category: ".$request->getControllerClassName(); 
 echo "<br/><br/>";
 $sub_pages = $request->getParameters(); 
+var_dump($sub_pages);
 $count  = 0;
 foreach($sub_pages as $parent => $child){
 	if($parent){
@@ -21,14 +22,19 @@ foreach($sub_pages as $parent => $child){
 	}
 }
 echo "Child Pages: $count<br/>";
+$level = 0;
 foreach($sub_pages as $parent => $child){
 	if($parent){
+		$level++;
 		echo "<ul class='margin-ul'>";
-		echo "<li>$parent";
+		echo "<li><strong>$parent</strong> <small>Depth Level:$level</small>";
+		
 				if($child){
+					$level++;
 					echo "<ul class='margin-ul'>";
-					echo "<li>$child</li>";
+					echo "<li><strong>$child</strong> <small>Depth Level:$level</small></li>";
 					echo "<ul>";
+					
 				}
 		echo "</li>";
 		echo "<ul>";
@@ -41,7 +47,7 @@ echo "</div>";
 .margin-ul{
 	margin-left:15px;
 }
-
+8.1
 </style>
 <div class="header-panel">
 
