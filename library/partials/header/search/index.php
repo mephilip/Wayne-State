@@ -1,7 +1,15 @@
 <?php 
+	error_reporting(E_ALL);
 	include($_SERVER['DOCUMENT_ROOT'] . '/test/thomas/library/includes/functions.php');
 	include($file_get->FileReturn($server,'header.php'));
 	include($file_get->FileReturn($server,'flex-nav.php'));
+	
+	$request = new UrlRewrite();
+$request->setBaseUrl('/test/thomas/library/partials/header/search');
+$request->createRequest();
+
+echo $request->getControllerClassName(); // return controller name. Controller name separated by '-' is going to be converted to camel case.
+print_r($request->getParameters()); 
 ?>
 
 <div class="header-panel">

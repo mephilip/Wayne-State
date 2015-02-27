@@ -1,27 +1,20 @@
 <?php
 	
-	
-	
-class FileReturn {
-	
-	var $server_type;
-	
-	var $file_name;
-	
-	function FileReturn($server_type, $file_name){
-		if($server_type != $_SERVER['DOCUMENT_ROOT']){
-			$this->server_type = $_SERVER['DOCUMENT_ROOT'];
-		} else {
-			$this->server_type = $server_type;
-		}
-		$this->file_name   = $file_name;
-		return $this->server_type . '/test/thomas/library/includes/' .  $this->file_name;
-	}
-	
+function __autoload($classname) {
+    $filename = "classes/". $classname .".php";
+    include($filename);
 }
 
 
 $file_get = new FileReturn;
+
+
+
+
+
+
+
+
 
 function get_json($url) {
     $ch = curl_init();
