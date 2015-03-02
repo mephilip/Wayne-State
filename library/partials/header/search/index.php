@@ -7,7 +7,7 @@
 $request = new UrlRewrite();
 $request->setBaseUrl('/test/thomas/library/partials/header/search');
 $request->createRequest();
-echo "<div class='container' style='padding:40px;'>";
+/*echo "<div class='container' style='padding:40px;'>";
 echo "Parent Category: ".$request->getControllerClassName(); 
 echo "<br/><br/>";
 $sub_pages = $request->getParameters(); 
@@ -41,7 +41,7 @@ foreach($sub_pages as $parent => $child){
 	} 
 	
 }
-echo "</div>";
+echo "</div>";*/
 ?>
 <style>
 .margin-ul{
