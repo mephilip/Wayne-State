@@ -7835,10 +7835,11 @@ body {
   .header-panel header {
     position: fixed;
     z-index: 3;
-    background: #f7f7f7;
     height: 61px;
     border-bottom: 3px solid rgba(0, 0, 0, 0.1);
-    width: 100%; }
+    width: 100%;
+    background: #f7f7f7;
+    background-image: linear-gradient(to bottom, #fff 0, #f7f7f7 100%); }
     @media (max-width: 767px) {
       .header-panel header {
         height: 40px;

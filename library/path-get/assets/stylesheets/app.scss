@@ -420,10 +420,11 @@ body {
 	header{
 		position: fixed;
 		z-index:3;
-		background: #f7f7f7;
 		height:61px;
 		border-bottom: 3px solid rgba(#000, .1);
 		width:100%;
+		background: #f7f7f7;
+		background-image: linear-gradient(to bottom,#fff 0,#f7f7f7 100%);
 		@media(max-width: $screen-xs-max){
 			height:40px;
 			border:none;
