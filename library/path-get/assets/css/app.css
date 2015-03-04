@@ -8492,7 +8492,9 @@ body {
 	Main Footer Styling
 *************************************/
 #main-footer {
-  position: relative; }
+  position: relative;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300; }
   #main-footer #branding-panel {
     position: absolute;
     top: 0px;
@@ -8534,7 +8536,9 @@ body {
         display: none; } }
     #main-footer #footer-top .footer-list h2 {
       border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-      margin-top: 0px; }
+      margin-top: 0px;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 300; }
     #main-footer #footer-top .footer-list ul {
       list-style-type: none;
       margin-left: 3px; }
@@ -8542,11 +8546,10 @@ body {
         margin: 8px 0px; }
         #main-footer #footer-top .footer-list ul li a {
           color: #ccc;
-          font-size: 14px;
+          font-size: 17px;
           transition: margin ease .5; }
           #main-footer #footer-top .footer-list ul li a:hover {
-            color: #fff;
-            margin-left: 8px; }
+            color: #fff; }
     #main-footer #footer-top .footer-list h4 {
       text-align: center;
       margin-top: 25px; }

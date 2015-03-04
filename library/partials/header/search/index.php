@@ -43,12 +43,6 @@ foreach($sub_pages as $parent => $child){
 }
 echo "</div>";*/
 ?>
-<style>
-.margin-ul{
-	margin-left:15px;
-}
-8.1
-</style>
 <div class="header-panel">
 
 <header>
