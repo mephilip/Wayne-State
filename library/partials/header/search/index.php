@@ -1,8 +1,8 @@
 <?php 
 	//error_reporting(E_ALL);
 	include($_SERVER['DOCUMENT_ROOT'] . '/test/thomas/library/includes/functions.php');
-	include($file_get->FileReturn($server,'header.php'));
-	include($file_get->FileReturn($server,'flex-nav.php'));
+	include($file_get->FileReturn('','header.php'));
+	include($file_get->FileReturn('','flex-nav.php'));
 	
 $request = new UrlRewrite();
 $request->setBaseUrl('/test/thomas/library/partials/header/search');
@@ -44,7 +44,6 @@ foreach($sub_pages as $parent => $child){
 echo "</div>";*/
 ?>
 <div class="header-panel">
-<?php echo $_SERVER['HTTP_HOST']?>
 <header>
 		<div id="page-header">
 			<div id="header-wrap">
@@ -310,7 +309,7 @@ echo "</div>";*/
 							<span class="left-wave"></span>
 						</div>
 						<address>
-						<strong>Wayne State <small>University Libraries</small></strong><br/>
+						<span>Wayne State <small>University Libraries</small></span><br/>
 						5265 Cass Ave<br/>
 						Detroit, MI 48202, USA
 						</address>
@@ -416,7 +415,7 @@ echo "</div>";*/
 		<i class="fa fa-map-marker"></i>
 	</div>
 </div>
-<?php include($file_get->FileReturn($server,'footer.php')); ?>
+<?php include($file_get->FileReturn('','footer.php')); ?>
 
 
 

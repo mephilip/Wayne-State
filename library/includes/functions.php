@@ -6,7 +6,7 @@ function __autoload($classname) {
 }
 
 
-$file_get = new FileReturn();
+$file_get = new FileReturn;
 
 
 

@@ -5,7 +5,7 @@
 	
 	public $file_name;
 	
-	function FileReturn($server_type, $file_name){
+	function FileReturn($server_type = NULL, $file_name = NULL){
 		if($server_type != $_SERVER['DOCUMENT_ROOT']){
 			$this->server_type = $_SERVER['DOCUMENT_ROOT'];
 		} else {

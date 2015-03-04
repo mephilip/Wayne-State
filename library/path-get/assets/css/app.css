@@ -8564,6 +8564,11 @@ body {
           margin-top: 80px; }
           #main-footer #footer-top .footer-give address {
             text-align: center; } }
+      #main-footer #footer-top .footer-give address {
+        font-size: 16px;
+        font-weight: 300; }
+        #main-footer #footer-top .footer-give address span {
+          font-weight: 400; }
     #main-footer #footer-top #give-wsu {
       cursor: pointer;
       position: relative;
