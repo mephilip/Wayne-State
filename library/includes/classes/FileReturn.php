@@ -1,9 +1,9 @@
 <?php
 	class FileReturn {
 	
-	var $server_type;
+	public $server_type;
 	
-	var $file_name;
+	public $file_name;
 	
 	function FileReturn($server_type, $file_name){
 		if($server_type != $_SERVER['DOCUMENT_ROOT']){

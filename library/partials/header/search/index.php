@@ -1,5 +1,5 @@
 <?php 
-	error_reporting(E_ALL);
+	//error_reporting(E_ALL);
 	include($_SERVER['DOCUMENT_ROOT'] . '/test/thomas/library/includes/functions.php');
 	include($file_get->FileReturn($server,'header.php'));
 	include($file_get->FileReturn($server,'flex-nav.php'));
@@ -44,12 +44,12 @@ foreach($sub_pages as $parent => $child){
 echo "</div>";*/
 ?>
 <div class="header-panel">
-
+<?php echo $_SERVER['HTTP_HOST']?>
 <header>
 		<div id="page-header">
 			<div id="header-wrap">
 				<div id="contents">
-					<img id="logo" src="http://<?php echo $_SERVER[HTTP_HOST]?>/test/thomas/library/path-get/assets/images/wsu-shield.png" alt="wsu-shield" width="482" height="424">
+					<img id="logo" src="http://<?php echo $_SERVER['HTTP_HOST']?>/test/thomas/library/path-get/assets/images/wsu-shield.png" alt="wsu-shield" width="482" height="424">
 					
 					<nav id="page-nav">
 						<ul class="nav main-nav parent-nav">
