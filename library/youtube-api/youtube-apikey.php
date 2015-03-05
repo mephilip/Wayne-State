@@ -22,12 +22,10 @@
 	$link = file_get_contents("https://www.googleapis.com/youtube/v3/search?key=AIzaSyDbQuNvI8irWPX6jqgOmZbCKPr4Ze35BHk&channelId=UCDwo7OLacRTiOQ5cm9PC7rA&part=snippet,id&order=date&maxResults=30&q=$query");
 	?><pre><?php
 	var_dump($link);
+	echo $link;
 ?>
 	</pre>
 	</footer>
 
 </body>
 </html>
-
-
-
