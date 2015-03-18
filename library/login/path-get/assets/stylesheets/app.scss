@@ -9,6 +9,7 @@ html, body{
 	overflow: scroll;
 	-webkit-overflow-scrolling: touch;
 	letter-spacing: .1rem;
+	display: none !important;
 }
 body {
 	font-family: "Noto Sans","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
@@ -1488,9 +1489,19 @@ body {
 }
 
 
+/********************************************
+	Inner Partial Styles
+********************************************/
 
-
-
+	.section-overlay{
+		background: url('../images/bg-grid.png');
+		width:100%;
+		height:100%;
+		position: absolute;
+		top:0;
+		left:0;
+		z-index:4;
+	}
 
 
 
