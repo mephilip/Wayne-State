@@ -3,45 +3,6 @@
 	include($_SERVER['DOCUMENT_ROOT'] . '/test/thomas/library/includes/functions.php');
 	include($file_get->FileReturn('','header.php'));
 	include($file_get->FileReturn('','flex-nav.php'));
-	
-$request = new UrlRewrite();
-$request->setBaseUrl('/test/thomas/library/partials/header/search');
-$request->createRequest();
-/*echo "<div class='container' style='padding:40px;'>";
-echo "Parent Category: ".$request->getControllerClassName(); 
-echo "<br/><br/>";
-$sub_pages = $request->getParameters(); 
-var_dump($sub_pages);
-$count  = 0;
-foreach($sub_pages as $parent => $child){
-	if($parent){
-		$count++;
-	}
-	if($child){
-		$count++;
-	}
-}
-echo "Child Pages: $count<br/>";
-$level = 0;
-foreach($sub_pages as $parent => $child){
-	if($parent){
-		$level++;
-		echo "<ul class='margin-ul'>";
-		echo "<li><strong>$parent</strong> <small>Depth Level:$level</small>";
-		
-				if($child){
-					$level++;
-					echo "<ul class='margin-ul'>";
-					echo "<li><strong>$child</strong> <small>Depth Level:$level</small></li>";
-					echo "<ul>";
-					
-				}
-		echo "</li>";
-		echo "<ul>";
-	} 
-	
-}
-echo "</div>";*/
 ?>
 <div class="header-panel">
 <header>
@@ -159,68 +120,18 @@ echo "</div>";*/
 	
 	<section class="panel-content inner-panel">
 	
-		<div id="search-form">
-			<div id="search-close" class="active"><span></span></div>
-			<div class="panel-center">
-				<h1>Research Starts Here</h1>
-				<div class="panel-form">
-					<form id="quick-search-form">
-					<div class="input-group input-group-lg">
-							<div class="input-group-btn">
-					        <button type="button" class="btn btn-default dropdown-toggle search-select" data-toggle="dropdown" aria-expanded="false">All <span class="caret"></span></button>
-					        <ul class="dropdown-menu" role="menu">
-					          <li><a href="#"><span class="drop-text">Books</span> <i class="fa fa-book"></i></a></li>
-					          <li><a href="#"><span class="drop-text">Journals</span> <i class="fa fa-newspaper-o"></i></a></li>
-					          <li><a href="#"><span class="drop-text">Databases</span> <i class="fa fa-database"></i></a></li>
-					          <li><a href="#"><span class="drop-text">Articles</span> <i class="fa fa-files-o"></i></a></li>
-					          <li><a href="#"><span class="drop-text">Research Guides</span> <i class="fa fa-file-text"></i></a></li>
-					          <li class="divider"></li>
-					          <li><a class="all-search" href="#"><span class="drop-text">All</span><i class="fa fa-file-text"></i> <i class="fa fa-files-o"></i> <i class="fa fa-database"></i> <i class="fa fa-newspaper-o"></i> <i class="fa fa-book"></i></a></li>
-					        </ul>
-					      </div><!-- /btn-group -->
-					      <div id="search-entry-box" class="input-group">
-							<input id="search-input" type="text" class="form-control" placeholder="Articles, books, journals, and more" aria-describedby="sizing-addon1">
-					      </div>
-							<div class="input-group-addon search-go">
-								<button id="ajax-search">
-									<i class="fa fa-search"></i>
-								</button>
-							</div>
-						</div>
-					</form>
-					<ul id="form-help">
-						<li><a href="">Login</a></li>
-						<li><a href="">Help?</a></li>
-					</ul>
-				</div>
-				
-				<div id="search-return">
-					<?php /*<div id="search-term-wrap"><span id="search-term"></span></div> */ ?>
-					<div id="search-divide"></div>	
-					<div id="search-results">
-						<div id="search-ajax-loader">
-							<div class="ajax-inner">
-								<span class="one"></span><span class="two"></span><span class="three"></span><span class="four"></span><span class="five"></span>
-							</div>
-						</div>
-						<ul class="list-type">
-							<li><a class='list-type-item active' href="">All</a></li>
-							<li><a class='list-type-item' href="">Articles</a></li>
-							<li><a class='list-type-item' href="">Books</a></li>
-							<li><a class='list-type-item' href="">Databases</a></li>
-							<li><a class='list-type-item' href="">Journals</a></li>
-							<li><a class='list-type-item' href="">Images</a></li>
-							<li><a class='list-type-item' href="">Research Guides</a></li>
-						</ul>
-						<div id='search-results-inner'>
-							<h4><a href="http://search.ebscohost.com/login.aspx?authtype=ip,uid&amp;profile=ehost&amp;defaultdb=ahl">America: history and life</a></h4><h6>http://search.ebscohost.com/login.aspx?authtype=ip,uid&amp;profile=ehost&amp;defaultdb=ahl</h6><p>Online version of: America:  history and life. Includes full-text of hundreds of journals originally published in paper.</p><h4><a href="http://ihm.nlm.nih.gov/luna/servlet/view/all">Images from the History of Medicine</a></h4><h6>http://ihm.nlm.nih.gov/luna/servlet/view/all</h6><p>This database provides access to the images in the prints and photograph collection of the History of Medicine Division of the National Library of Medicine. The collection includes portraits, pictures of institutions, caricatures, genre scenes, and graphic art in a variety of media, illustrating the social and historical aspects of medicine.</p><h4><a href="http://search.proquest.com/historyvault">Proquest History Vault</a></h4><h6>http://search.proquest.com/historyvault</h6><p>Primary source materials from its University Publications of America (UPA) Collection in a digital format. ProQuest History Vault unlocks the wealth of archival materials with a single search. Researchers can access letters, papers, photographs, scrapbooks, financial records, diaries, and much more from a single interface.</p><h4><a href="http://socialhistory.org/en">International Institute of Social History</a></h4><h6>http://socialhistory.org/en</h6><p>Covers the activities and collections of the International Institute of Social History, including access to the library catalog, archival indexes, and information on exhibits. Some archival materials, exhibits, and selected publications are available online. Includes links to Internet sites of similar organizations.</p><h4><a href="http://vlib.iue.it/">European Integration History Index</a></h4><h6>http://vlib.iue.it/</h6><p>The European Integration History Index is a collection of Internet resources on the process of political, economic and cultural integration and cooperation between various European countries in the 20th century. The index, which is maintained by Tobias Witschke, offers access to gateways, journals, archives, societies, institutions, and more.</p><h4><a href="http://heinonline.org/HOL/Index?collection=leghis">HeinOnline: U.S. Federal Legislative History Library</a></h4><h6>http://heinonline.org/HOL/Index?collection=leghis</h6><p>The Legislative History Title Collection is a collection of full-text legislative histories on some of the most important and historically significant legislation of our time. In addition to major complete legislative histories this collection includes texts related to legislative histories. A legislative history is the collection of documents that are produced in Congress during the enactment of a law.</p><h4><a href="http://search.ebscohost.com/login.aspx?authtype=ip,uid&amp;profile=ehost&amp;defaultdb=htm">History of Science, Technology and Medicine (HSTM)</a></h4><h6>http://search.ebscohost.com/login.aspx?authtype=ip,uid&amp;profile=ehost&amp;defaultdb=htm</h6><p>HSTM integrates four premier tools (Isis Current Bibliography of the History of Science, Current Bibliography in the History of Technology, Bibliografia Italiana di Storia della Scienza and citations from the Wellcome Library) to create an international bibliography for the history of science, technology and medicine. Records describe journal articles, conference proceedings, books, book reviews and dissertations in all scientific disciplines and related fields.</p><h4><a href="http://dailylife2.abc-clio.com">Daily Life Through History</a></h4><h6>http://dailylife2.abc-clio.com</h6><p>A searchable, and ever-expanding, website that spotlights the day-to-day lives of average Americans, past and present  A virtual library of thousands of diverse sources: award-winning reference works, primary documents, illustrations, maps  A key resource supporting courses in American history and literature.</p>
-							
-							<?php /*<iframe height='1000px' width="100%" src="http://search.ebscohost.com/login.aspx?authtype=ip,uid&profile=ehost&defaultdb=ahl"></iframe> */ ?>
-						</div>
-					</div>	
-				</div>
-			</div>
+		<div id="page-content">
+			<div id="page-content-inner">
+				<section class="main">	
+						<h1>Classroom Technology Support</h1>
+
 			
+				</section>
+				
+				<aside class="navigation">
+						<h5>Navigation goes here</h5>
+				</aside>
+			</div>
 			
 		</div>
 	

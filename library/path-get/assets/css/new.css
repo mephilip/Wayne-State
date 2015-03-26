@@ -1509,24 +1509,24 @@ pre {
   max-height: 340px;
   overflow-y: scroll; }
 
-.container, .header-panel header #page-header, .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap, .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap, .header-panel .panel-content #search-form, .login-panel header #header_contain, .login-panel .panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links, #main-footer #branding-panel, #main-footer .footer-contents, #mobile-slider, #page-content {
+.container, .header-panel header #page-header, .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap, .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap, .header-panel .panel-content #search-form, .login-panel header #header_contain, .login-panel .panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links, #main-footer #branding-panel, #main-footer .footer-contents, #mobile-slider {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px; }
-  .container:before, .header-panel header #page-header:before, .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap:before, .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap:before, .header-panel .panel-content #search-form:before, .login-panel header #header_contain:before, .login-panel .panel-content #log-in:before, .login-panel #credits #link_wrap:before, .login-panel #credits #link_wrap #links:before, #main-footer #branding-panel:before, #main-footer .footer-contents:before, #mobile-slider:before, #page-content:before, .container:after, .header-panel header #page-header:after, .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap:after, .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap:after, .header-panel .panel-content #search-form:after, .login-panel header #header_contain:after, .login-panel .panel-content #log-in:after, .login-panel #credits #link_wrap:after, .login-panel #credits #link_wrap #links:after, #main-footer #branding-panel:after, #main-footer .footer-contents:after, #mobile-slider:after, #page-content:after {
+  .container:before, .header-panel header #page-header:before, .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap:before, .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap:before, .header-panel .panel-content #search-form:before, .login-panel header #header_contain:before, .login-panel .panel-content #log-in:before, .login-panel #credits #link_wrap:before, .login-panel #credits #link_wrap #links:before, #main-footer #branding-panel:before, #main-footer .footer-contents:before, #mobile-slider:before, .container:after, .header-panel header #page-header:after, .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap:after, .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap:after, .header-panel .panel-content #search-form:after, .login-panel header #header_contain:after, .login-panel .panel-content #log-in:after, .login-panel #credits #link_wrap:after, .login-panel #credits #link_wrap #links:after, #main-footer #branding-panel:after, #main-footer .footer-contents:after, #mobile-slider:after {
     content: " ";
     display: table; }
-  .container:after, .header-panel header #page-header:after, .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap:after, .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap:after, .header-panel .panel-content #search-form:after, .login-panel header #header_contain:after, .login-panel .panel-content #log-in:after, .login-panel #credits #link_wrap:after, .login-panel #credits #link_wrap #links:after, #main-footer #branding-panel:after, #main-footer .footer-contents:after, #mobile-slider:after, #page-content:after {
+  .container:after, .header-panel header #page-header:after, .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap:after, .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap:after, .header-panel .panel-content #search-form:after, .login-panel header #header_contain:after, .login-panel .panel-content #log-in:after, .login-panel #credits #link_wrap:after, .login-panel #credits #link_wrap #links:after, #main-footer #branding-panel:after, #main-footer .footer-contents:after, #mobile-slider:after {
     clear: both; }
   @media (min-width: 768px) {
-    .container, .header-panel header #page-header, .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap, .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap, .header-panel .panel-content #search-form, .login-panel header #header_contain, .login-panel .panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links, #main-footer #branding-panel, #main-footer .footer-contents, #mobile-slider, #page-content {
+    .container, .header-panel header #page-header, .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap, .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap, .header-panel .panel-content #search-form, .login-panel header #header_contain, .login-panel .panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links, #main-footer #branding-panel, #main-footer .footer-contents, #mobile-slider {
       width: 750px; } }
   @media (min-width: 992px) {
-    .container, .header-panel header #page-header, .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap, .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap, .header-panel .panel-content #search-form, .login-panel header #header_contain, .login-panel .panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links, #main-footer #branding-panel, #main-footer .footer-contents, #mobile-slider, #page-content {
+    .container, .header-panel header #page-header, .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap, .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap, .header-panel .panel-content #search-form, .login-panel header #header_contain, .login-panel .panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links, #main-footer #branding-panel, #main-footer .footer-contents, #mobile-slider {
       width: 970px; } }
   @media (min-width: 1200px) {
-    .container, .header-panel header #page-header, .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap, .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap, .header-panel .panel-content #search-form, .login-panel header #header_contain, .login-panel .panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links, #main-footer #branding-panel, #main-footer .footer-contents, #mobile-slider, #page-content {
+    .container, .header-panel header #page-header, .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap, .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap, .header-panel .panel-content #search-form, .login-panel header #header_contain, .login-panel .panel-content #log-in, .login-panel #credits #link_wrap, .login-panel #credits #link_wrap #links, #main-footer #branding-panel, #main-footer .footer-contents, #mobile-slider {
       width: 1170px; } }
 
 .container-fluid {
@@ -1540,16 +1540,16 @@ pre {
   .container-fluid:after {
     clear: both; }
 
-.row, .header-panel header #page-header #contents, #page-content #page-content-inner {
+.row, .header-panel header #page-header #contents {
   margin-left: -15px;
   margin-right: -15px; }
-  .row:before, .header-panel header #page-header #contents:before, #page-content #page-content-inner:before, .row:after, .header-panel header #page-header #contents:after, #page-content #page-content-inner:after {
+  .row:before, .header-panel header #page-header #contents:before, .row:after, .header-panel header #page-header #contents:after {
     content: " ";
     display: table; }
-  .row:after, .header-panel header #page-header #contents:after, #page-content #page-content-inner:after {
+  .row:after, .header-panel header #page-header #contents:after {
     clear: both; }
 
-.col-xs-1, .col-sm-1, .header-panel .panel-content #search-form .panel-center #search-return #search-ajax-loader .ajax-inner, #main-footer #branding-panel .brand-inner, .col-md-1, .col-lg-1, .col-xs-2, .header-panel header #page-header #contents #logo, .col-sm-2, .col-md-2, #main-footer #footer-bottom .logo, .col-lg-2, .col-xs-3, #mobile-slider .mobile-button, .col-sm-3, #main-footer #footer-top .footer-list, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .login-panel #credits #link_wrap #links, #page-content #page-content-inner .navigation, .col-md-4, .header-panel header #page-header #contents #page-nav ul .sub-nav-break, .header-panel header #page-header #contents #page-nav ul .video_contain a .video_thumbnail, .login-panel #credits #link_wrap #links, .col-lg-4, .login-panel #credits #link_wrap #links, .col-xs-5, .col-sm-5, .col-md-5, #main-footer #footer-bottom .date, #main-footer #footer-bottom .credits, .col-lg-5, .col-xs-6, .col-sm-6, .login-panel .panel-content #log-in .div-inner, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .login-panel #credits #link_wrap #links, .col-sm-8, #page-content #page-content-inner .main, .col-md-8, .header-panel header #page-header #contents #page-nav ul .video_contain .video_meta, .col-lg-8, .header-panel .panel-content #search-form .panel-center, .login-panel #credits #link_wrap #links ul, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .header-panel header #page-header #contents #page-nav, .col-sm-10, .col-md-10, .header-panel .panel-content #search-form .panel-center, .login-panel #credits #link_wrap #links ul, .col-lg-10, .login-panel #credits #link_wrap, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .login-panel .panel-content #log-in .div-inner, .login-panel #credits #link_wrap #links ul, .col-sm-12, .header-panel .panel-content #search-form .panel-center, .login-panel .panel-content #log-in .div-inner #form_wrap, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .header-panel .panel-content #search-form .panel-center #search-return #search-ajax-loader .ajax-inner, #main-footer #branding-panel .brand-inner, .col-md-1, .col-lg-1, .col-xs-2, .header-panel header #page-header #contents #logo, .col-sm-2, .col-md-2, #main-footer #footer-bottom .logo, .col-lg-2, .col-xs-3, #mobile-slider .mobile-button, .col-sm-3, #main-footer #footer-top .footer-list, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .login-panel #credits #link_wrap #links, .col-md-4, .header-panel header #page-header #contents #page-nav ul .sub-nav-break, .header-panel header #page-header #contents #page-nav ul .video_contain a .video_thumbnail, .login-panel #credits #link_wrap #links, .col-lg-4, .login-panel #credits #link_wrap #links, .col-xs-5, .col-sm-5, .col-md-5, #main-footer #footer-bottom .date, #main-footer #footer-bottom .credits, .col-lg-5, .col-xs-6, .col-sm-6, .login-panel .panel-content #log-in .div-inner, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .login-panel #credits #link_wrap #links, .col-sm-8, .col-md-8, .header-panel header #page-header #contents #page-nav ul .video_contain .video_meta, .col-lg-8, .header-panel .panel-content #search-form .panel-center, .login-panel #credits #link_wrap #links ul, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .header-panel header #page-header #contents #page-nav, .col-sm-10, .col-md-10, .header-panel .panel-content #search-form .panel-center, .login-panel #credits #link_wrap #links ul, .col-lg-10, .login-panel #credits #link_wrap, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .login-panel .panel-content #log-in .div-inner, .login-panel #credits #link_wrap #links ul, .col-sm-12, .header-panel .panel-content #search-form .panel-center, .login-panel .panel-content #log-in .div-inner #form_wrap, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -1712,7 +1712,7 @@ pre {
   margin-left: 100%; }
 
 @media (min-width: 768px) {
-  .col-sm-1, .header-panel .panel-content #search-form .panel-center #search-return #search-ajax-loader .ajax-inner, #main-footer #branding-panel .brand-inner, .col-sm-2, .col-sm-3, #main-footer #footer-top .footer-list, .col-sm-4, .login-panel #credits #link_wrap #links, #page-content #page-content-inner .navigation, .col-sm-5, .col-sm-6, .login-panel .panel-content #log-in .div-inner, .col-sm-7, .col-sm-8, #page-content #page-content-inner .main, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .header-panel .panel-content #search-form .panel-center, .login-panel .panel-content #log-in .div-inner #form_wrap {
+  .col-sm-1, .header-panel .panel-content #search-form .panel-center #search-return #search-ajax-loader .ajax-inner, #main-footer #branding-panel .brand-inner, .col-sm-2, .col-sm-3, #main-footer #footer-top .footer-list, .col-sm-4, .login-panel #credits #link_wrap #links, .col-sm-5, .col-sm-6, .login-panel .panel-content #log-in .div-inner, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .header-panel .panel-content #search-form .panel-center, .login-panel .panel-content #log-in .div-inner #form_wrap {
     float: left; }
 
   .col-sm-1, .header-panel .panel-content #search-form .panel-center #search-return #search-ajax-loader .ajax-inner, #main-footer #branding-panel .brand-inner {
@@ -1724,7 +1724,7 @@ pre {
   .col-sm-3, #main-footer #footer-top .footer-list {
     width: 25%; }
 
-  .col-sm-4, .login-panel #credits #link_wrap #links, #page-content #page-content-inner .navigation {
+  .col-sm-4, .login-panel #credits #link_wrap #links {
     width: 33.3333333333%; }
 
   .col-sm-5 {
@@ -1736,7 +1736,7 @@ pre {
   .col-sm-7 {
     width: 58.3333333333%; }
 
-  .col-sm-8, #page-content #page-content-inner .main {
+  .col-sm-8 {
     width: 66.6666666667%; }
 
   .col-sm-9 {
@@ -3648,7 +3648,7 @@ tbody.collapse.in {
     .navbar-fixed-bottom .navbar-collapse {
       max-height: 200px; } }
 
-.container > .navbar-header, .header-panel header #page-header > .navbar-header, .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap > .navbar-header, .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap > .navbar-header, .header-panel .panel-content #search-form > .navbar-header, .login-panel header #header_contain > .navbar-header, .login-panel .panel-content #log-in > .navbar-header, .login-panel #credits #link_wrap > .navbar-header, .login-panel #credits #link_wrap #links > .navbar-header, #main-footer #branding-panel > .navbar-header, #main-footer .footer-contents > .navbar-header, #mobile-slider > .navbar-header, #page-content > .navbar-header,
+.container > .navbar-header, .header-panel header #page-header > .navbar-header, .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap > .navbar-header, .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap > .navbar-header, .header-panel .panel-content #search-form > .navbar-header, .login-panel header #header_contain > .navbar-header, .login-panel .panel-content #log-in > .navbar-header, .login-panel #credits #link_wrap > .navbar-header, .login-panel #credits #link_wrap #links > .navbar-header, #main-footer #branding-panel > .navbar-header, #main-footer .footer-contents > .navbar-header, #mobile-slider > .navbar-header,
 .container > .navbar-collapse,
 .header-panel header #page-header > .navbar-collapse,
 .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap > .navbar-collapse,
@@ -3661,13 +3661,12 @@ tbody.collapse.in {
 #main-footer #branding-panel > .navbar-collapse,
 #main-footer .footer-contents > .navbar-collapse,
 #mobile-slider > .navbar-collapse,
-#page-content > .navbar-collapse,
 .container-fluid > .navbar-header,
 .container-fluid > .navbar-collapse {
   margin-right: -15px;
   margin-left: -15px; }
   @media (min-width: 768px) {
-    .container > .navbar-header, .header-panel header #page-header > .navbar-header, .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap > .navbar-header, .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap > .navbar-header, .header-panel .panel-content #search-form > .navbar-header, .login-panel header #header_contain > .navbar-header, .login-panel .panel-content #log-in > .navbar-header, .login-panel #credits #link_wrap > .navbar-header, .login-panel #credits #link_wrap #links > .navbar-header, #main-footer #branding-panel > .navbar-header, #main-footer .footer-contents > .navbar-header, #mobile-slider > .navbar-header, #page-content > .navbar-header,
+    .container > .navbar-header, .header-panel header #page-header > .navbar-header, .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap > .navbar-header, .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap > .navbar-header, .header-panel .panel-content #search-form > .navbar-header, .login-panel header #header_contain > .navbar-header, .login-panel .panel-content #log-in > .navbar-header, .login-panel #credits #link_wrap > .navbar-header, .login-panel #credits #link_wrap #links > .navbar-header, #main-footer #branding-panel > .navbar-header, #main-footer .footer-contents > .navbar-header, #mobile-slider > .navbar-header,
     .container > .navbar-collapse,
     .header-panel header #page-header > .navbar-collapse,
     .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap > .navbar-collapse,
@@ -3680,7 +3679,6 @@ tbody.collapse.in {
     #main-footer #branding-panel > .navbar-collapse,
     #main-footer .footer-contents > .navbar-collapse,
     #mobile-slider > .navbar-collapse,
-    #page-content > .navbar-collapse,
     .container-fluid > .navbar-header,
     .container-fluid > .navbar-collapse {
       margin-right: 0;
@@ -3724,7 +3722,7 @@ tbody.collapse.in {
   .navbar-brand > img {
     display: block; }
   @media (min-width: 768px) {
-    .navbar > .container .navbar-brand, .header-panel header .navbar > #page-header .navbar-brand, .header-panel header #page-header #contents #page-nav ul .sub-nav .navbar > .sub-nav-wrap .navbar-brand, .header-panel header #page-header #contents #page-nav ul ul .navbar > .sub-nav-wrap .navbar-brand, .header-panel .panel-content .navbar > #search-form .navbar-brand, .login-panel header .navbar > #header_contain .navbar-brand, .login-panel .panel-content .navbar > #log-in .navbar-brand, .login-panel #credits .navbar > #link_wrap .navbar-brand, .login-panel #credits #link_wrap .navbar > #links .navbar-brand, #main-footer .navbar > #branding-panel .navbar-brand, #main-footer .navbar > .footer-contents .navbar-brand, .navbar > #mobile-slider .navbar-brand, .navbar > #page-content .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    .navbar > .container .navbar-brand, .header-panel header .navbar > #page-header .navbar-brand, .header-panel header #page-header #contents #page-nav ul .sub-nav .navbar > .sub-nav-wrap .navbar-brand, .header-panel header #page-header #contents #page-nav ul ul .navbar > .sub-nav-wrap .navbar-brand, .header-panel .panel-content .navbar > #search-form .navbar-brand, .login-panel header .navbar > #header_contain .navbar-brand, .login-panel .panel-content .navbar > #log-in .navbar-brand, .login-panel #credits .navbar > #link_wrap .navbar-brand, .login-panel #credits #link_wrap .navbar > #links .navbar-brand, #main-footer .navbar > #branding-panel .navbar-brand, #main-footer .navbar > .footer-contents .navbar-brand, .navbar > #mobile-slider .navbar-brand, .navbar > .container-fluid .navbar-brand {
       margin-left: -15px; } }
 
 .navbar-toggle {
@@ -4236,14 +4234,14 @@ a.badge:hover, a.badge:focus {
     font-weight: 200; }
   .jumbotron > hr {
     border-top-color: #d5d5d5; }
-  .container .jumbotron, .header-panel header #page-header .jumbotron, .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap .jumbotron, .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap .jumbotron, .header-panel .panel-content #search-form .jumbotron, .login-panel header #header_contain .jumbotron, .login-panel .panel-content #log-in .jumbotron, .login-panel #credits #link_wrap .jumbotron, .login-panel #credits #link_wrap #links .jumbotron, #main-footer #branding-panel .jumbotron, #main-footer .footer-contents .jumbotron, #mobile-slider .jumbotron, #page-content .jumbotron, .container-fluid .jumbotron {
+  .container .jumbotron, .header-panel header #page-header .jumbotron, .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap .jumbotron, .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap .jumbotron, .header-panel .panel-content #search-form .jumbotron, .login-panel header #header_contain .jumbotron, .login-panel .panel-content #log-in .jumbotron, .login-panel #credits #link_wrap .jumbotron, .login-panel #credits #link_wrap #links .jumbotron, #main-footer #branding-panel .jumbotron, #main-footer .footer-contents .jumbotron, #mobile-slider .jumbotron, .container-fluid .jumbotron {
     border-radius: 6px; }
-  .jumbotron .container, .jumbotron .header-panel header #page-header, .header-panel header .jumbotron #page-header, .jumbotron .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap, .header-panel header #page-header #contents #page-nav ul .sub-nav .jumbotron .sub-nav-wrap, .jumbotron .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap, .header-panel header #page-header #contents #page-nav ul ul .jumbotron .sub-nav-wrap, .jumbotron .header-panel .panel-content #search-form, .header-panel .panel-content .jumbotron #search-form, .jumbotron .login-panel header #header_contain, .login-panel header .jumbotron #header_contain, .jumbotron .login-panel .panel-content #log-in, .login-panel .panel-content .jumbotron #log-in, .jumbotron .login-panel #credits #link_wrap, .login-panel #credits .jumbotron #link_wrap, .jumbotron .login-panel #credits #link_wrap #links, .login-panel #credits #link_wrap .jumbotron #links, .jumbotron #main-footer #branding-panel, #main-footer .jumbotron #branding-panel, .jumbotron #main-footer .footer-contents, #main-footer .jumbotron .footer-contents, .jumbotron #mobile-slider, .jumbotron #page-content {
+  .jumbotron .container, .jumbotron .header-panel header #page-header, .header-panel header .jumbotron #page-header, .jumbotron .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap, .header-panel header #page-header #contents #page-nav ul .sub-nav .jumbotron .sub-nav-wrap, .jumbotron .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap, .header-panel header #page-header #contents #page-nav ul ul .jumbotron .sub-nav-wrap, .jumbotron .header-panel .panel-content #search-form, .header-panel .panel-content .jumbotron #search-form, .jumbotron .login-panel header #header_contain, .login-panel header .jumbotron #header_contain, .jumbotron .login-panel .panel-content #log-in, .login-panel .panel-content .jumbotron #log-in, .jumbotron .login-panel #credits #link_wrap, .login-panel #credits .jumbotron #link_wrap, .jumbotron .login-panel #credits #link_wrap #links, .login-panel #credits #link_wrap .jumbotron #links, .jumbotron #main-footer #branding-panel, #main-footer .jumbotron #branding-panel, .jumbotron #main-footer .footer-contents, #main-footer .jumbotron .footer-contents, .jumbotron #mobile-slider {
     max-width: 100%; }
   @media screen and (min-width: 768px) {
     .jumbotron {
       padding: 48px 0; }
-      .container .jumbotron, .header-panel header #page-header .jumbotron, .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap .jumbotron, .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap .jumbotron, .header-panel .panel-content #search-form .jumbotron, .login-panel header #header_contain .jumbotron, .login-panel .panel-content #log-in .jumbotron, .login-panel #credits #link_wrap .jumbotron, .login-panel #credits #link_wrap #links .jumbotron, #main-footer #branding-panel .jumbotron, #main-footer .footer-contents .jumbotron, #mobile-slider .jumbotron, #page-content .jumbotron, .container-fluid .jumbotron {
+      .container .jumbotron, .header-panel header #page-header .jumbotron, .header-panel header #page-header #contents #page-nav ul .sub-nav .sub-nav-wrap .jumbotron, .header-panel header #page-header #contents #page-nav ul ul .sub-nav-wrap .jumbotron, .header-panel .panel-content #search-form .jumbotron, .login-panel header #header_contain .jumbotron, .login-panel .panel-content #log-in .jumbotron, .login-panel #credits #link_wrap .jumbotron, .login-panel #credits #link_wrap #links .jumbotron, #main-footer #branding-panel .jumbotron, #main-footer .footer-contents .jumbotron, #mobile-slider .jumbotron, .container-fluid .jumbotron {
         padding-left: 60px;
         padding-right: 60px; }
       .jumbotron h1,
@@ -8875,16 +8873,3 @@ body {
     display: block; }
   #mobile-swipe .swipe-inner {
     padding: 50px 60px; }
-
-/********************************************
-	Inner Content
-********************************************/
-#page-content {
-  padding-top: 160px;
-  position: relative; }
-  #page-content #page-content-inner {
-    background: #fff;
-    margin-top: 30px;
-    height: 1500px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-bottom: none; }
